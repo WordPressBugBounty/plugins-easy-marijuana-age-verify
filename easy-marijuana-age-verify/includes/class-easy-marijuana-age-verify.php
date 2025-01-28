@@ -22,7 +22,7 @@ final class Easy_Marijuana_Age_Verify {
      *
      * @since 0.2.6
      */
-    const VERSION = '1.5.4';
+    const VERSION = '1.6';
 
     /**
      * The only instance of this class.

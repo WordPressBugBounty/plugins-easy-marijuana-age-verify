@@ -6,7 +6,7 @@
  * Description: Age verification for marijuana websites.
  * Author:      5 Star Plugins
  * Author URI:  https://5starplugins.com/
- * Version:     1.5.5
+ * Version:     1.6
  *
  * Requires at least: 4.6
  * Requires PHP: 5.6
@@ -99,7 +99,6 @@ if ( !function_exists( 'emav_fs_settings_url' ) ) {
     }
 
 }
-$emav_fs->add_filter( 'connect_url', 'emav_fs_settings_url' );
 $emav_fs->add_filter( 'after_skip_url', 'emav_fs_settings_url' );
 $emav_fs->add_filter( 'after_connect_url', 'emav_fs_settings_url' );
 $emav_fs->add_filter( 'after_pending_connect_url', 'emav_fs_settings_url' );

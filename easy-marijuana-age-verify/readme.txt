@@ -1,8 +1,8 @@
 === Marijuana Age Verify ===
-Contributors: 5starplugins, freemius
+Contributors: 5starplugins
 Tags: cannabis, marijuana, dispensary, age verify, age verification
 Tested up to: 6.7
-Stable tag: 1.5.5
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -153,9 +153,12 @@ If your question is not listed here [visit our knowledge base.](https://support.
 6. Design options and additional settings in WordPress Dashboard - Premium
 
 == Upgrade Notice ==
-Update for best compatibility: Update Freemius SDK to 2.9
+Update for best compatibility: Update Freemius SDK to latest version
 
 == Changelog ==
+= 1.6 =
+* Updated: Freemius SDK to latest version
+
 = 1.5.5 =
 * Updated: Freemius SDK to 2.9
 
