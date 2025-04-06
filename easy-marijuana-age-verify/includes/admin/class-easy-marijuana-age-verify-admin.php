@@ -66,7 +66,7 @@ final class Easy_Marijuana_Age_Verify_Admin {
         );
         if ( $emav_fs->is_not_paying() ) {
             add_action( 'admin_enqueue_scripts', array($this, 'emav_beacon_header_free') );
-            // Add Helpscout Free Beacon code
+            // Add FreeScout Free Beacon code
         }
         // Enqueue the script.
         add_action( 'admin_enqueue_scripts', array($this, 'enqueue_scripts') );
@@ -267,8 +267,7 @@ final class Easy_Marijuana_Age_Verify_Admin {
         if ( 'toplevel_page_easy-marijuana-age-verify' != $page ) {
             return;
         }
-        $beacon_html = '<script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});';
-        $beacon_html .= "window.Beacon('init', '304f587e-8cad-4115-a0c6-96cc9d69a6a2');</script>";
+        $beacon_html = '<script>var FreeScoutW={s:{"color":"#295a85","position":"br","locale":"en","show_categories":"1","id":3539379351,"category_id":8}};(function(d,e,s){if(d.getElementById("freescout-w"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="freescout-w";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","https://support.presswizards.com/modules/knowledgebase/js/widget.js?v=3666");</script>';
         echo $beacon_html;
     }
 
@@ -276,8 +275,7 @@ final class Easy_Marijuana_Age_Verify_Admin {
         if ( 'toplevel_page_easy-marijuana-age-verify' != $page ) {
             return;
         }
-        $beacon_html = '<script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});';
-        $beacon_html .= "window.Beacon('init', 'a95e134f-35d9-41a6-b065-9b914940bbf5');</script>";
+        $beacon_html = '<script>var FreeScoutW={s:{"color":"#295a85","position":"br","locale":"en","show_categories":"1","id":3539379351,"category_id":8,"fstr_free":"1"}};(function(d,e,s){if(d.getElementById("freescout-w"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="freescout-w";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","https://support.presswizards.com/modules/knowledgebase/js/widget.js?v=3666");</script>';
         echo $beacon_html;
     }
 
