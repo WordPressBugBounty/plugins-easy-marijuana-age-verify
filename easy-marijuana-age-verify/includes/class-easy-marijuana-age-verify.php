@@ -22,7 +22,7 @@ final class Easy_Marijuana_Age_Verify {
      *
      * @since 0.2.6
      */
-    const VERSION = '1.7';
+    const VERSION = '2.0';
 
     /**
      * The only instance of this class.
@@ -276,7 +276,7 @@ final class Easy_Marijuana_Age_Verify {
         }
         ?>
 
-		  <div id="emav-overlay-wrap" <?php 
+		  <div data-nosnippet id="emav-overlay-wrap" <?php 
         echo $overlay_style;
         ?>>
 			<?php 

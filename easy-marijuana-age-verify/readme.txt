@@ -2,7 +2,7 @@
 Contributors: 5starplugins
 Tags: cannabis, marijuana, dispensary, age verify, age verification
 Tested up to: 6.8.1
-Stable tag: 1.8
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,7 @@ Packed with high quality features.
 * Fast loading, responsive, and ADA compliant.
 * Session cookie prevents repeating after verification.
 * [PREMIUM] Return visitor “remember me” checkbox.
+* [PREMIUM] Include / exclude certain pages with page targeting.
 
 ### SIMPLE TO CUSTOMIZE
 Turnkey options pre-configured for the cannabis industry.
@@ -55,7 +56,7 @@ Turnkey options pre-configured for the cannabis industry.
 * Built-in cache & cookie clearing updates display.
 * [PREMIUM] Translation ready custom text option
 * [PREMIUM] Add your logo and welcome message.
-* [PREMIUM] New! SMARTtext color automation sets optimal contrast.
+* [PREMIUM] SMARTtext color automation sets optimal contrast.
 * [PREMIUM] Set background transparency to hide page 0-100%.
 
 ### TRUST THE EXPERTS
@@ -154,9 +155,12 @@ If your question is not listed here [visit our knowledge base.](https://support.
 6. Design options and additional settings in WordPress Dashboard - Premium
 
 == Upgrade Notice ==
-Update for best compatibility: Updated Freemius SDK
+Update! Improved page targeting to include blog posts option
 
 == Changelog ==
+= 2.0 =
+* Improved page targeting to include blog posts option. Improved SEO friendliness added "data-nosnippet"
+
 = 1.8 =
 * Updated Freemius SDK
 

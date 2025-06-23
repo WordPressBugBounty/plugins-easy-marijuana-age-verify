@@ -278,6 +278,10 @@ function emav_add_body_pagetargeting_classes(  $classes  ) {
                 // Add page class for 'products'
                 $classes[] = 'emav-woo';
             }
+            if ( (is_home() || is_singular( 'post' ) || is_category() || is_tag() || is_date()) && $targeted_page_id === '9999998' ) {
+                // Add a custom class for all single blog post pages
+                $classes[] = 'page-id-9999998';
+            }
             // Add targeted page ID to body class if set
             $classes[] = 'emav-targeted-page-' . esc_attr( $targeted_page_id );
         }
@@ -529,7 +533,7 @@ function emav_display_upgrade_features() {
 				<h1>Unlock Premium Features</h1>
 			</th>
 		</tr>
-		<tr><td colspan=2><center><b>2 Months Free with Annual Plan</b></center></td></tr>';
+		<!--<tr><td colspan=2><center><b>Promo Here</b></center></td></tr>-->';
     foreach ( emav_premium_features() as $feature => $desc ) {
         $contents .= '<tr>
 				<th class="emav-preBanner" width="30%" scope="column"><span class="dashicons dashicons-yes emav-premium"></span><span class="emav-premium-feature">' . $feature . '</span></th>
@@ -554,6 +558,7 @@ function emav_display_upgrade_features() {
 
 function emav_premium_features() {
     $features = array(
+        __( 'Page Targeting', 'easy-marijuana-age-verify' )    => __( 'Include / exclude certain pages', 'easy-marijuana-age-verify' ),
         __( 'Customizable', 'easy-marijuana-age-verify' )      => __( 'Free-form text option', 'easy-marijuana-age-verify' ),
         __( 'Translation Ready', 'easy-marijuana-age-verify' ) => __( 'Self translate to any language', 'easy-marijuana-age-verify' ),
         __( 'Brand It', 'easy-marijuana-age-verify' )          => __( 'Your logo and colors', 'easy-marijuana-age-verify' ),
