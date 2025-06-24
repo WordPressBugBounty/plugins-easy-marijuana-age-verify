@@ -2,7 +2,7 @@
 Contributors: 5starplugins
 Tags: cannabis, marijuana, dispensary, age verify, age verification
 Tested up to: 6.8.1
-Stable tag: 2.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,11 +155,14 @@ If your question is not listed here [visit our knowledge base.](https://support.
 6. Design options and additional settings in WordPress Dashboard - Premium
 
 == Upgrade Notice ==
-Update! Improved page targeting to include blog posts option
+Update! Improved page targeting to include blog posts option. Moved H1 to H2 to prevent SEO Audit issues.
 
 == Changelog ==
+= 2.0.1 =
+* Moved H1 to H2 to prevent SEO Audit issues.
+
 = 2.0 =
-* Improved page targeting to include blog posts option. Improved SEO friendliness added "data-nosnippet"
+* Improved page targeting to include blog posts option
 
 = 1.8 =
 * Updated Freemius SDK

@@ -79,7 +79,7 @@
     text-decoration: none !important;
 }
 
-#emav-overlay h1 {
+#emav-overlay h2 {
     font-size: 28px;
     font-weight: 400;
     background:none !important;
@@ -99,7 +99,7 @@
     max-width: 800px;
 }
 
-#emav-overlay h2 {
+#emav-overlay h3 {
     font-size: 24px;
     font-weight: 700;
     background:none !important;
@@ -164,7 +164,7 @@
         max-height: 100vh;
     }
 
-    #emav-overlay h1 {
+    #emav-overlay h2 {
         font-size: 28px;
     }
 
@@ -178,7 +178,7 @@
         max-width: 90%;
     }
 
-    #emav-overlay h2 {
+    #emav-overlay h3 {
         font-size: 22px;
         margin: 15px 0px 12px;
     }
@@ -201,7 +201,7 @@
 }
 
 @media screen and (max-height: 600px) {
-    #emav-overlay h1 {
+    #emav-overlay h2 {
         font-size: 20px;
     }
 
@@ -209,7 +209,7 @@
         font-size: 16px;
     }
 
-    #emav-overlay h2 {
+    #emav-overlay h3 {
         font-size: 18px;
         margin: 15px 0px 10px;
     }
@@ -241,7 +241,7 @@
 }
 
 @media screen and (max-height: 415px) {
-    #emav-overlay h1 {
+    #emav-overlay h2 {
         font-size: 18px;
         margin: 2px;
     }
@@ -259,7 +259,7 @@
         font-size: 9px;
     }
 
-    #emav-overlay h2 {
+    #emav-overlay h3 {
         font-size: 18px;
         margin: 10px auto 10px;
     }

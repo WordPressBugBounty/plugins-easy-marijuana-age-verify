@@ -744,7 +744,7 @@ function emav_print_header() {
     } else {
         $emav_title = $heading_text_arr[emav_age_verify_option()];
     }
-    printf( '<h2 style="color:' . emav_getContrastYIQ( ltrim( emav_get_overlay_color(), '#' ) ) . ';">%s</h2>', $emav_title );
+    printf( '<h3 style="color:' . emav_getContrastYIQ( ltrim( emav_get_overlay_color(), '#' ) ) . ';">%s</h3>', $emav_title );
 }
 
 function emav_print_disclaimer() {
