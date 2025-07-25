@@ -258,15 +258,15 @@ function emav_settings_callback_pagetargeting_option_field() {
 
 // Page targeting sanitize callback
 function emav_pagetargeting_option_sanitize($input) {
- 	$input['option'] = in_array($input['option'], ['include', 'exclude', 'none']) ? $input['option'] : 'none';
-	// If option is 'none', set page_id to 0
-	 if ($input['option'] === 'none') {
-		 $input['page_id'] = 0;
-	 } else {
-		 if (!is_numeric($input['page_id'])) {
-				 $input['page_id'] = 0;
-		 }
-	 }
+	$option = isset($input['option']) ? $input['option'] : 'none';
+	$input['option'] = in_array($option, ['include', 'exclude', 'none']) ? $option : 'none';
+
+	if ($input['option'] === 'none') {
+		$input['page_id'] = 0;
+	} else {
+		$input['page_id'] = (isset($input['page_id']) && is_numeric($input['page_id'])) ? $input['page_id'] : 0;
+	}
+
 	return $input;
 }
 

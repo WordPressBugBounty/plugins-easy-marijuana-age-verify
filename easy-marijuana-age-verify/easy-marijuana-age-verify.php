@@ -6,7 +6,7 @@
  * Description: Age verification for marijuana websites.
  * Author:      5 Star Plugins
  * Author URI:  https://5starplugins.com/
- * Version:     2.0.3
+ * Version:     2.0.4
  *
  * Requires at least: 4.6
  * Requires PHP: 5.6

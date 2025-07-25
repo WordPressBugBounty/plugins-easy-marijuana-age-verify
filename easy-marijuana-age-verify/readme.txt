@@ -2,7 +2,7 @@
 Contributors: 5starplugins
 Tags: cannabis, marijuana, dispensary, age verify, age verification
 Tested up to: 6.8.1
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -158,6 +158,9 @@ If your question is not listed here [visit our knowledge base.](https://support.
 Update! Updated Freemius SDK to latest version for best experience and performance
 
 == Changelog ==
+= 2.0.4 =
+* Fixed error with saving due to page targeting option not checked properly.
+
 = 2.0.3 =
 * Updated Freemius SDK to latest version for best experience and performance
 
