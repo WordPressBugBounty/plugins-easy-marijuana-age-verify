@@ -1,0 +1,1174 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marijuana Age Verify 2.0.5\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/easy-marijuana-age-verify\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-09T18:42:04+00:00\n"
+"PO-Revision-Date: 2026-06-09 18:51+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: easy-marijuana-age-verify\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: hu-HU\n"
+
+#: easy-marijuana-age-verify.php
+#. Plugin Name of the plugin
+msgid "Marijuana Age Verify"
+msgstr "Marijuana Korhatár Ellenőrzés"
+
+#: easy-marijuana-age-verify.php
+#. Description of the plugin
+msgid "Age verification for marijuana websites."
+msgstr "Korhatár-ellenőrzés marijuana honlapokhoz."
+
+#: easy-marijuana-age-verify.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 Csillag Bővítmények"
+
+#: easy-marijuana-age-verify.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:134
+msgid "Settings"
+msgstr "Beállítások"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:150
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:161
+msgid "Cheatin&#8217; huh?"
+msgstr "Csalni próbálsz, mi?"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid "Enable Verification"
+msgstr "Engedélyezze az Ellenőrzést"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid ""
+"Popup will not show when disabled. Use Testing Mode during setup, then show "
+"when it's ready."
+msgstr ""
+"Letiltás esetén a felugró ablak nem jelenik meg. A tesztelési módban "
+"használja, majd amikor kész, jelenítse meg."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+#: includes/admin/premium/settings-premium.php:564
+#: includes/admin/settings.php:232
+#: includes/functions.php:863
+msgid "Page Targeting"
+msgstr "Oldalcélzás"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+msgid "Include or exclude a certain page."
+msgstr "Adjon hozzá vagy zárjon ki egy adott oldalt."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+#: includes/admin/settings.php:437
+msgid "Realtime Settings Check"
+msgstr "Valós idejű Beállítás Ellenőrzés"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+msgid "May help caching issues, adds delay to popup."
+msgstr "Segíthet a gyorsítótár problémákban, késlelteti a felugró ablakot."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Verify For"
+msgstr "Ellenőrzésre kijelölt"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Select a turnkey setting. Upgrade to Premium to edit text and background."
+msgstr ""
+"Válasszon egy készre szabott beállítást. A prémiumra váltva szerkesztheti a "
+"szöveget és a hátteret."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid "Optional small print takes HTML link."
+msgstr "Opcionális kisbetűs szöveg HTML linket tartalmaz."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid ""
+"Disclaimer Text <span class=\"dashicons dashicons-info "
+"emavoptionshovertip\" title=\""
+msgstr ""
+"Kijelentkezési szöveg <span class=\"dashicons dashicons-info "
+"emavoptionshovertip\" title=\""
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:306
+msgid "Require age verification for this content"
+msgstr "Korhatár-ellenőrzés szükséges ehhez a tartalomhoz"
+
+#: includes/admin/premium/settings-premium.php:26
+#: includes/admin/premium/settings-premium.php:32
+#: includes/admin/premium/settings-premium.php:38
+#: includes/admin/settings.php:164
+#: includes/functions.php:1017
+#: includes/functions.php:1018
+#: includes/functions.php:1019
+#: includes/functions.php:1028
+#: includes/functions.php:1029
+#: includes/functions.php:1030
+#: includes/functions.php:1033
+msgid "Please verify your age to enter."
+msgstr "Kérjük, igazolja életkorát a belépéshez."
+
+#: includes/admin/premium/settings-premium.php:27
+#: includes/functions.php:510
+#: includes/functions.php:521
+#: includes/functions.php:525
+msgid "I am 21 or older"
+msgstr "Több mint 21 éves vagyok"
+
+#: includes/admin/premium/settings-premium.php:28
+#: includes/functions.php:532
+#: includes/functions.php:542
+#: includes/functions.php:546
+msgid "I am under 21"
+msgstr "18 éves vagyok vagy fiatalabb"
+
+#: includes/admin/premium/settings-premium.php:29
+#: includes/functions.php:640
+#: includes/functions.php:723
+msgid "Sorry, you must be 21 or over to enter this website."
+msgstr "Sajnáljuk, be kell töltened a 21 évet a belépéshez erre a weboldalra."
+
+#: includes/admin/premium/settings-premium.php:33
+#: includes/functions.php:511
+#: includes/functions.php:522
+msgid "I am 19 or older"
+msgstr "19 éves vagyok vagy több"
+
+#: includes/admin/premium/settings-premium.php:34
+#: includes/functions.php:533
+#: includes/functions.php:543
+msgid "I am under 19"
+msgstr "16 éves vagyok vagy fiatalabb"
+
+#: includes/admin/premium/settings-premium.php:35
+#: includes/functions.php:641
+#: includes/functions.php:724
+msgid "Sorry, you must be 19 or over to enter this website."
+msgstr "Sajnáljuk, be kell töltened a 19 évet a belépéshez erre a weboldalra."
+
+#: includes/admin/premium/settings-premium.php:39
+#: includes/functions.php:512
+#: includes/functions.php:523
+msgid "I am 18 or older"
+msgstr "18 éves vagyok vagy több"
+
+#: includes/admin/premium/settings-premium.php:40
+#: includes/functions.php:534
+#: includes/functions.php:544
+msgid "I am under 18"
+msgstr "17 éves vagyok vagy fiatalabb"
+
+#: includes/admin/premium/settings-premium.php:41
+#: includes/functions.php:642
+#: includes/functions.php:725
+msgid "Sorry, you must be 18 or over to enter this website."
+msgstr "Sajnáljuk, be kell töltened a 18 évet a belépéshez erre a weboldalra."
+
+#: includes/admin/premium/settings-premium.php:44
+#: includes/functions.php:1020
+#: includes/functions.php:1031
+msgid "Are you a 18+ valid medical marijuana patient?"
+msgstr "Érvényes orvosi marihuána beteg vagy 18+?"
+
+#: includes/admin/premium/settings-premium.php:45
+#: includes/admin/premium/settings-premium.php:51
+#: includes/functions.php:513
+#: includes/functions.php:524
+msgid "Yes"
+msgstr "Igen"
+
+#: includes/admin/premium/settings-premium.php:46
+#: includes/admin/premium/settings-premium.php:52
+#: includes/admin/premium/settings-premium.php:64
+#: includes/functions.php:535
+#: includes/functions.php:537
+#: includes/functions.php:545
+#: includes/functions.php:547
+msgid "No"
+msgstr "Nem"
+
+#: includes/admin/premium/settings-premium.php:47
+#: includes/functions.php:643
+msgid ""
+"Sorry, you must be 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"Sajnáljuk, legalább 18 évesnek kell lenned, és érvényes orvosi marihuána "
+"betegnek kell lenned a belépéshez ehhez a weboldalhoz."
+
+#: includes/admin/premium/settings-premium.php:50
+#: includes/functions.php:1021
+#: includes/functions.php:1032
+msgid "Are you 21+ or a 18+ valid medical marijuana patient?"
+msgstr ""
+"Legalább 21 éves vagy vagy érvényes orvosi marihuána beteg 18 éves vagy "
+"felett?"
+
+#: includes/admin/premium/settings-premium.php:53
+#: includes/functions.php:644
+msgid ""
+"Sorry, you must be 21 or over, or 18 years or over valid medical marijuana "
+"patient, to enter this website."
+msgstr ""
+"Sajnáljuk, legalább 21 évesnek kell lenned, vagy 18 éves vagy felett és "
+"érvényes orvosi marihuána betegnek kell lenned a belépéshez ehhez a "
+"weboldalhoz."
+
+#: includes/admin/premium/settings-premium.php:56
+#: includes/admin/premium/settings-premium.php:57
+#: includes/admin/premium/settings-premium.php:58
+#: includes/admin/premium/settings-premium.php:59
+#: includes/admin/premium/settings-premium.php:162
+#: includes/admin/premium/settings-premium.php:174
+#: includes/functions.php:584
+msgid "Your text here"
+msgstr "A te szöveged itt"
+
+#: includes/admin/premium/settings-premium.php:62
+#: includes/functions.php:1023
+#: includes/functions.php:1034
+msgid "Enter your birth date to continue."
+msgstr "Add meg születési dátumodat a folytatáshoz."
+
+#: includes/admin/premium/settings-premium.php:63
+#: includes/functions.php:515
+#: includes/functions.php:526
+msgid "Enter"
+msgstr "Belépés"
+
+#: includes/admin/premium/settings-premium.php:65
+msgid "You must be over 21 to enter this site."
+msgstr "A weboldalhoz 21 éves vagy annál idősebbnek kell lenned."
+
+#: includes/admin/premium/settings-premium.php:81
+msgid "Enter text to validate an age..."
+msgstr "Írd be a születési dátumodat az életkor ellenőrzéséhez..."
+
+#: includes/admin/premium/settings-premium.php:97
+msgid "Enter text to validate..."
+msgstr "Írd be a szöveget az ellenőrzéshez..."
+
+#: includes/admin/premium/settings-premium.php:113
+msgid "Enter text to not validate..."
+msgstr "Írd be a szöveget az ellenőrzés kizárásához..."
+
+#: includes/admin/premium/settings-premium.php:128
+msgid "Enter text for error message..."
+msgstr "Írd be a szöveget a hibajelzéshez..."
+
+#: includes/admin/premium/settings-premium.php:186
+msgid "Return Visitor Cookie"
+msgstr "Visszatérő látogató süti"
+
+#: includes/admin/premium/settings-premium.php:190
+msgid "Show “Remember Me” checkbox"
+msgstr "Mutassa az „Emlékezz rám” jelölőnégyzetet"
+
+#: includes/admin/premium/settings-premium.php:205
+msgid "Overlay Color"
+msgstr "Átlátszóság színe"
+
+#: includes/admin/premium/settings-premium.php:225
+msgid "Background Gradient"
+msgstr "Háttérátmenet"
+
+#: includes/admin/premium/settings-premium.php:229
+#: includes/admin/premium/settings-premium.php:332
+msgid "Use background gradient"
+msgstr "Háttérátmenet használata"
+
+#: includes/admin/premium/settings-premium.php:244
+#: includes/admin/premium/settings-premium.php:760
+msgid "Gradient End Color"
+msgstr "Átjáró szín vége"
+
+#: includes/admin/premium/settings-premium.php:264
+#: includes/admin/premium/settings-premium.php:768
+msgid "Gradient Direction"
+msgstr "Átmenet iránya"
+
+#: includes/admin/premium/settings-premium.php:267
+#: includes/admin/premium/settings-premium.php:370
+msgid "Center"
+msgstr "Központ"
+
+#: includes/admin/premium/settings-premium.php:268
+#: includes/admin/premium/settings-premium.php:371
+msgid "Top to Bottom"
+msgstr "Fentről lefele"
+
+#: includes/admin/premium/settings-premium.php:269
+#: includes/admin/premium/settings-premium.php:372
+msgid "Bottom to Top"
+msgstr "Lentről felfelé"
+
+#: includes/admin/premium/settings-premium.php:270
+#: includes/admin/premium/settings-premium.php:373
+msgid "Left to Right"
+msgstr "Balról jobbra"
+
+#: includes/admin/premium/settings-premium.php:271
+#: includes/admin/premium/settings-premium.php:374
+msgid "Right to Left"
+msgstr "Jobbról balra"
+
+#: includes/admin/premium/settings-premium.php:272
+#: includes/admin/premium/settings-premium.php:375
+msgid "Top Left to Bottom Right"
+msgstr "Fent balról lefelé jobbra"
+
+#: includes/admin/premium/settings-premium.php:273
+#: includes/admin/premium/settings-premium.php:376
+msgid "Top Right to Bottom Left"
+msgstr "Fent jobbról lefelé balra"
+
+#: includes/admin/premium/settings-premium.php:288
+msgid "Overlay Box"
+msgstr "Átlátszó doboz"
+
+#: includes/admin/premium/settings-premium.php:292
+msgid "Show box around the form"
+msgstr "Mutassa a dobozt a űrlap körül"
+
+#: includes/admin/premium/settings-premium.php:308
+#: includes/admin/premium/settings-premium.php:798
+msgid "Box Background Color"
+msgstr "Doboztér háttérszín"
+
+#: includes/admin/premium/settings-premium.php:328
+msgid "Box Gradient"
+msgstr "Doboz átmenet"
+
+#: includes/admin/premium/settings-premium.php:347
+#: includes/admin/premium/settings-premium.php:814
+msgid "Box Gradient End Color"
+msgstr "Doboztér átmenet vége szín"
+
+#: includes/admin/premium/settings-premium.php:367
+#: includes/admin/premium/settings-premium.php:822
+msgid "Box Gradient Direction"
+msgstr "Doboz Áttetszőség Irány"
+
+#: includes/admin/premium/settings-premium.php:391
+msgid "Styling"
+msgstr "Stílus"
+
+#: includes/admin/premium/settings-premium.php:395
+msgid "Use built-in CSS on the front-end (recommended)"
+msgstr "Beépített CSS használata a felületen (ajánlott)"
+
+#: includes/admin/premium/settings-premium.php:411
+msgid "Background Color Agree Button"
+msgstr "Háttér Szín Igen gomb"
+
+#: includes/admin/premium/settings-premium.php:437
+msgid "Background Color Disagree Button"
+msgstr "Háttér Szín Nem gomb"
+
+#: includes/admin/premium/settings-premium.php:465
+msgid "Upload Logo"
+msgstr "Logó Feltöltése"
+
+#: includes/admin/premium/settings-premium.php:469
+msgid "Add Logo"
+msgstr "Logó Hozzáadása"
+
+#: includes/admin/premium/settings-premium.php:471
+msgid "Select Logo"
+msgstr "Logó Kiválasztása"
+
+#: includes/admin/premium/settings-premium.php:473
+msgid "Clear Logo"
+msgstr "Logó Törlése"
+
+#: includes/admin/premium/settings-premium.php:495
+msgid "Adjust Level of Transparency "
+msgstr "Átlátszóság Szintjének Beállítása "
+
+#: includes/admin/premium/settings-premium.php:499
+msgid "60% Opacity"
+msgstr "60% Átlátszóság"
+
+#: includes/admin/premium/settings-premium.php:500
+msgid "65% Opacity"
+msgstr "65% Átlátszóság"
+
+#: includes/admin/premium/settings-premium.php:501
+msgid "70% Opacity"
+msgstr "70% Átlátszóság"
+
+#: includes/admin/premium/settings-premium.php:502
+msgid "75% Opacity"
+msgstr "75% Átlátszóság"
+
+#: includes/admin/premium/settings-premium.php:503
+msgid "80% Opacity"
+msgstr "80% Átlátszóság"
+
+#: includes/admin/premium/settings-premium.php:504
+msgid "85% Opacity"
+msgstr "85% Átlátszóság"
+
+#: includes/admin/premium/settings-premium.php:505
+msgid "90% Opacity"
+msgstr "90% Átlátszóság"
+
+#: includes/admin/premium/settings-premium.php:506
+msgid "95% Opacity"
+msgstr "95% Átlátszóság"
+
+#: includes/admin/premium/settings-premium.php:507
+msgid "100% Opacity"
+msgstr "100% Átlátszóság"
+
+#: includes/admin/premium/settings-premium.php:522
+msgid "18+ Medical/21+ Recreational"
+msgstr "18+ Orvosi/21+ Szórakoztató"
+
+#: includes/admin/premium/settings-premium.php:522
+#: includes/admin/premium/settings-premium.php:535
+#: includes/admin/premium/settings-premium.php:549
+#: includes/admin/settings.php:284
+#: includes/admin/settings.php:286
+#: includes/admin/settings.php:295
+#: includes/admin/settings.php:297
+#: includes/admin/settings.php:306
+#: includes/admin/settings.php:308
+#: includes/admin/settings.php:317
+#: includes/admin/settings.php:319
+#: includes/admin/settings.php:328
+#: includes/admin/settings.php:337
+#: includes/admin/settings.php:347
+msgid "Premium Screenshot"
+msgstr "Prémium Képernyőkép"
+
+#: includes/admin/premium/settings-premium.php:535
+msgid "Free-form Custom Text"
+msgstr "Szabad formájú Egyéni Szöveg"
+
+#: includes/admin/premium/settings-premium.php:549
+msgid "Birthdate"
+msgstr "Születési Dátum"
+
+#: includes/admin/premium/settings-premium.php:551
+msgid "Verify Age over:"
+msgstr "Életkor Ellenőrzése ennél: "
+
+#: includes/admin/premium/settings-premium.php:568
+msgid "Show on all pages"
+msgstr "Mutasd az összes oldalon"
+
+#: includes/admin/premium/settings-premium.php:573
+msgid "Show on this page only"
+msgstr "Csak ezen az oldalon mutasd"
+
+#: includes/admin/premium/settings-premium.php:578
+msgid "Show everywhere except this page"
+msgstr "Mutasd mindenhol, kivéve ezt az oldalt"
+
+#: includes/admin/premium/settings-premium.php:590
+msgid "Page "
+msgstr "Oldal "
+
+#: includes/admin/premium/settings-premium.php:599
+msgid "— Select a Page —"
+msgstr "— Válassz egy oldalt —"
+
+#: includes/admin/premium/settings-premium.php:631
+#: includes/admin/premium/settings-premium.php:633
+msgid "Blog Posts"
+msgstr "Blogbejegyzések"
+
+#: includes/admin/premium/settings-premium.php:637
+#: includes/admin/premium/settings-premium.php:639
+msgid "Product Pages"
+msgstr "Termékoldalak"
+
+#: includes/admin/premium/settings-premium.php:644
+#: includes/admin/premium/settings-premium.php:646
+msgid "All WooCommerce Pages"
+msgstr "Minden WooCommerce oldal"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Premium Options"
+msgstr "Prémium lehetőségek"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Select “free-form” above to show editable text fields."
+msgstr ""
+"Válaszd ki a „szabad forma” lehetőséget fent, hogy szerkeszthető "
+"szövegmezőket jeleníts meg."
+
+#: includes/admin/premium/settings-premium.php:663
+msgid "Free-Form Custom Text"
+msgstr "Szabad forma egyedi szöveg"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Age Prompt"
+msgstr "Kor kérdése"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Required question."
+msgstr "Szükséges kérdés."
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Yes Button Text"
+msgstr "Igen gomb szöveg"
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Required to verify."
+msgstr "Szükséges a hitelesítéshez."
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "No Button Text"
+msgstr "Nem gomb szöveg"
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "Required to not verify."
+msgstr "Szükséges a hitelesítés kihagyásához."
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Error Text"
+msgstr "Hiba szöveg"
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Required. Appears when user clicks no button."
+msgstr "Kötelező. Akkor jelenik meg, amikor a felhasználó a nem gombra kattint."
+
+#: includes/admin/premium/settings-premium.php:702
+msgid "User Experience"
+msgstr "Felhasználói élmény"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "Enable Return Visitor Cookie"
+msgstr "Visszatérő látogatói cookie engedélyezése"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "A return visitor cookie allows verified visitors to skip next time."
+msgstr ""
+"A visszatérő látogatói cookie lehetővé teszi, hogy a hitelesített látogatók "
+"kihagyják a következő alkalmat."
+
+#: includes/admin/premium/settings-premium.php:716
+msgid "Buttons"
+msgstr "Gombok"
+
+#: includes/admin/premium/settings-premium.php:722
+msgid "Yes Button Color"
+msgstr "Igen gomb színe"
+
+#: includes/admin/premium/settings-premium.php:722
+#: includes/admin/premium/settings-premium.php:730
+msgid ""
+"SMARTtext automatically sets text color to black or white based on button "
+"color."
+msgstr ""
+"A SMARTtext automatikusan fekete vagy fehér színre állítja a szöveget a "
+"gomb színe alapján."
+
+#: includes/admin/premium/settings-premium.php:730
+msgid "No Button Color"
+msgstr "Nem gomb színe"
+
+#: includes/admin/premium/settings-premium.php:738
+msgid "Background"
+msgstr "Háttér"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid "Background Color"
+msgstr "Háttér színe"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid ""
+"SMARTtext automatically sets text color to black or white based on "
+"background color."
+msgstr ""
+"A SMARTtext automatikusan fekete vagy fehér színre állítja a szöveget a "
+"háttér színe alapján."
+
+#: includes/admin/premium/settings-premium.php:752
+#: includes/admin/premium/settings-premium.php:806
+msgid "Gradient"
+msgstr "Átmenet"
+
+#: includes/admin/premium/settings-premium.php:752
+msgid "Blend the overlay background between two colors."
+msgstr "Az overlay háttér színátmenet keverése két szín között."
+
+#: includes/admin/premium/settings-premium.php:760
+msgid "The second color used when background gradient is enabled."
+msgstr "A második szín, amikor a háttér színátmenet engedélyezve van."
+
+#: includes/admin/premium/settings-premium.php:768
+msgid "Choose how the gradient flows across the background."
+msgstr "Válassza ki, hogyan folyik a színátmenet a háttérben."
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Background Opacity"
+msgstr "Háttér átlátszósága"
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Hide content 60-100%."
+msgstr "Tartalom elrejtése 60-100%-ban."
+
+#: includes/admin/premium/settings-premium.php:784
+msgid "Box"
+msgstr "Doboz"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Form Box"
+msgstr "Űrlap Doboz"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Place the modal content inside a centered box layout."
+msgstr "Helyezze a modális tartalmat középre igazított doboz elrendezésbe."
+
+#: includes/admin/premium/settings-premium.php:798
+msgid "Sets the inner box background when box mode is enabled."
+msgstr "Beállítja a belső doboz háttérszínét, amikor a doboz mód aktiválva van."
+
+#: includes/admin/premium/settings-premium.php:806
+msgid "Blend the box panel between two colors."
+msgstr "Keverje össze a doboz paneljét két szín között."
+
+#: includes/admin/premium/settings-premium.php:814
+msgid "The second color used when box gradient is enabled."
+msgstr ""
+"A második szín, amelyet a doboz átmeneti színénél használunk, amikor az "
+"átmenet engedélyezve van."
+
+#: includes/admin/premium/settings-premium.php:822
+msgid "Choose how the gradient flows across the box."
+msgstr ""
+"Válassza ki, hogyan folyik az átmenet a dobozon keresztül.</ts>\n"
+"<t i=\"7\">Márkázás"
+
+#: includes/admin/premium/settings-premium.php:830
+msgid "Branding"
+msgstr "Márkaépítés"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Add Headline"
+msgstr "Fejléc hozzáadása"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Optional headline centers below logo."
+msgstr "Opcionális fejléc, amely a logó alatt középre igazított."
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Add Text Below Headline"
+msgstr "Szöveg hozzáadása a fejléc alá"
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Optional body copy."
+msgstr "Opcionális szövegtörzs."
+
+#: includes/admin/premium/settings-premium.php:856
+msgid "Your Logo"
+msgstr "Az Ön logója"
+
+#: includes/admin/premium/settings-premium.php:856
+msgid ""
+"Upload any size or dimension. The responsive display resizes it to 650 "
+"pixels max tall or wide."
+msgstr ""
+"Bármilyen méret vagy dimenzió feltöltése. A reszponzív megjelenítés 650 "
+"pixel maximális magasságra vagy szélességre méretez."
+
+#: includes/admin/settings.php:18
+msgid "WP Rocket cache cleared."
+msgstr "WP Rocket gyorsítótár törölve."
+
+#: includes/admin/settings.php:24
+msgid "W3TC cache cleared."
+msgstr "W3TC gyorsítótár törölve."
+
+#: includes/admin/settings.php:30
+msgid "WP Super Cache cache cleared."
+msgstr "WP Super Cache gyorsítótár törölve."
+
+#: includes/admin/settings.php:36
+msgid "WP Fastest Cache cache cleared."
+msgstr "WP Fastest Cache gyorsítótár törölve."
+
+#: includes/admin/settings.php:43
+msgid "WPEngine cache cleared."
+msgstr "WPEngine gyorsítótár törölve."
+
+#: includes/admin/settings.php:49
+msgid "SiteGround Optimizer cache cleared."
+msgstr "SiteGround Optimizer gyorsítótár törölve."
+
+#: includes/admin/settings.php:55
+msgid "LiteSpeed cache cleared."
+msgstr "LiteSpeed gyorsítótár törölve."
+
+#: includes/admin/settings.php:61
+msgid "Cache Enabler cache cleared."
+msgstr "Cache Enabler gyorsítótár törölve."
+
+#: includes/admin/settings.php:67
+msgid "Pagely cache cleared."
+msgstr "Pagely gyorsítótár törölve."
+
+#: includes/admin/settings.php:73
+msgid "Autoptimize cache cleared."
+msgstr "Autoptimize gyorsítótár törölve."
+
+#: includes/admin/settings.php:79
+msgid "Comet Cache cache cleared."
+msgstr "Comet Cache gyorsítótár törölve."
+
+#: includes/admin/settings.php:85
+msgid "Hummingbird cache cleared."
+msgstr "Hummingbird gyorsítótár törölve."
+
+#: includes/admin/settings.php:89
+msgid "NOTE: Please be sure to clear any page caches for new settings to display."
+msgstr ""
+"MEGJEGYZÉS: Kérjük, győződjön meg róla, hogy minden oldal gyorsítótárát "
+"törölte, hogy az új beállítások megjelenjenek."
+
+#: includes/admin/settings.php:99
+msgid "Easy Marijuana Age Verify banner"
+msgstr "Egyszerű Marihuána Kor Ellenőrző Banner"
+
+#: includes/admin/settings.php:102
+msgid " Marijuana Age Verify"
+msgstr " Marihuána Kor Ellenőrzés"
+
+#: includes/admin/settings.php:117
+msgid ""
+"<strong>Clear Cookie:</strong> Popup stopped after clicking yes? <br/> "
+"Detects if a cookie is set in your browser from this plugin and clears it. "
+"Refresh this page to recheck."
+msgstr ""
+"<strong>Cookie törlése:</strong> A felugró ablak abbahagyta a működést a "
+"\"Igen\" gombra kattintás után? <br/> Észleli, ha az ennél a pluginnál "
+"beállított cookie-t a böngészőben, és törli azt. Frissítse az oldalt az "
+"újraellenőrzéshez."
+
+#: includes/admin/settings.php:119
+msgid "No Cookie Set"
+msgstr "Nincs Cookie Beállítva"
+
+#: includes/admin/settings.php:131
+msgid ""
+"Need Help? Click the  icon on the bottom right to search our <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Knowledge Base</a> or to send an email for "
+"Premium support."
+msgstr ""
+"Szüksége van segítségre? Kattintson a  ikonra az alsó jobb sarokban, hogy "
+"megkeresse <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Tudásbázisunkat</a> vagy emailt küldjön a "
+"Prémium támogatáshoz."
+
+#: includes/admin/settings.php:132
+msgid ""
+"Read: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">My age window isn't showing.</a>"
+msgstr ""
+"Olvassa el: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">Nem jelenik meg az életkori ablakom.</a>"
+
+#: includes/admin/settings.php:133
+msgid ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">Contact "
+"Us</a> to report a bug, suggest a feature, ask a billing question, or "
+"request Premium support."
+msgstr ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\""
+">Kapcsolat</a> felvételhez hiba jelentéséhez, funkció javaslatához, "
+"számlázási kérdéshez, vagy Prémium támogatás kéréséhez."
+
+#: includes/admin/settings.php:134
+msgid ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">Visit "
+"The Support Center</a> for more."
+msgstr ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">Lépjen "
+"kapcsolatba a Támogatási Központtal</a> a továbbiakért."
+
+#: includes/admin/settings.php:135
+msgid ""
+"Use Age Verify with Pretty Simple Popup for <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">perfectly timed marketing popups</a>."
+msgstr ""
+"Használja az Age Verify-t a Pretty Simple Popup-kal <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">tökéletes időzítésű marketingfelugrók</a>."
+
+#: includes/admin/settings.php:136
+msgid ""
+"Like this? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Rate This Plugin</a>"
+msgstr ""
+"Tetszik? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Értékelje ezt a plugint</a>"
+
+#: includes/admin/settings.php:138
+msgid ""
+"Developed and supported by <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> in San Diego, CA"
+msgstr ""
+"Fejlesztette és támogatja a <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> San Diegóban, Kaliforniában"
+
+#: includes/admin/settings.php:178
+msgid "Require verification for"
+msgstr "Igazolás szükséges:"
+
+#: includes/admin/settings.php:182
+msgid "Entire site"
+msgstr "Teljes oldal"
+
+#: includes/admin/settings.php:187
+msgid "Specific content"
+msgstr "Speciális tartalom"
+
+#: includes/admin/settings.php:204
+msgid "Enable verification:"
+msgstr "Igazolás engedélyezése:"
+
+#: includes/admin/settings.php:208
+msgid "Disable"
+msgstr "Letiltás"
+
+#: includes/admin/settings.php:213
+msgid "[TESTING MODE] Admins only"
+msgstr "[TESZTÜZEMMÓD] Csak adminoknak"
+
+#: includes/admin/settings.php:218
+msgid "Show except to logged-in users"
+msgstr "Csak bejelentkezett felhasználóknak mutassa"
+
+#: includes/admin/settings.php:223
+msgid "Show to all visitors"
+msgstr "Minden látogatónak megjelenítve"
+
+#: includes/admin/settings.php:236
+msgid "Show on all pages (upgrade to unlock)"
+msgstr "Minden oldalon megjelenítve (fejlesztés a feloldáshoz)"
+
+#: includes/admin/settings.php:241
+msgid "Show on this page only (upgrade to unlock)"
+msgstr "Csak ezen az oldalon jelenjen meg (fejlesztés a feloldáshoz)"
+
+#: includes/admin/settings.php:246
+msgid "Show everywhere except this page (upgrade to unlock)"
+msgstr "Kivéve ezt az oldalt jelenjen meg (fejlesztés a feloldáshoz)"
+
+#: includes/admin/settings.php:250
+msgid "Upgrade for page targeting"
+msgstr "Oldalcélzás fejlesztése"
+
+#: includes/admin/settings.php:276
+msgid "Verify For:"
+msgstr "Ellenőrizendő:"
+
+#: includes/admin/settings.php:280
+msgid "21+ Recreational"
+msgstr "21+ Szórakoztató"
+
+#: includes/admin/settings.php:283
+#: includes/admin/settings.php:294
+#: includes/admin/settings.php:305
+#: includes/admin/settings.php:316
+#: includes/admin/settings.php:346
+msgid "Standard Screenshot"
+msgstr "Alapértelmezett képernyőkép"
+
+#: includes/admin/settings.php:291
+msgid "19+ Recreational"
+msgstr "19+ Szórakoztató"
+
+#: includes/admin/settings.php:302
+msgid "18+ Recreational"
+msgstr "18+ Szórakoztató"
+
+#: includes/admin/settings.php:313
+msgid "18+ Medical"
+msgstr "18+ Egészségügyi"
+
+#: includes/admin/settings.php:327
+msgid "18+ Medical/21+ Recreational (upgrade to unlock)"
+msgstr "18+ Egészségügyi/21+ Szórakoztató (fejlesztés a feloldáshoz)"
+
+#: includes/admin/settings.php:335
+msgid "Free-form Custom Text (upgrade to unlock)"
+msgstr "Szabad szövegű egyéni szöveg (fejlesztés a feloldáshoz)"
+
+#: includes/admin/settings.php:344
+msgid "Birthdate (upgrade to unlock)"
+msgstr "Születési dátum (fejlesztés a feloldáshoz)"
+
+#: includes/admin/settings.php:359
+msgid "years old or older to view this site"
+msgstr "éves vagy idősebb a weboldal megtekintéséhez"
+
+#: includes/admin/settings.php:370
+msgid "minutes"
+msgstr "percek"
+
+#: includes/admin/settings.php:383
+msgid "Membership"
+msgstr "Tagság"
+
+#: includes/admin/settings.php:387
+msgid "Require users to confirm their age before registering to this site"
+msgstr "Szükséges, hogy a felhasználók megerősítsék életkorukat a regisztráció előtt"
+
+#: includes/admin/settings.php:441
+msgid "Confirm \"Enable Verification\" settings before showing popup"
+msgstr ""
+"Erősítse meg a „„Verifikáció engedélyezése”” beállítást, mielőtt felugró "
+"ablak jelenne meg"
+
+#: includes/admin/settings.php:468
+msgid "Date dropdowns"
+msgstr "Dátum legördülő menük"
+
+#: includes/admin/settings.php:469
+msgid "Inputs"
+msgstr "Beviteli mezők"
+
+#: includes/admin/settings.php:470
+msgid "Confirm checkbox"
+msgstr "Megerősítő jelölőnégyzet"
+
+#: includes/functions.php:339
+#, php-format
+msgid "You must be over %d to enter this site."
+msgstr "Önnek legalább %d évesnek kell lennie a belépéshez."
+
+#: includes/functions.php:355
+msgid "January"
+msgstr "Január"
+
+#: includes/functions.php:356
+msgid "February"
+msgstr "Február"
+
+#: includes/functions.php:357
+msgid "March"
+msgstr "Március"
+
+#: includes/functions.php:358
+msgid "April"
+msgstr "Április"
+
+#: includes/functions.php:359
+msgid "May"
+msgstr "Május"
+
+#: includes/functions.php:360
+msgid "June"
+msgstr "Június"
+
+#: includes/functions.php:361
+msgid "July"
+msgstr "Július"
+
+#: includes/functions.php:362
+msgid "August"
+msgstr "Augusztus"
+
+#: includes/functions.php:363
+msgid "September"
+msgstr "Szeptember"
+
+#: includes/functions.php:364
+msgid "October"
+msgstr "Október"
+
+#: includes/functions.php:365
+msgid "November"
+msgstr "November"
+
+#: includes/functions.php:366
+msgid "December"
+msgstr "December"
+
+#: includes/functions.php:372
+#: includes/functions.php:373
+msgid "Month"
+msgstr "Hónap"
+
+#: includes/functions.php:379
+#: includes/functions.php:380
+msgid "Day"
+msgstr "Nap"
+
+#: includes/functions.php:386
+#: includes/functions.php:387
+msgid "Year"
+msgstr "Év"
+
+#: includes/functions.php:552
+#: includes/functions.php:639
+#: includes/functions.php:722
+msgid "Sorry, you must be of legal age to enter this website."
+msgstr "Sajnáljuk, jogilag nagykorúnak kell lennie a belépéshez erre a weboldalra."
+
+#: includes/functions.php:595
+msgid "Enter Site &raquo;"
+msgstr "Lépjen be a weboldalra &raquo;"
+
+#: includes/functions.php:625
+msgid "Remember me next time"
+msgstr "Emlékezz rám a következő alkalommal"
+
+#: includes/functions.php:726
+msgid ""
+"Sorry, you must be an 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"Sajnáljuk, de csak 18 éven felüli, érvényes orvosi marihuána beteg léphet "
+"be erre a weboldalra."
+
+#: includes/functions.php:727
+msgid ""
+"Sorry, you must be 21 or over, or an 18 years or over valid medical "
+"marijuana patient, to enter this website."
+msgstr ""
+"Sajnáljuk, de csak 21 éves vagy annál, vagy 18 éves vagy, érvényes orvosi "
+"marihuána betegként léphetsz be erre a weboldalra."
+
+#: includes/functions.php:790
+msgid "I am at least 21 years old"
+msgstr "Legalább 21 éves vagyok"
+
+#: includes/functions.php:808
+msgid "Please confirm your age"
+msgstr "Kérjük, erősítse meg életkorát"
+
+#: includes/functions.php:830
+msgid "Unlock Premium Features"
+msgstr "Prémium funkciók feloldása"
+
+#: includes/functions.php:844
+msgid "Upgrade Now"
+msgstr "Frissítés most"
+
+#: includes/functions.php:849
+msgid "Start 14-Day Free Trial"
+msgstr "14 napos ingyenes próbaverzió indítása"
+
+#: includes/functions.php:849
+msgid "(risk free, no credit card)"
+msgstr "(kockázatmentes, nincs hitelkártya)"
+
+#: includes/functions.php:852
+msgid "(On Free Trial Now)"
+msgstr "(Most ingyenes próbaverzióban)"
+
+#: includes/functions.php:863
+msgid "Include / exclude certain pages"
+msgstr "Bizonyos oldalak be- / kizárása"
+
+#: includes/functions.php:864
+msgid "Customizable"
+msgstr "Testreszabható"
+
+#: includes/functions.php:864
+msgid "Free-form text option"
+msgstr "Szabad szöveg opció"
+
+#: includes/functions.php:865
+msgid "Translation Ready"
+msgstr "Fordításra kész"
+
+#: includes/functions.php:865
+msgid "Self translate to any language"
+msgstr "Bárhány nyelvre saját fordítás"
+
+#: includes/functions.php:866
+msgid "Brand It"
+msgstr "Márkázzuk"
+
+#: includes/functions.php:866
+msgid "Your logo and colors"
+msgstr "Az Ön logója és színei"
+
+#: includes/functions.php:867
+msgid "Design Background"
+msgstr "Tervezési háttér"
+
+#: includes/functions.php:867
+msgid "Set transparency and color"
+msgstr "Állítsa be az átlátszóságot és a színt"
+
+#: includes/functions.php:868
+msgid "Welcome Message"
+msgstr "Üdvözlő üzenet"
+
+#: includes/functions.php:868
+msgid "Add a welcome message"
+msgstr "Üdvözlő üzenet hozzáadása"
+
+#: includes/functions.php:869
+msgid "Remember Visitors"
+msgstr "Látogatók emlékezetbe vétele"
+
+#: includes/functions.php:869
+msgid "\"Remember me\" checkbox"
+msgstr "\"Emlékezzen rám\" jelölőnégyzet"
+
+#: includes/functions.php:870
+msgid "Med/Rec Combo"
+msgstr "Med/Rec Kombó"
+
+#: includes/functions.php:870
+msgid "18+ med with 21+ rec"
+msgstr "18+ med, 21+ rec"
+
+#: includes/functions.php:871
+msgid "Premium Support"
+msgstr "Prémium támogatás"
+
+#: includes/functions.php:871
+msgid "World-class email support from the U.S."
+msgstr "Világszínvonalú e-mail támogatás az USA-ból"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid "Hey %1$s"
+msgstr "Hé %1$s"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid ""
+"To enjoy all of the features of this plugin and future updates, Five Star "
+"Plugins needs to connect %4$s to Freemius."
+msgstr ""
+"A plugin összes funkciójának és jövőbeli frissítéseinek élvezetéhez a Five "
+"Star Pluginsnak csatlakoznia kell %4$s-hez a Freemius-en keresztül."
+
+#: includes/premium/functions-premium.php:388
+msgid "You must be 21 years old to visit this site."
+msgstr "Legalább 21 évesnek kell lennie ennek az oldalnak a látogatásához."
+
+#: includes/premium/functions-premium.php:401
+msgid "Please verify your age"
+msgstr "Kérjük, erősítse meg életkorát"

@@ -6,7 +6,7 @@
  * Description: Age verification for marijuana websites.
  * Author:      5 Star Plugins
  * Author URI:  https://5starplugins.com/
- * Version:     2.0.4
+ * Version:     2.0.5
  *
  * Requires at least: 4.6
  * Requires PHP: 5.6
@@ -16,7 +16,7 @@
  * License: GPLv2 or later
  *
  *
- * Copyright 2021 5 Star Plugins
+ * Copyright 2025 5 Star Plugins
  *
  * The following code is a derivative work of the code from Chase Wiseman, which is licensed GPLv2.
  * This code is then also licensed under the terms of the GPLv2.
@@ -53,23 +53,24 @@ if ( !function_exists( 'emav_fs' ) ) {
             // Include Freemius SDK.
             require_once EMAV_PLUGIN_DIR_PATH . 'includes/freemius/start.php';
             $emav_fs = fs_dynamic_init( array(
-                'id'              => '2869',
-                'slug'            => 'easy-marijuana-age-verify',
-                'type'            => 'plugin',
-                'public_key'      => 'pk_c9fa3bb959261e0be15a4019328bc',
-                'is_premium'      => false,
-                'premium_suffix'  => 'Premium',
-                'has_addons'      => false,
-                'has_paid_plans'  => true,
-                'trial'           => array(
+                'id'               => '2869',
+                'slug'             => 'easy-marijuana-age-verify',
+                'type'             => 'plugin',
+                'public_key'       => 'pk_c9fa3bb959261e0be15a4019328bc',
+                'is_premium'       => false,
+                'premium_suffix'   => 'Premium',
+                'has_addons'       => false,
+                'has_paid_plans'   => true,
+                'trial'            => array(
                     'days'               => 14,
                     'is_require_payment' => false,
                 ),
-                'has_affiliation' => 'all',
-                'menu'            => array(
+                'has_affiliation'  => 'all',
+                'menu'             => array(
                     'slug' => 'easy-marijuana-age-verify',
                 ),
-                'is_live'         => true,
+                'is_live'          => true,
+                'is_org_compliant' => true,
             ) );
         }
         return $emav_fs;

@@ -1,0 +1,1149 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marijuana Age Verify 2.0.5\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/easy-marijuana-age-verify\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-09T18:42:04+00:00\n"
+"PO-Revision-Date: 2026-06-09 18:51+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: easy-marijuana-age-verify\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: he-IL\n"
+
+#: easy-marijuana-age-verify.php
+#. Plugin Name of the plugin
+msgid "Marijuana Age Verify"
+msgstr "אישור גיל למריחואנה"
+
+#: easy-marijuana-age-verify.php
+#. Description of the plugin
+msgid "Age verification for marijuana websites."
+msgstr "אישור גיל לאתרי מריחואנה."
+
+#: easy-marijuana-age-verify.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 כוכבים תוספים"
+
+#: easy-marijuana-age-verify.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:134
+msgid "Settings"
+msgstr "הגדרות"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:150
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:161
+msgid "Cheatin&#8217; huh?"
+msgstr "רמאי, אה?"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid "Enable Verification"
+msgstr "הפעל אימות"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid ""
+"Popup will not show when disabled. Use Testing Mode during setup, then show "
+"when it's ready."
+msgstr ""
+"הופעת ההודעה הקופצת לא תוצג כאשר מושבת. השתמש במצב בדיקה במהלך ההגדרה, ואז "
+"הצג כשמוכן."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+#: includes/admin/premium/settings-premium.php:564
+#: includes/admin/settings.php:232
+#: includes/functions.php:863
+msgid "Page Targeting"
+msgstr "כיוון עמוד"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+msgid "Include or exclude a certain page."
+msgstr "כלול או הוצא עמוד מסוים."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+#: includes/admin/settings.php:437
+msgid "Realtime Settings Check"
+msgstr "בדיקת הגדרות בזמן אמת"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+msgid "May help caching issues, adds delay to popup."
+msgstr "עלול לעזור בבעיות מטמון, מוסיף עיכוב להופעת ההודעה הקופצת."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Verify For"
+msgstr "אימות ל-"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Select a turnkey setting. Upgrade to Premium to edit text and background."
+msgstr "בחר הגדרה מוכנה. שדרג ל-Premium כדי לערוך טקסט ורקע."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid "Optional small print takes HTML link."
+msgstr "הדפסה קטנה אופציונלית לוקחת קישור HTML."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid ""
+"Disclaimer Text <span class=\"dashicons dashicons-info "
+"emavoptionshovertip\" title=\""
+msgstr ""
+"טקסט אחריות <span class=\"dashicons dashicons-info emavoptionshovertip\" "
+"title=\""
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:306
+msgid "Require age verification for this content"
+msgstr "דרוש אימות גיל לתוכן זה"
+
+#: includes/admin/premium/settings-premium.php:26
+#: includes/admin/premium/settings-premium.php:32
+#: includes/admin/premium/settings-premium.php:38
+#: includes/admin/settings.php:164
+#: includes/functions.php:1017
+#: includes/functions.php:1018
+#: includes/functions.php:1019
+#: includes/functions.php:1028
+#: includes/functions.php:1029
+#: includes/functions.php:1030
+#: includes/functions.php:1033
+msgid "Please verify your age to enter."
+msgstr "אנא אשר את גילך כדי להיכנס."
+
+#: includes/admin/premium/settings-premium.php:27
+#: includes/functions.php:510
+#: includes/functions.php:521
+#: includes/functions.php:525
+msgid "I am 21 or older"
+msgstr "אני בן 21 או יותר"
+
+#: includes/admin/premium/settings-premium.php:28
+#: includes/functions.php:532
+#: includes/functions.php:542
+#: includes/functions.php:546
+msgid "I am under 21"
+msgstr "אני מתחת ל-21"
+
+#: includes/admin/premium/settings-premium.php:29
+#: includes/functions.php:640
+#: includes/functions.php:723
+msgid "Sorry, you must be 21 or over to enter this website."
+msgstr "סליחה, עליך להיות בן 21 ומעלה כדי להיכנס לאתר זה."
+
+#: includes/admin/premium/settings-premium.php:33
+#: includes/functions.php:511
+#: includes/functions.php:522
+msgid "I am 19 or older"
+msgstr "אני בן 19 או יותר"
+
+#: includes/admin/premium/settings-premium.php:34
+#: includes/functions.php:533
+#: includes/functions.php:543
+msgid "I am under 19"
+msgstr "אני מתחת ל-19"
+
+#: includes/admin/premium/settings-premium.php:35
+#: includes/functions.php:641
+#: includes/functions.php:724
+msgid "Sorry, you must be 19 or over to enter this website."
+msgstr "סליחה, עליך להיות בן 19 ומעלה כדי להיכנס לאתר זה."
+
+#: includes/admin/premium/settings-premium.php:39
+#: includes/functions.php:512
+#: includes/functions.php:523
+msgid "I am 18 or older"
+msgstr "אני בן 18 או יותר"
+
+#: includes/admin/premium/settings-premium.php:40
+#: includes/functions.php:534
+#: includes/functions.php:544
+msgid "I am under 18"
+msgstr "אני מתחת ל-18"
+
+#: includes/admin/premium/settings-premium.php:41
+#: includes/functions.php:642
+#: includes/functions.php:725
+msgid "Sorry, you must be 18 or over to enter this website."
+msgstr "סליחה, עליך להיות בן 18 ומעלה כדי להיכנס לאתר זה."
+
+#: includes/admin/premium/settings-premium.php:44
+#: includes/functions.php:1020
+#: includes/functions.php:1031
+msgid "Are you a 18+ valid medical marijuana patient?"
+msgstr "האם אתה מטופל רפואי באישור חוקי ל-18+?"
+
+#: includes/admin/premium/settings-premium.php:45
+#: includes/admin/premium/settings-premium.php:51
+#: includes/functions.php:513
+#: includes/functions.php:524
+msgid "Yes"
+msgstr "כן"
+
+#: includes/admin/premium/settings-premium.php:46
+#: includes/admin/premium/settings-premium.php:52
+#: includes/admin/premium/settings-premium.php:64
+#: includes/functions.php:535
+#: includes/functions.php:537
+#: includes/functions.php:545
+#: includes/functions.php:547
+msgid "No"
+msgstr "לא"
+
+#: includes/admin/premium/settings-premium.php:47
+#: includes/functions.php:643
+msgid ""
+"Sorry, you must be 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"מצטערים, עליך להיות בן 18 ומעלה ולקבל אישור רפואי חוקי לשימוש במריחואנה כדי "
+"להכנס לאתר הזה."
+
+#: includes/admin/premium/settings-premium.php:50
+#: includes/functions.php:1021
+#: includes/functions.php:1032
+msgid "Are you 21+ or a 18+ valid medical marijuana patient?"
+msgstr "האם אתה בן 21+ או חולה מריחואנה חוקי בן 18+?"
+
+#: includes/admin/premium/settings-premium.php:53
+#: includes/functions.php:644
+msgid ""
+"Sorry, you must be 21 or over, or 18 years or over valid medical marijuana "
+"patient, to enter this website."
+msgstr ""
+"מצטערים, עליך להיות בן 21 ומעלה, או חולה מריחואנה חוקי בן 18 ומעלה, כדי "
+"להיכנס לאתר הזה."
+
+#: includes/admin/premium/settings-premium.php:56
+#: includes/admin/premium/settings-premium.php:57
+#: includes/admin/premium/settings-premium.php:58
+#: includes/admin/premium/settings-premium.php:59
+#: includes/admin/premium/settings-premium.php:162
+#: includes/admin/premium/settings-premium.php:174
+#: includes/functions.php:584
+msgid "Your text here"
+msgstr "הטקסט שלך כאן"
+
+#: includes/admin/premium/settings-premium.php:62
+#: includes/functions.php:1023
+#: includes/functions.php:1034
+msgid "Enter your birth date to continue."
+msgstr "הזן את תאריך הלידה שלך להמשך."
+
+#: includes/admin/premium/settings-premium.php:63
+#: includes/functions.php:515
+#: includes/functions.php:526
+msgid "Enter"
+msgstr "הכנס"
+
+#: includes/admin/premium/settings-premium.php:65
+msgid "You must be over 21 to enter this site."
+msgstr "עליך להיות בן מעל 21 כדי להיכנס לאתר."
+
+#: includes/admin/premium/settings-premium.php:81
+msgid "Enter text to validate an age..."
+msgstr "הזן טקסט לאימות גיל..."
+
+#: includes/admin/premium/settings-premium.php:97
+msgid "Enter text to validate..."
+msgstr "הזן טקסט לאימות..."
+
+#: includes/admin/premium/settings-premium.php:113
+msgid "Enter text to not validate..."
+msgstr "הזן טקסט שלא יאומת..."
+
+#: includes/admin/premium/settings-premium.php:128
+msgid "Enter text for error message..."
+msgstr "הזן טקסט להודעת שגיאה..."
+
+#: includes/admin/premium/settings-premium.php:186
+msgid "Return Visitor Cookie"
+msgstr "עוגיית מבקר חוזר"
+
+#: includes/admin/premium/settings-premium.php:190
+msgid "Show “Remember Me” checkbox"
+msgstr "הצג תיבת סימון \"זכור אותי\""
+
+#: includes/admin/premium/settings-premium.php:205
+msgid "Overlay Color"
+msgstr "צבע שכבת ההאפלה"
+
+#: includes/admin/premium/settings-premium.php:225
+msgid "Background Gradient"
+msgstr "Gradient רקע"
+
+#: includes/admin/premium/settings-premium.php:229
+#: includes/admin/premium/settings-premium.php:332
+msgid "Use background gradient"
+msgstr "השתמש בגרדיאנט רקע"
+
+#: includes/admin/premium/settings-premium.php:244
+#: includes/admin/premium/settings-premium.php:760
+msgid "Gradient End Color"
+msgstr "צבע סיום הגרדיאנט"
+
+#: includes/admin/premium/settings-premium.php:264
+#: includes/admin/premium/settings-premium.php:768
+msgid "Gradient Direction"
+msgstr "כיוון הגרדיאנט"
+
+#: includes/admin/premium/settings-premium.php:267
+#: includes/admin/premium/settings-premium.php:370
+msgid "Center"
+msgstr "מרכז"
+
+#: includes/admin/premium/settings-premium.php:268
+#: includes/admin/premium/settings-premium.php:371
+msgid "Top to Bottom"
+msgstr "מלמעלה למטה"
+
+#: includes/admin/premium/settings-premium.php:269
+#: includes/admin/premium/settings-premium.php:372
+msgid "Bottom to Top"
+msgstr "מהתחתית לעליונה"
+
+#: includes/admin/premium/settings-premium.php:270
+#: includes/admin/premium/settings-premium.php:373
+msgid "Left to Right"
+msgstr "משמאל לימין"
+
+#: includes/admin/premium/settings-premium.php:271
+#: includes/admin/premium/settings-premium.php:374
+msgid "Right to Left"
+msgstr "מימין לשמאל"
+
+#: includes/admin/premium/settings-premium.php:272
+#: includes/admin/premium/settings-premium.php:375
+msgid "Top Left to Bottom Right"
+msgstr "מלמעלה שמאל לתחתית ימינה"
+
+#: includes/admin/premium/settings-premium.php:273
+#: includes/admin/premium/settings-premium.php:376
+msgid "Top Right to Bottom Left"
+msgstr "מלמעלה ימינה לתחתית שמאל"
+
+#: includes/admin/premium/settings-premium.php:288
+msgid "Overlay Box"
+msgstr "תיבת שכבת ההאפלה"
+
+#: includes/admin/premium/settings-premium.php:292
+msgid "Show box around the form"
+msgstr "הצג תיבה מסביב לטופס"
+
+#: includes/admin/premium/settings-premium.php:308
+#: includes/admin/premium/settings-premium.php:798
+msgid "Box Background Color"
+msgstr "צבע רקע התיבה"
+
+#: includes/admin/premium/settings-premium.php:328
+msgid "Box Gradient"
+msgstr "גרדיאנט תיבה"
+
+#: includes/admin/premium/settings-premium.php:347
+#: includes/admin/premium/settings-premium.php:814
+msgid "Box Gradient End Color"
+msgstr "צבע סיום הגרדיאנט לתיבה"
+
+#: includes/admin/premium/settings-premium.php:367
+#: includes/admin/premium/settings-premium.php:822
+msgid "Box Gradient Direction"
+msgstr "כיוון גרדיאנט תיבה"
+
+#: includes/admin/premium/settings-premium.php:391
+msgid "Styling"
+msgstr "עיצוב"
+
+#: includes/admin/premium/settings-premium.php:395
+msgid "Use built-in CSS on the front-end (recommended)"
+msgstr "שימוש ב-CSS מובנה בצד הלקוח (מומלץ)"
+
+#: includes/admin/premium/settings-premium.php:411
+msgid "Background Color Agree Button"
+msgstr "צבע רקע לכפתור הסכמה"
+
+#: includes/admin/premium/settings-premium.php:437
+msgid "Background Color Disagree Button"
+msgstr "צבע רקע לכפתור אי הסכמה"
+
+#: includes/admin/premium/settings-premium.php:465
+msgid "Upload Logo"
+msgstr "העלה לוגו"
+
+#: includes/admin/premium/settings-premium.php:469
+msgid "Add Logo"
+msgstr "הוסף לוגו"
+
+#: includes/admin/premium/settings-premium.php:471
+msgid "Select Logo"
+msgstr "בחר לוגו"
+
+#: includes/admin/premium/settings-premium.php:473
+msgid "Clear Logo"
+msgstr "נקה לוגו"
+
+#: includes/admin/premium/settings-premium.php:495
+msgid "Adjust Level of Transparency "
+msgstr "כוון רמת שקיפות "
+
+#: includes/admin/premium/settings-premium.php:499
+msgid "60% Opacity"
+msgstr "אופקיות 60%"
+
+#: includes/admin/premium/settings-premium.php:500
+msgid "65% Opacity"
+msgstr "אופקיות 65%"
+
+#: includes/admin/premium/settings-premium.php:501
+msgid "70% Opacity"
+msgstr "אופקיות 70%"
+
+#: includes/admin/premium/settings-premium.php:502
+msgid "75% Opacity"
+msgstr "אופקיות 75%"
+
+#: includes/admin/premium/settings-premium.php:503
+msgid "80% Opacity"
+msgstr "אופקיות 80%"
+
+#: includes/admin/premium/settings-premium.php:504
+msgid "85% Opacity"
+msgstr "אופקיות 85%"
+
+#: includes/admin/premium/settings-premium.php:505
+msgid "90% Opacity"
+msgstr "אופקיות 90%"
+
+#: includes/admin/premium/settings-premium.php:506
+msgid "95% Opacity"
+msgstr "אופקיות 95%"
+
+#: includes/admin/premium/settings-premium.php:507
+msgid "100% Opacity"
+msgstr "אופקיות 100%"
+
+#: includes/admin/premium/settings-premium.php:522
+msgid "18+ Medical/21+ Recreational"
+msgstr "מגיל 18+ רפואי/21+ פנאי"
+
+#: includes/admin/premium/settings-premium.php:522
+#: includes/admin/premium/settings-premium.php:535
+#: includes/admin/premium/settings-premium.php:549
+#: includes/admin/settings.php:284
+#: includes/admin/settings.php:286
+#: includes/admin/settings.php:295
+#: includes/admin/settings.php:297
+#: includes/admin/settings.php:306
+#: includes/admin/settings.php:308
+#: includes/admin/settings.php:317
+#: includes/admin/settings.php:319
+#: includes/admin/settings.php:328
+#: includes/admin/settings.php:337
+#: includes/admin/settings.php:347
+msgid "Premium Screenshot"
+msgstr "תצוגת מסך פרימיום"
+
+#: includes/admin/premium/settings-premium.php:535
+msgid "Free-form Custom Text"
+msgstr "טקסט מותאם אישית חופשי"
+
+#: includes/admin/premium/settings-premium.php:549
+msgid "Birthdate"
+msgstr "תאריך לידה"
+
+#: includes/admin/premium/settings-premium.php:551
+msgid "Verify Age over:"
+msgstr "אמת גיל מעל:"
+
+#: includes/admin/premium/settings-premium.php:568
+msgid "Show on all pages"
+msgstr "הצג בכל העמודים"
+
+#: includes/admin/premium/settings-premium.php:573
+msgid "Show on this page only"
+msgstr "הצג רק בעמוד זה"
+
+#: includes/admin/premium/settings-premium.php:578
+msgid "Show everywhere except this page"
+msgstr "הצג בכל המקומות חוץ מעמוד זה"
+
+#: includes/admin/premium/settings-premium.php:590
+msgid "Page "
+msgstr "עמוד "
+
+#: includes/admin/premium/settings-premium.php:599
+msgid "— Select a Page —"
+msgstr "— בחר עמוד —"
+
+#: includes/admin/premium/settings-premium.php:631
+#: includes/admin/premium/settings-premium.php:633
+msgid "Blog Posts"
+msgstr "פוסטי בלוג"
+
+#: includes/admin/premium/settings-premium.php:637
+#: includes/admin/premium/settings-premium.php:639
+msgid "Product Pages"
+msgstr "דפי מוצר"
+
+#: includes/admin/premium/settings-premium.php:644
+#: includes/admin/premium/settings-premium.php:646
+msgid "All WooCommerce Pages"
+msgstr "כל דפי ווקומרס"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Premium Options"
+msgstr "אפשרויות פרימיום"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Select “free-form” above to show editable text fields."
+msgstr "בחר “חופשי” למעלה כדי להציג שדות טקסט לעריכה."
+
+#: includes/admin/premium/settings-premium.php:663
+msgid "Free-Form Custom Text"
+msgstr "טקסט מותאם אישית חופשי"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Age Prompt"
+msgstr "בקשת גיל"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Required question."
+msgstr "שאלה חובה."
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Yes Button Text"
+msgstr "טקסט לכפתור כן"
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Required to verify."
+msgstr "נדרש לאימות."
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "No Button Text"
+msgstr "טקסט לכפתור לא"
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "Required to not verify."
+msgstr "לא נדרש לאימות."
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Error Text"
+msgstr "טקסט שגיאה"
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Required. Appears when user clicks no button."
+msgstr "חובה. מופיע כאשר המשתמש לוחץ על כפתור לא."
+
+#: includes/admin/premium/settings-premium.php:702
+msgid "User Experience"
+msgstr "חווית משתמש"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "Enable Return Visitor Cookie"
+msgstr "הפעל קובץ Cookie למבקרים חוזרים"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "A return visitor cookie allows verified visitors to skip next time."
+msgstr "קובץ Cookie למבקרים חוזרים מאפשר למבקרים מאושרים לדלג בפעם הבאה."
+
+#: includes/admin/premium/settings-premium.php:716
+msgid "Buttons"
+msgstr "כפתורים"
+
+#: includes/admin/premium/settings-premium.php:722
+msgid "Yes Button Color"
+msgstr "צבע כפתור כן"
+
+#: includes/admin/premium/settings-premium.php:722
+#: includes/admin/premium/settings-premium.php:730
+msgid ""
+"SMARTtext automatically sets text color to black or white based on button "
+"color."
+msgstr "SMARTtext מגדיר אוטומטית את צבע הטקסט לשחור או לבן בהתאם לצבע הכפתור."
+
+#: includes/admin/premium/settings-premium.php:730
+msgid "No Button Color"
+msgstr "צבע כפתור לא"
+
+#: includes/admin/premium/settings-premium.php:738
+msgid "Background"
+msgstr "רקע"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid "Background Color"
+msgstr "צבע רקע"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid ""
+"SMARTtext automatically sets text color to black or white based on "
+"background color."
+msgstr "SMARTtext מגדיר אוטומטית את צבע הטקסט לשחור או לבן בהתאם לצבע הרקע."
+
+#: includes/admin/premium/settings-premium.php:752
+#: includes/admin/premium/settings-premium.php:806
+msgid "Gradient"
+msgstr " gradient"
+
+#: includes/admin/premium/settings-premium.php:752
+msgid "Blend the overlay background between two colors."
+msgstr "ערבב את רקע ה-overlay בין שני צבעים."
+
+#: includes/admin/premium/settings-premium.php:760
+msgid "The second color used when background gradient is enabled."
+msgstr "הצבע השני שמשמש כאשר מעבר הרקע פעיל."
+
+#: includes/admin/premium/settings-premium.php:768
+msgid "Choose how the gradient flows across the background."
+msgstr "בחר כיצד ה-gradient זורם לאורך הרקע."
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Background Opacity"
+msgstr "אטימות הרקע"
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Hide content 60-100%."
+msgstr "הסתר תוכן ב-60-100%."
+
+#: includes/admin/premium/settings-premium.php:784
+msgid "Box"
+msgstr "תיבה"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Form Box"
+msgstr "תיבת טופס"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Place the modal content inside a centered box layout."
+msgstr "הנח את תוכן המודאל בתוך תבנית תיבה ממורכזת."
+
+#: includes/admin/premium/settings-premium.php:798
+msgid "Sets the inner box background when box mode is enabled."
+msgstr "מגדיר את רקע התיבה הפנימית כאשר מצב התיבה פעיל."
+
+#: includes/admin/premium/settings-premium.php:806
+msgid "Blend the box panel between two colors."
+msgstr "ערבב את לוח התיבה בין שני צבעים."
+
+#: includes/admin/premium/settings-premium.php:814
+msgid "The second color used when box gradient is enabled."
+msgstr "הצבע השני שמשמש כשקופית התיבה פעילה."
+
+#: includes/admin/premium/settings-premium.php:822
+msgid "Choose how the gradient flows across the box."
+msgstr "בחר כיצד ה-gradient זורם על פני התיבה."
+
+#: includes/admin/premium/settings-premium.php:830
+msgid "Branding"
+msgstr "מיתוג"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Add Headline"
+msgstr "הוסף כותרת"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Optional headline centers below logo."
+msgstr "כותרת אופציונלית ממוקמת מתחת ללוגו."
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Add Text Below Headline"
+msgstr "הוסף טקסט מתחת לכותרת"
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Optional body copy."
+msgstr "גוף הטקסט האופציונלי."
+
+#: includes/admin/premium/settings-premium.php:856
+msgid "Your Logo"
+msgstr "הלוגו שלך"
+
+#: includes/admin/premium/settings-premium.php:856
+msgid ""
+"Upload any size or dimension. The responsive display resizes it to 650 "
+"pixels max tall or wide."
+msgstr ""
+"העלה כל גודל או מימד. התצוגה הרספונסיבית משנה את גודלה עד למקסימום של 650 "
+"פיקסלים בגובה או ברוחב."
+
+#: includes/admin/settings.php:18
+msgid "WP Rocket cache cleared."
+msgstr "מטמון WP Rocket נקי."
+
+#: includes/admin/settings.php:24
+msgid "W3TC cache cleared."
+msgstr "מטמון W3TC נקי."
+
+#: includes/admin/settings.php:30
+msgid "WP Super Cache cache cleared."
+msgstr "מטמון WP Super Cache נקי."
+
+#: includes/admin/settings.php:36
+msgid "WP Fastest Cache cache cleared."
+msgstr "מטמון WP Fastest Cache נקי."
+
+#: includes/admin/settings.php:43
+msgid "WPEngine cache cleared."
+msgstr "מטמון WPEngine נקי."
+
+#: includes/admin/settings.php:49
+msgid "SiteGround Optimizer cache cleared."
+msgstr "מטמון SiteGround Optimizer נקי."
+
+#: includes/admin/settings.php:55
+msgid "LiteSpeed cache cleared."
+msgstr "מטמון LiteSpeed נקי."
+
+#: includes/admin/settings.php:61
+msgid "Cache Enabler cache cleared."
+msgstr "מטמון Cache Enabler נקי."
+
+#: includes/admin/settings.php:67
+msgid "Pagely cache cleared."
+msgstr "מטמון Pagely נקי."
+
+#: includes/admin/settings.php:73
+msgid "Autoptimize cache cleared."
+msgstr "מטמון Autoptimize נקי."
+
+#: includes/admin/settings.php:79
+msgid "Comet Cache cache cleared."
+msgstr "מטמון Comet Cache נקי."
+
+#: includes/admin/settings.php:85
+msgid "Hummingbird cache cleared."
+msgstr "מטמון Hummingbird נקי."
+
+#: includes/admin/settings.php:89
+msgid "NOTE: Please be sure to clear any page caches for new settings to display."
+msgstr "הערה: נא לוודא לנקות כל מטמון דף כדי שההגדרות החדשות יוצגו."
+
+#: includes/admin/settings.php:99
+msgid "Easy Marijuana Age Verify banner"
+msgstr "שלט בדיקת גיל מריחואנה קל"
+
+#: includes/admin/settings.php:102
+msgid " Marijuana Age Verify"
+msgstr "בדיקת גיל מריחואנה"
+
+#: includes/admin/settings.php:117
+msgid ""
+"<strong>Clear Cookie:</strong> Popup stopped after clicking yes? <br/> "
+"Detects if a cookie is set in your browser from this plugin and clears it. "
+"Refresh this page to recheck."
+msgstr ""
+"<strong>ניקוי עוגייה:</strong> הפופאפ הפסיק לאחר לחיצה על כן? <br/> מזהה אם "
+"מוגדרת עוגייה בדפדפן שלך מהתוסף הזה ומנקה אותה. רענן את הדף כדי לבדוק מחדש."
+
+#: includes/admin/settings.php:119
+msgid "No Cookie Set"
+msgstr "אין עוגייה מוגדרת"
+
+#: includes/admin/settings.php:131
+msgid ""
+"Need Help? Click the  icon on the bottom right to search our <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Knowledge Base</a> or to send an email for "
+"Premium support."
+msgstr ""
+"צריך עזרה? לחץ על האיקון בפינה הימנית התחתונה כדי לחפש ב<a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">מרכז הידע</a> שלנו או לשלוח אימייל לתמיכה "
+"בפרימיום."
+
+#: includes/admin/settings.php:132
+msgid ""
+"Read: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">My age window isn't showing.</a>"
+msgstr ""
+"קרא: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">חלון הגיל שלי לא מופיע.</a>"
+
+#: includes/admin/settings.php:133
+msgid ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">Contact "
+"Us</a> to report a bug, suggest a feature, ask a billing question, or "
+"request Premium support."
+msgstr ""
+"<a href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">צור "
+"קשר</a> לדווח על באג, להציע תכונה, לשאול שאלה על תשלום, או לבקש תמיכה "
+"בפרימיום."
+
+#: includes/admin/settings.php:134
+msgid ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">Visit "
+"The Support Center</a> for more."
+msgstr ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">בקר "
+"במרכז התמיכה</a> לפרטים נוספים."
+
+#: includes/admin/settings.php:135
+msgid ""
+"Use Age Verify with Pretty Simple Popup for <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">perfectly timed marketing popups</a>."
+msgstr ""
+"השתמש באימות גיל עם הפופאפ הפשוט והיפה ל-<a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">פופאפים שיווקיים מושלמים בזמן</a>."
+
+#: includes/admin/settings.php:136
+msgid ""
+"Like this? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Rate This Plugin</a>"
+msgstr ""
+"אהבתם? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">דרגו את התוסף הזה</a>"
+
+#: includes/admin/settings.php:138
+msgid ""
+"Developed and supported by <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> in San Diego, CA"
+msgstr ""
+"פותח ומוחזק על ידי <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> בסן דייגו, קליפורניה"
+
+#: includes/admin/settings.php:178
+msgid "Require verification for"
+msgstr "דרוש אימות ל-"
+
+#: includes/admin/settings.php:182
+msgid "Entire site"
+msgstr "כל האתר"
+
+#: includes/admin/settings.php:187
+msgid "Specific content"
+msgstr "תוכן מסוים"
+
+#: includes/admin/settings.php:204
+msgid "Enable verification:"
+msgstr "הפעל אימות:"
+
+#: includes/admin/settings.php:208
+msgid "Disable"
+msgstr "השבת"
+
+#: includes/admin/settings.php:213
+msgid "[TESTING MODE] Admins only"
+msgstr "[מצב בדיקה] רק למנהלים"
+
+#: includes/admin/settings.php:218
+msgid "Show except to logged-in users"
+msgstr "הצג חוץ למשתמשים מחוברים"
+
+#: includes/admin/settings.php:223
+msgid "Show to all visitors"
+msgstr "הצג לכל המבקרים"
+
+#: includes/admin/settings.php:236
+msgid "Show on all pages (upgrade to unlock)"
+msgstr "הצג בכל העמודים (שדרוג לפתיחה)"
+
+#: includes/admin/settings.php:241
+msgid "Show on this page only (upgrade to unlock)"
+msgstr "הצג רק בעמוד זה (שדרוג לפתיחה)"
+
+#: includes/admin/settings.php:246
+msgid "Show everywhere except this page (upgrade to unlock)"
+msgstr "הצג בכל מקום חוץ מעמוד זה (שדרוג לפתיחה)"
+
+#: includes/admin/settings.php:250
+msgid "Upgrade for page targeting"
+msgstr "שדרג למיקוד בעמודים"
+
+#: includes/admin/settings.php:276
+msgid "Verify For:"
+msgstr "אימות ל-"
+
+#: includes/admin/settings.php:280
+msgid "21+ Recreational"
+msgstr "גיל 21+ פנאי"
+
+#: includes/admin/settings.php:283
+#: includes/admin/settings.php:294
+#: includes/admin/settings.php:305
+#: includes/admin/settings.php:316
+#: includes/admin/settings.php:346
+msgid "Standard Screenshot"
+msgstr "צילום מסך רגיל"
+
+#: includes/admin/settings.php:291
+msgid "19+ Recreational"
+msgstr "גיל 19+ פנאי"
+
+#: includes/admin/settings.php:302
+msgid "18+ Recreational"
+msgstr "גיל 18+ פנאי"
+
+#: includes/admin/settings.php:313
+msgid "18+ Medical"
+msgstr "גיל 18+ רפואי"
+
+#: includes/admin/settings.php:327
+msgid "18+ Medical/21+ Recreational (upgrade to unlock)"
+msgstr "גיל 18+ רפואי/גיל 21+ פנאי (שדרוג לפתיחה)"
+
+#: includes/admin/settings.php:335
+msgid "Free-form Custom Text (upgrade to unlock)"
+msgstr "טקסט מותאם אישית חופשי (שדרוג לפתיחה)"
+
+#: includes/admin/settings.php:344
+msgid "Birthdate (upgrade to unlock)"
+msgstr "תאריך לידה (שדרוג לפתיחה)"
+
+#: includes/admin/settings.php:359
+msgid "years old or older to view this site"
+msgstr "בני 18 ומעלה לצפייה באתר זה"
+
+#: includes/admin/settings.php:370
+msgid "minutes"
+msgstr "דקות"
+
+#: includes/admin/settings.php:383
+msgid "Membership"
+msgstr "חברות"
+
+#: includes/admin/settings.php:387
+msgid "Require users to confirm their age before registering to this site"
+msgstr "דרוש משתמשים לאשר את גילם לפני ההרשמה לאתר זה"
+
+#: includes/admin/settings.php:441
+msgid "Confirm \"Enable Verification\" settings before showing popup"
+msgstr "אשר את ההגדרות \"הפעל אימות\" לפני הצגת ההודעה הקופצת"
+
+#: includes/admin/settings.php:468
+msgid "Date dropdowns"
+msgstr "תפריטי תאריך"
+
+#: includes/admin/settings.php:469
+msgid "Inputs"
+msgstr "קלטים"
+
+#: includes/admin/settings.php:470
+msgid "Confirm checkbox"
+msgstr "תיבת סימון לאישור"
+
+#: includes/functions.php:339
+#, php-format
+msgid "You must be over %d to enter this site."
+msgstr "עליך להיות מעל %d כדי להיכנס לאתר זה."
+
+#: includes/functions.php:355
+msgid "January"
+msgstr "ינואר"
+
+#: includes/functions.php:356
+msgid "February"
+msgstr "פברואר"
+
+#: includes/functions.php:357
+msgid "March"
+msgstr "מרץ"
+
+#: includes/functions.php:358
+msgid "April"
+msgstr "אפריל"
+
+#: includes/functions.php:359
+msgid "May"
+msgstr "מאי"
+
+#: includes/functions.php:360
+msgid "June"
+msgstr "יוני"
+
+#: includes/functions.php:361
+msgid "July"
+msgstr "יולי"
+
+#: includes/functions.php:362
+msgid "August"
+msgstr "אוגוסט"
+
+#: includes/functions.php:363
+msgid "September"
+msgstr "ספטמבר"
+
+#: includes/functions.php:364
+msgid "October"
+msgstr "אוקטובר"
+
+#: includes/functions.php:365
+msgid "November"
+msgstr "נובמבר"
+
+#: includes/functions.php:366
+msgid "December"
+msgstr "דצמבר"
+
+#: includes/functions.php:372
+#: includes/functions.php:373
+msgid "Month"
+msgstr "חודש"
+
+#: includes/functions.php:379
+#: includes/functions.php:380
+msgid "Day"
+msgstr "יום"
+
+#: includes/functions.php:386
+#: includes/functions.php:387
+msgid "Year"
+msgstr "שנה"
+
+#: includes/functions.php:552
+#: includes/functions.php:639
+#: includes/functions.php:722
+msgid "Sorry, you must be of legal age to enter this website."
+msgstr "סליחה, עליך להיות בגיל חוקי כדי להיכנס לאתר זה."
+
+#: includes/functions.php:595
+msgid "Enter Site &raquo;"
+msgstr "הכנס לאתר &raquo;"
+
+#: includes/functions.php:625
+msgid "Remember me next time"
+msgstr "זכור אותי בפעם הבאה"
+
+#: includes/functions.php:726
+msgid ""
+"Sorry, you must be an 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"סליחה, עליך להיות בן 18 ומעלה ולקוח תקף עם רישיון מריחואנה רפואית כדי "
+"להיכנס לאתר זה."
+
+#: includes/functions.php:727
+msgid ""
+"Sorry, you must be 21 or over, or an 18 years or over valid medical "
+"marijuana patient, to enter this website."
+msgstr ""
+"סליחה, עליך להיות בן 21 ומעלה, או בן 18 ומעלה ולקוח תקף עם רישיון מריחואנה "
+"רפואית כדי להיכנס לאתר זה."
+
+#: includes/functions.php:790
+msgid "I am at least 21 years old"
+msgstr "אני בן לפחות 21 שנים"
+
+#: includes/functions.php:808
+msgid "Please confirm your age"
+msgstr "אנא אשר את גילך"
+
+#: includes/functions.php:830
+msgid "Unlock Premium Features"
+msgstr "פתח תכונות פרימיום"
+
+#: includes/functions.php:844
+msgid "Upgrade Now"
+msgstr "שדרג עכשיו"
+
+#: includes/functions.php:849
+msgid "Start 14-Day Free Trial"
+msgstr "התחל ניסיון חינם ל-14 ימים"
+
+#: includes/functions.php:849
+msgid "(risk free, no credit card)"
+msgstr "(ללא סיכון, ללא כרטיס אשראי)"
+
+#: includes/functions.php:852
+msgid "(On Free Trial Now)"
+msgstr "(במהלך הניסיון החינמי עכשיו)"
+
+#: includes/functions.php:863
+msgid "Include / exclude certain pages"
+msgstr "כלול / אל תכלול עמודים מסוימים"
+
+#: includes/functions.php:864
+msgid "Customizable"
+msgstr "ניתן להתאמה אישית"
+
+#: includes/functions.php:864
+msgid "Free-form text option"
+msgstr "אפשרות טקסט חופשי"
+
+#: includes/functions.php:865
+msgid "Translation Ready"
+msgstr "מוכן לתרגום"
+
+#: includes/functions.php:865
+msgid "Self translate to any language"
+msgstr "תרגם בעצמך לכל שפה"
+
+#: includes/functions.php:866
+msgid "Brand It"
+msgstr "מותג את זה"
+
+#: includes/functions.php:866
+msgid "Your logo and colors"
+msgstr "הלוגו והצבעים שלך"
+
+#: includes/functions.php:867
+msgid "Design Background"
+msgstr "רקע לעיצוב"
+
+#: includes/functions.php:867
+msgid "Set transparency and color"
+msgstr "קבע שקיפות וצבע"
+
+#: includes/functions.php:868
+msgid "Welcome Message"
+msgstr "הודעת ברכה"
+
+#: includes/functions.php:868
+msgid "Add a welcome message"
+msgstr "הוסף הודעת ברכה"
+
+#: includes/functions.php:869
+msgid "Remember Visitors"
+msgstr "זכור מבקרים"
+
+#: includes/functions.php:869
+msgid "\"Remember me\" checkbox"
+msgstr "תיבת הסימון \"זכור אותי\""
+
+#: includes/functions.php:870
+msgid "Med/Rec Combo"
+msgstr "שילוב מד/רק"
+
+#: includes/functions.php:870
+msgid "18+ med with 21+ rec"
+msgstr "מד 18+ עם רק 21+"
+
+#: includes/functions.php:871
+msgid "Premium Support"
+msgstr "תמיכה פרימיום"
+
+#: includes/functions.php:871
+msgid "World-class email support from the U.S."
+msgstr "תמיכת אימייל ברמה עולמית מארה\"ב"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid "Hey %1$s"
+msgstr "היי %1$s"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid ""
+"To enjoy all of the features of this plugin and future updates, Five Star "
+"Plugins needs to connect %4$s to Freemius."
+msgstr ""
+"כדי ליהנות מכל התכונות של תוסף זה ולעדכונים עתידיים, Five Star Plugins צריך "
+"לחבר את %4$s ל-Freemius."
+
+#: includes/premium/functions-premium.php:388
+msgid "You must be 21 years old to visit this site."
+msgstr "עליך להיות בן 21 לפחות כדי לבקר באתר זה."
+
+#: includes/premium/functions-premium.php:401
+msgid "Please verify your age"
+msgstr "אנא אשר את גילך"

@@ -1,0 +1,1192 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marijuana Age Verify 2.0.5\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/easy-marijuana-age-verify\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-09T18:42:04+00:00\n"
+"PO-Revision-Date: 2026-06-09 18:51+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: easy-marijuana-age-verify\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: el\n"
+
+#: easy-marijuana-age-verify.php
+#. Plugin Name of the plugin
+msgid "Marijuana Age Verify"
+msgstr "Επιβεβαίωση Ηλικίας για Μαριχουάνα"
+
+#: easy-marijuana-age-verify.php
+#. Description of the plugin
+msgid "Age verification for marijuana websites."
+msgstr "Επιβεβαίωση ηλικίας για ιστοσελίδες με μαριχουάνα."
+
+#: easy-marijuana-age-verify.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 Star Plugins"
+
+#: easy-marijuana-age-verify.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:134
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:150
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:161
+msgid "Cheatin&#8217; huh?"
+msgstr "Μαλάκες, ψεύτη;"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid "Enable Verification"
+msgstr "Ενεργοποίηση Επιβεβαίωσης"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid ""
+"Popup will not show when disabled. Use Testing Mode during setup, then show "
+"when it's ready."
+msgstr ""
+"Το αναδυόμενο παράθυρο δεν θα εμφανίζεται όταν είναι απενεργοποιημένο. "
+"Χρησιμοποιήστε τη Λειτουργία Δοκιμής κατά την εγκατάσταση, και μετά "
+"εμφανίστε το όταν είναι έτοιμο."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+#: includes/admin/premium/settings-premium.php:564
+#: includes/admin/settings.php:232
+#: includes/functions.php:863
+msgid "Page Targeting"
+msgstr "Στόχευση Σελίδας"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+msgid "Include or exclude a certain page."
+msgstr "Εισάγετε ή αποκλείστε μια συγκεκριμένη σελίδα."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+#: includes/admin/settings.php:437
+msgid "Realtime Settings Check"
+msgstr "Έλεγχος Ρυθμίσεων σε Πραγματικό Χρόνο"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+msgid "May help caching issues, adds delay to popup."
+msgstr ""
+"Μπορεί να βοηθήσει με ζητήματα cache, προσθέτει καθυστέρηση στο αναδυόμενο "
+"παράθυρο."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Verify For"
+msgstr "Επιβεβαίωση Για"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Select a turnkey setting. Upgrade to Premium to edit text and background."
+msgstr ""
+"Επιλέξτε μια έτοιμη ρύθμιση. Αναβαθμίστε σε Premium για να επεξεργαστείτε "
+"κείμενο και φόντο."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid "Optional small print takes HTML link."
+msgstr "Προαιρετικό μικρό κείμενο που παίρνει HTML σύνδεσμο."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid ""
+"Disclaimer Text <span class=\"dashicons dashicons-info "
+"emavoptionshovertip\" title=\""
+msgstr ""
+"Αποποίηση Ευθύνης <span class=\"dashicons dashicons-info "
+"emavoptionshovertip\" title=\""
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:306
+msgid "Require age verification for this content"
+msgstr "Απαιτείται επιβεβαίωση ηλικίας για αυτό το περιεχόμενο"
+
+#: includes/admin/premium/settings-premium.php:26
+#: includes/admin/premium/settings-premium.php:32
+#: includes/admin/premium/settings-premium.php:38
+#: includes/admin/settings.php:164
+#: includes/functions.php:1017
+#: includes/functions.php:1018
+#: includes/functions.php:1019
+#: includes/functions.php:1028
+#: includes/functions.php:1029
+#: includes/functions.php:1030
+#: includes/functions.php:1033
+msgid "Please verify your age to enter."
+msgstr "Παρακαλώ επιβεβαιώστε την ηλικία σας για να μπείτε."
+
+#: includes/admin/premium/settings-premium.php:27
+#: includes/functions.php:510
+#: includes/functions.php:521
+#: includes/functions.php:525
+msgid "I am 21 or older"
+msgstr "Είμαι 21 ή μεγαλύτερος"
+
+#: includes/admin/premium/settings-premium.php:28
+#: includes/functions.php:532
+#: includes/functions.php:542
+#: includes/functions.php:546
+msgid "I am under 21"
+msgstr "Είμαι κάτω των 21"
+
+#: includes/admin/premium/settings-premium.php:29
+#: includes/functions.php:640
+#: includes/functions.php:723
+msgid "Sorry, you must be 21 or over to enter this website."
+msgstr ""
+"Λυπούμαστε, πρέπει να είστε 21 ή μεγαλύτερος για να εισέλθετε σε αυτόν τον "
+"ιστότοπο."
+
+#: includes/admin/premium/settings-premium.php:33
+#: includes/functions.php:511
+#: includes/functions.php:522
+msgid "I am 19 or older"
+msgstr "Είμαι 19 ή μεγαλύτερος"
+
+#: includes/admin/premium/settings-premium.php:34
+#: includes/functions.php:533
+#: includes/functions.php:543
+msgid "I am under 19"
+msgstr "Είμαι κάτω των 19"
+
+#: includes/admin/premium/settings-premium.php:35
+#: includes/functions.php:641
+#: includes/functions.php:724
+msgid "Sorry, you must be 19 or over to enter this website."
+msgstr ""
+"Λυπούμαστε, πρέπει να είστε 19 ή μεγαλύτερος για να εισέλθετε σε αυτόν τον "
+"ιστότοπο."
+
+#: includes/admin/premium/settings-premium.php:39
+#: includes/functions.php:512
+#: includes/functions.php:523
+msgid "I am 18 or older"
+msgstr "Είμαι 18 ή μεγαλύτερος"
+
+#: includes/admin/premium/settings-premium.php:40
+#: includes/functions.php:534
+#: includes/functions.php:544
+msgid "I am under 18"
+msgstr "Είμαι κάτω των 18"
+
+#: includes/admin/premium/settings-premium.php:41
+#: includes/functions.php:642
+#: includes/functions.php:725
+msgid "Sorry, you must be 18 or over to enter this website."
+msgstr ""
+"Λυπούμαστε, πρέπει να είστε 18 ή μεγαλύτερος για να εισέλθετε σε αυτόν τον "
+"ιστότοπο."
+
+#: includes/admin/premium/settings-premium.php:44
+#: includes/functions.php:1020
+#: includes/functions.php:1031
+msgid "Are you a 18+ valid medical marijuana patient?"
+msgstr "Είστε έγκυος ασθενής 18+ με έγκριση ιατρού;"
+
+#: includes/admin/premium/settings-premium.php:45
+#: includes/admin/premium/settings-premium.php:51
+#: includes/functions.php:513
+#: includes/functions.php:524
+msgid "Yes"
+msgstr "Ναι"
+
+#: includes/admin/premium/settings-premium.php:46
+#: includes/admin/premium/settings-premium.php:52
+#: includes/admin/premium/settings-premium.php:64
+#: includes/functions.php:535
+#: includes/functions.php:537
+#: includes/functions.php:545
+#: includes/functions.php:547
+msgid "No"
+msgstr "Όχι"
+
+#: includes/admin/premium/settings-premium.php:47
+#: includes/functions.php:643
+msgid ""
+"Sorry, you must be 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"Συγνώμη, πρέπει να είστε 18 ετών ή άνω και έγκυος ασθενής με ιατρική "
+"μαριχουάνα για να εισέλθετε σε αυτόν τον ιστότοπο."
+
+#: includes/admin/premium/settings-premium.php:50
+#: includes/functions.php:1021
+#: includes/functions.php:1032
+msgid "Are you 21+ or a 18+ valid medical marijuana patient?"
+msgstr "Είστε 21+ ή έγκυος ασθενής με ιατρική μαριχουάνα 18+;"
+
+#: includes/admin/premium/settings-premium.php:53
+#: includes/functions.php:644
+msgid ""
+"Sorry, you must be 21 or over, or 18 years or over valid medical marijuana "
+"patient, to enter this website."
+msgstr ""
+"Συγνώμη, πρέπει να είστε 21 ετών ή άνω, ή έγκυος ασθενής με ιατρική "
+"μαριχουάνα 18+ για να εισέλθετε σε αυτόν τον ιστότοπο."
+
+#: includes/admin/premium/settings-premium.php:56
+#: includes/admin/premium/settings-premium.php:57
+#: includes/admin/premium/settings-premium.php:58
+#: includes/admin/premium/settings-premium.php:59
+#: includes/admin/premium/settings-premium.php:162
+#: includes/admin/premium/settings-premium.php:174
+#: includes/functions.php:584
+msgid "Your text here"
+msgstr "Your text here"
+
+#: includes/admin/premium/settings-premium.php:62
+#: includes/functions.php:1023
+#: includes/functions.php:1034
+msgid "Enter your birth date to continue."
+msgstr "Εισάγετε την ημερομηνία γέννησής σας για να συνεχίσετε."
+
+#: includes/admin/premium/settings-premium.php:63
+#: includes/functions.php:515
+#: includes/functions.php:526
+msgid "Enter"
+msgstr "Εισαγωγή"
+
+#: includes/admin/premium/settings-premium.php:65
+msgid "You must be over 21 to enter this site."
+msgstr "Πρέπει να είστε άνω των 21 για να εισέλθετε σε αυτόν τον ιστότοπο."
+
+#: includes/admin/premium/settings-premium.php:81
+msgid "Enter text to validate an age..."
+msgstr "Εισάγετε κείμενο για επικύρωση ηλικίας..."
+
+#: includes/admin/premium/settings-premium.php:97
+msgid "Enter text to validate..."
+msgstr "Εισάγετε κείμενο για επικύρωση..."
+
+#: includes/admin/premium/settings-premium.php:113
+msgid "Enter text to not validate..."
+msgstr "Εισάγετε κείμενο για μη επικύρωση..."
+
+#: includes/admin/premium/settings-premium.php:128
+msgid "Enter text for error message..."
+msgstr "Εισάγετε κείμενο για μήνυμα λάθους..."
+
+#: includes/admin/premium/settings-premium.php:186
+msgid "Return Visitor Cookie"
+msgstr "Πάγιος επισκέπτης cookie"
+
+#: includes/admin/premium/settings-premium.php:190
+msgid "Show “Remember Me” checkbox"
+msgstr "Εμφάνιση κουμπιού “Θυμήσου με”"
+
+#: includes/admin/premium/settings-premium.php:205
+msgid "Overlay Color"
+msgstr "Χρώμα επικάλυψης"
+
+#: includes/admin/premium/settings-premium.php:225
+msgid "Background Gradient"
+msgstr "Γαλάζιο φόντου"
+
+#: includes/admin/premium/settings-premium.php:229
+#: includes/admin/premium/settings-premium.php:332
+msgid "Use background gradient"
+msgstr "Χρησιμοποιήστε το γραμμικό φόντο"
+
+#: includes/admin/premium/settings-premium.php:244
+#: includes/admin/premium/settings-premium.php:760
+msgid "Gradient End Color"
+msgstr "Τελειωτικό χρώμα γραμμικού φόντου"
+
+#: includes/admin/premium/settings-premium.php:264
+#: includes/admin/premium/settings-premium.php:768
+msgid "Gradient Direction"
+msgstr "Κατεύθυνση γραμμικού φόντου"
+
+#: includes/admin/premium/settings-premium.php:267
+#: includes/admin/premium/settings-premium.php:370
+msgid "Center"
+msgstr "Κέντρο"
+
+#: includes/admin/premium/settings-premium.php:268
+#: includes/admin/premium/settings-premium.php:371
+msgid "Top to Bottom"
+msgstr "Πάνω προς κάτω"
+
+#: includes/admin/premium/settings-premium.php:269
+#: includes/admin/premium/settings-premium.php:372
+msgid "Bottom to Top"
+msgstr "Κάτω προς πάνω"
+
+#: includes/admin/premium/settings-premium.php:270
+#: includes/admin/premium/settings-premium.php:373
+msgid "Left to Right"
+msgstr "Αριστερά προς δεξιά"
+
+#: includes/admin/premium/settings-premium.php:271
+#: includes/admin/premium/settings-premium.php:374
+msgid "Right to Left"
+msgstr "Δεξιά προς αριστερά"
+
+#: includes/admin/premium/settings-premium.php:272
+#: includes/admin/premium/settings-premium.php:375
+msgid "Top Left to Bottom Right"
+msgstr "Πάνω αριστερά προς κάτω δεξιά"
+
+#: includes/admin/premium/settings-premium.php:273
+#: includes/admin/premium/settings-premium.php:376
+msgid "Top Right to Bottom Left"
+msgstr "Πάνω δεξιά προς κάτω αριστερά"
+
+#: includes/admin/premium/settings-premium.php:288
+msgid "Overlay Box"
+msgstr "Επικάλυψη πλαισίου"
+
+#: includes/admin/premium/settings-premium.php:292
+msgid "Show box around the form"
+msgstr "Εμφάνιση πλαισίου γύρω από τη φόρμα"
+
+#: includes/admin/premium/settings-premium.php:308
+#: includes/admin/premium/settings-premium.php:798
+msgid "Box Background Color"
+msgstr "Χρώμα φόντου πλαισίου"
+
+#: includes/admin/premium/settings-premium.php:328
+msgid "Box Gradient"
+msgstr "Γραμμικό φόντο πλαισίου"
+
+#: includes/admin/premium/settings-premium.php:347
+#: includes/admin/premium/settings-premium.php:814
+msgid "Box Gradient End Color"
+msgstr "Τελειωτικό χρώμα γραμμικού φόντου πλαισίου"
+
+#: includes/admin/premium/settings-premium.php:367
+#: includes/admin/premium/settings-premium.php:822
+msgid "Box Gradient Direction"
+msgstr "Κατεύθυνση Γραμμής Διαβάθμισης"
+
+#: includes/admin/premium/settings-premium.php:391
+msgid "Styling"
+msgstr "Στυλ"
+
+#: includes/admin/premium/settings-premium.php:395
+msgid "Use built-in CSS on the front-end (recommended)"
+msgstr "Χρησιμοποιήστε το ενσωματωμένο CSS στην εμπρόσθια όψη (συνιστάται)"
+
+#: includes/admin/premium/settings-premium.php:411
+msgid "Background Color Agree Button"
+msgstr "Χρώμα Φόντου Κουμπί Συμφωνώ"
+
+#: includes/admin/premium/settings-premium.php:437
+msgid "Background Color Disagree Button"
+msgstr "Χρώμα Φόντου Κουμπί Διαφωνώ"
+
+#: includes/admin/premium/settings-premium.php:465
+msgid "Upload Logo"
+msgstr "Ανέβασμα Λογότυπου"
+
+#: includes/admin/premium/settings-premium.php:469
+msgid "Add Logo"
+msgstr "Προσθήκη Λογότυπου"
+
+#: includes/admin/premium/settings-premium.php:471
+msgid "Select Logo"
+msgstr "Επιλογή Λογότυπου"
+
+#: includes/admin/premium/settings-premium.php:473
+msgid "Clear Logo"
+msgstr "Καθαρισμός Λογότυπου"
+
+#: includes/admin/premium/settings-premium.php:495
+msgid "Adjust Level of Transparency "
+msgstr "Ρύθμιση Επιπέδου Διαφάνειας "
+
+#: includes/admin/premium/settings-premium.php:499
+msgid "60% Opacity"
+msgstr "80% Διαφάνεια"
+
+#: includes/admin/premium/settings-premium.php:500
+msgid "65% Opacity"
+msgstr "85% Διαφάνεια"
+
+#: includes/admin/premium/settings-premium.php:501
+msgid "70% Opacity"
+msgstr "90% Διαφάνεια"
+
+#: includes/admin/premium/settings-premium.php:502
+msgid "75% Opacity"
+msgstr "95% Διαφάνεια"
+
+#: includes/admin/premium/settings-premium.php:503
+msgid "80% Opacity"
+msgstr "100% Διαφάνεια"
+
+#: includes/admin/premium/settings-premium.php:504
+msgid "85% Opacity"
+msgstr "18+ Ιατρικό/21+ Αναψυκτικό"
+
+#: includes/admin/premium/settings-premium.php:505
+msgid "90% Opacity"
+msgstr "Προηγμένη Στιγμιότυπο οθόνης"
+
+#: includes/admin/premium/settings-premium.php:506
+msgid "95% Opacity"
+msgstr "Προσαρμοσμένο Κείμενο ελεύθερης μορφής"
+
+#: includes/admin/premium/settings-premium.php:507
+msgid "100% Opacity"
+msgstr "Ημερομηνία Γέννησης"
+
+#: includes/admin/premium/settings-premium.php:522
+msgid "18+ Medical/21+ Recreational"
+msgstr "Επιβεβαίωση ηλικίας άνω:"
+
+#: includes/admin/premium/settings-premium.php:522
+#: includes/admin/premium/settings-premium.php:535
+#: includes/admin/premium/settings-premium.php:549
+#: includes/admin/settings.php:284
+#: includes/admin/settings.php:286
+#: includes/admin/settings.php:295
+#: includes/admin/settings.php:297
+#: includes/admin/settings.php:306
+#: includes/admin/settings.php:308
+#: includes/admin/settings.php:317
+#: includes/admin/settings.php:319
+#: includes/admin/settings.php:328
+#: includes/admin/settings.php:337
+#: includes/admin/settings.php:347
+msgid "Premium Screenshot"
+msgstr "Εμφάνιση σε όλες τις σελίδες"
+
+#: includes/admin/premium/settings-premium.php:535
+msgid "Free-form Custom Text"
+msgstr "Εμφάνιση μόνο σε αυτή τη σελίδα"
+
+#: includes/admin/premium/settings-premium.php:549
+msgid "Birthdate"
+msgstr "Εμφάνιση παντού εκτός από αυτή τη σελίδα"
+
+#: includes/admin/premium/settings-premium.php:551
+msgid "Verify Age over:"
+msgstr "Σελίδα "
+
+#: includes/admin/premium/settings-premium.php:568
+msgid "Show on all pages"
+msgstr "— Επιλέξτε μια Σελίδα —"
+
+#: includes/admin/premium/settings-premium.php:573
+msgid "Show on this page only"
+msgstr "Δημοσιεύσεις Blog"
+
+#: includes/admin/premium/settings-premium.php:578
+msgid "Show everywhere except this page"
+msgstr "Εμφάνιση παντού εκτός αυτής της σελίδας"
+
+#: includes/admin/premium/settings-premium.php:590
+msgid "Page "
+msgstr "Σελίδα "
+
+#: includes/admin/premium/settings-premium.php:599
+msgid "— Select a Page —"
+msgstr "— Επιλέξτε μια Σελίδα —"
+
+#: includes/admin/premium/settings-premium.php:631
+#: includes/admin/premium/settings-premium.php:633
+msgid "Blog Posts"
+msgstr "Αναρτήσεις ιστολογίου"
+
+#: includes/admin/premium/settings-premium.php:637
+#: includes/admin/premium/settings-premium.php:639
+msgid "Product Pages"
+msgstr "Σελίδες Προϊόντων"
+
+#: includes/admin/premium/settings-premium.php:644
+#: includes/admin/premium/settings-premium.php:646
+msgid "All WooCommerce Pages"
+msgstr "Όλες οι Σελίδες WooCommerce"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Premium Options"
+msgstr "Premium Επιλογές"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Select “free-form” above to show editable text fields."
+msgstr ""
+"Επιλέξτε “ελεύθερου σχήματος” παραπάνω για να εμφανίσετε επεξεργάσιμα πεδία "
+"κειμένου."
+
+#: includes/admin/premium/settings-premium.php:663
+msgid "Free-Form Custom Text"
+msgstr "Ελεύθερου Σχήματος Προσαρμοσμένο Κείμενο"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Age Prompt"
+msgstr "Prompt Ηλικίας"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Required question."
+msgstr "Απαιτούμενη ερώτηση."
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Yes Button Text"
+msgstr "Κείμενο Κουμπιού Ναι"
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Required to verify."
+msgstr "Απαιτείται για επαλήθευση."
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "No Button Text"
+msgstr "Κείμενο Κουμπιού Όχι"
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "Required to not verify."
+msgstr "Απαιτείται να μην επαληθεύεται."
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Error Text"
+msgstr "Κείμενο Σφάλματος"
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Required. Appears when user clicks no button."
+msgstr "Απαιτείται. Εμφανίζεται όταν ο χρήστης κάνει κλικ στο κουμπί \"όχι\"."
+
+#: includes/admin/premium/settings-premium.php:702
+msgid "User Experience"
+msgstr "Εμπειρία Χρήστη"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "Enable Return Visitor Cookie"
+msgstr "Ενεργοποίηση Cookies Επανερχόμενου Επισκέπτη"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "A return visitor cookie allows verified visitors to skip next time."
+msgstr ""
+"Ένα cookie επανερχόμενου επισκέπτη επιτρέπει στους επαληθευμένους "
+"επισκέπτες να παραλείψουν την επόμενη φορά."
+
+#: includes/admin/premium/settings-premium.php:716
+msgid "Buttons"
+msgstr "Κουμπιά"
+
+#: includes/admin/premium/settings-premium.php:722
+msgid "Yes Button Color"
+msgstr "Χρώμα Κουμπιού Ναι"
+
+#: includes/admin/premium/settings-premium.php:722
+#: includes/admin/premium/settings-premium.php:730
+msgid ""
+"SMARTtext automatically sets text color to black or white based on button "
+"color."
+msgstr ""
+"Το SMARTtext αυτόματα ορίζει το χρώμα κειμένου σε μαύρο ή λευκό με βάση το "
+"χρώμα του κουμπιού."
+
+#: includes/admin/premium/settings-premium.php:730
+msgid "No Button Color"
+msgstr "Χρώμα Κουμπιού Όχι"
+
+#: includes/admin/premium/settings-premium.php:738
+msgid "Background"
+msgstr "Φόντο"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid "Background Color"
+msgstr "Χρώμα Φόντου"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid ""
+"SMARTtext automatically sets text color to black or white based on "
+"background color."
+msgstr ""
+"Το SMARTtext αυτόματα ορίζει το χρώμα κειμένου σε μαύρο ή λευκό με βάση το "
+"χρώμα του φόντου."
+
+#: includes/admin/premium/settings-premium.php:752
+#: includes/admin/premium/settings-premium.php:806
+msgid "Gradient"
+msgstr "Απόχρωση"
+
+#: includes/admin/premium/settings-premium.php:752
+msgid "Blend the overlay background between two colors."
+msgstr "Αναμίξτε το overlay background μεταξύ δύο χρωμάτων."
+
+#: includes/admin/premium/settings-premium.php:760
+msgid "The second color used when background gradient is enabled."
+msgstr ""
+"Το δεύτερο χρώμα που χρησιμοποιείται όταν ενεργοποιείται η διαβάθμιση "
+"φόντου."
+
+#: includes/admin/premium/settings-premium.php:768
+msgid "Choose how the gradient flows across the background."
+msgstr "Επιλέξτε πώς ρέει η διαβάθμιση στο φόντο."
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Background Opacity"
+msgstr "Αδιαφάνεια Φόντου"
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Hide content 60-100%."
+msgstr "Κρύψτε το περιεχόμενο 60-100%."
+
+#: includes/admin/premium/settings-premium.php:784
+msgid "Box"
+msgstr "Κουτί"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Form Box"
+msgstr "Φόρμα Κουτιού"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Place the modal content inside a centered box layout."
+msgstr ""
+"Τοποθετήστε το περιεχόμενο του modal μέσα σε ένα κεντραρισμένο διάταξη "
+"κουτιού."
+
+#: includes/admin/premium/settings-premium.php:798
+msgid "Sets the inner box background when box mode is enabled."
+msgstr ""
+"Ορίζει το background του εσωτερικού κουτιού όταν είναι ενεργοποιημένη η "
+"λειτουργία κουτιού."
+
+#: includes/admin/premium/settings-premium.php:806
+msgid "Blend the box panel between two colors."
+msgstr "Αναμειγνύει το πάνελ του κουτιού μεταξύ δύο χρωμάτων."
+
+#: includes/admin/premium/settings-premium.php:814
+msgid "The second color used when box gradient is enabled."
+msgstr ""
+"Το δεύτερο χρώμα που χρησιμοποιείται όταν ενεργοποιείται το gradient του "
+"κουτιού."
+
+#: includes/admin/premium/settings-premium.php:822
+msgid "Choose how the gradient flows across the box."
+msgstr "Επιλέξτε πώς ρέει το gradient κατά μήκος του κουτιού."
+
+#: includes/admin/premium/settings-premium.php:830
+msgid "Branding"
+msgstr "Μάρκα"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Add Headline"
+msgstr "Προσθήκη Επικεφαλίδας"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Optional headline centers below logo."
+msgstr "Προαιρετική επικεφαλίδα που κεντράρει κάτω από το λογότυπο."
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Add Text Below Headline"
+msgstr "Προσθήκη Κειμένου Κάτω από την Επικεφαλίδα"
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Optional body copy."
+msgstr "Προαιρετικό σώμα κειμένου."
+
+#: includes/admin/premium/settings-premium.php:856
+msgid "Your Logo"
+msgstr "Το λογότυπό σας"
+
+#: includes/admin/premium/settings-premium.php:856
+msgid ""
+"Upload any size or dimension. The responsive display resizes it to 650 "
+"pixels max tall or wide."
+msgstr ""
+"Ανεβάστε οποιοδήποτε μέγεθος ή διάσταση. Η ανταποκρινόμενη οθόνη το αλλάζει "
+"σε μέγιστο ύψος ή πλάτος 650 pixels."
+
+#: includes/admin/settings.php:18
+msgid "WP Rocket cache cleared."
+msgstr "Η κρυφή μνήμη WP Rocket καθαρίστηκε."
+
+#: includes/admin/settings.php:24
+msgid "W3TC cache cleared."
+msgstr "Η κρυφή μνήμη W3TC καθαρίστηκε."
+
+#: includes/admin/settings.php:30
+msgid "WP Super Cache cache cleared."
+msgstr "Η κρυφή μνήμη WP Super Cache καθαρίστηκε."
+
+#: includes/admin/settings.php:36
+msgid "WP Fastest Cache cache cleared."
+msgstr "Η κρυφή μνήμη WP Fastest Cache καθαρίστηκε."
+
+#: includes/admin/settings.php:43
+msgid "WPEngine cache cleared."
+msgstr "Η κρυφή μνήμη WPEngine καθαρίστηκε."
+
+#: includes/admin/settings.php:49
+msgid "SiteGround Optimizer cache cleared."
+msgstr "Η κρυφή μνήμη SiteGround Optimizer καθαρίστηκε."
+
+#: includes/admin/settings.php:55
+msgid "LiteSpeed cache cleared."
+msgstr "Η κρυφή μνήμη LiteSpeed καθαρίστηκε."
+
+#: includes/admin/settings.php:61
+msgid "Cache Enabler cache cleared."
+msgstr "Η κρυφή μνήμη Cache Enabler καθαρίστηκε."
+
+#: includes/admin/settings.php:67
+msgid "Pagely cache cleared."
+msgstr "Η κρυφή μνήμη Pagely καθαρίστηκε."
+
+#: includes/admin/settings.php:73
+msgid "Autoptimize cache cleared."
+msgstr "Η κρυφή μνήμη Autoptimize καθαρίστηκε."
+
+#: includes/admin/settings.php:79
+msgid "Comet Cache cache cleared."
+msgstr "Η κρυφή μνήμη Comet Cache καθαρίστηκε."
+
+#: includes/admin/settings.php:85
+msgid "Hummingbird cache cleared."
+msgstr "Η κρυφή μνήμη Hummingbird καθαρίστηκε."
+
+#: includes/admin/settings.php:89
+msgid "NOTE: Please be sure to clear any page caches for new settings to display."
+msgstr ""
+"ΣΗΜΕΙΩΣΗ: Βεβαιωθείτε ότι έχετε καθαρίσει οποιεσδήποτε σελίδες cache για να "
+"εμφανιστούν οι νέες ρυθμίσεις."
+
+#: includes/admin/settings.php:99
+msgid "Easy Marijuana Age Verify banner"
+msgstr "Εύκολη διαφήμιση ηλικίας για Μαριχουάνα Banner"
+
+#: includes/admin/settings.php:102
+msgid " Marijuana Age Verify"
+msgstr "Επιβεβαίωση Ηλικίας Μαριχουάνας"
+
+#: includes/admin/settings.php:117
+msgid ""
+"<strong>Clear Cookie:</strong> Popup stopped after clicking yes? <br/> "
+"Detects if a cookie is set in your browser from this plugin and clears it. "
+"Refresh this page to recheck."
+msgstr ""
+"<strong>Εκκαθάριση Cookie:</strong> Σταμάτησε το popup μετά το κλικ στο "
+"ναι; <br/> Ανιχνεύει αν έχει οριστεί cookie στον browser σας από αυτό το "
+"πρόσθετο και το διαγράφει. Ανανεώστε αυτήν τη σελίδα για ξανά έλεγχο."
+
+#: includes/admin/settings.php:119
+msgid "No Cookie Set"
+msgstr "Δεν έχει οριστεί Cookie"
+
+#: includes/admin/settings.php:131
+msgid ""
+"Need Help? Click the  icon on the bottom right to search our <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Knowledge Base</a> or to send an email for "
+"Premium support."
+msgstr ""
+"Χρειάζεστε βοήθεια; Κάντε κλικ στο εικονίδιο κάτω δεξιά για να αναζητήσετε "
+"στη <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Βάση Γνώσεων</a> μας ή να στείλετε email για "
+"Premium υποστήριξη."
+
+#: includes/admin/settings.php:132
+msgid ""
+"Read: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">My age window isn't showing.</a>"
+msgstr ""
+"Διαβάστε: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">Το παράθυρο ηλικίας μου δεν "
+"εμφανίζεται.</a>"
+
+#: includes/admin/settings.php:133
+msgid ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">Contact "
+"Us</a> to report a bug, suggest a feature, ask a billing question, or "
+"request Premium support."
+msgstr ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\""
+">Επικοινωνήστε μαζί μας</a> για να αναφέρετε σφάλμα, να προτείνετε μια "
+"λειτουργία, να ρωτήσετε για χρέωση ή να ζητήσετε Premium υποστήριξη."
+
+#: includes/admin/settings.php:134
+msgid ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">Visit "
+"The Support Center</a> for more."
+msgstr ""
+"<a href=\"https://5starplugins.com/get-support/\" "
+"target=\"_blank\">Επισκεφθείτε το Κέντρο Υποστήριξης</a> για περισσότερα."
+
+#: includes/admin/settings.php:135
+msgid ""
+"Use Age Verify with Pretty Simple Popup for <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">perfectly timed marketing popups</a>."
+msgstr ""
+"Χρησιμοποιήστε το Age Verify με το Pretty Simple Popup για <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">τέλεια χρονισμένες διαφημιστικές αναδυόμενες παράθυρα</a>."
+
+#: includes/admin/settings.php:136
+msgid ""
+"Like this? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Rate This Plugin</a>"
+msgstr ""
+"Σας αρέσει; <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Βαθμολογήστε αυτό το "
+"πρόσθετο</a>"
+
+#: includes/admin/settings.php:138
+msgid ""
+"Developed and supported by <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> in San Diego, CA"
+msgstr ""
+"Αναπτύχθηκε και υποστηρίζεται από <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> στο Σαν Ντιέγκο, Καλιφόρνια"
+
+#: includes/admin/settings.php:178
+msgid "Require verification for"
+msgstr "Απαιτείται επαλήθευση για"
+
+#: includes/admin/settings.php:182
+msgid "Entire site"
+msgstr "Ολόκληρο τον ιστότοπο"
+
+#: includes/admin/settings.php:187
+msgid "Specific content"
+msgstr "Συγκεκριμένο περιεχόμενο"
+
+#: includes/admin/settings.php:204
+msgid "Enable verification:"
+msgstr "Ενεργοποιήστε την επαλήθευση:"
+
+#: includes/admin/settings.php:208
+msgid "Disable"
+msgstr "Απενεργοποίηση"
+
+#: includes/admin/settings.php:213
+msgid "[TESTING MODE] Admins only"
+msgstr "[ΔΟΚΙΜΑΣΤΙΚΗ ΛΕΙΤΟΥΡΓΙΑ] Μόνο διαχειριστές"
+
+#: includes/admin/settings.php:218
+msgid "Show except to logged-in users"
+msgstr "Εμφάνιση εξαιρουμένων μόνο σε συνδεδεμένους χρήστες"
+
+#: includes/admin/settings.php:223
+msgid "Show to all visitors"
+msgstr "Εμφάνιση σε όλους τους επισκέπτες"
+
+#: includes/admin/settings.php:236
+msgid "Show on all pages (upgrade to unlock)"
+msgstr "Εμφάνιση σε όλες τις σελίδες (αναβαθμίστε για ξεκλείδωμα)"
+
+#: includes/admin/settings.php:241
+msgid "Show on this page only (upgrade to unlock)"
+msgstr "Εμφάνιση μόνο σε αυτή τη σελίδα (αναβαθμίστε για ξεκλείδωμα)"
+
+#: includes/admin/settings.php:246
+msgid "Show everywhere except this page (upgrade to unlock)"
+msgstr "Εμφάνιση παντού εκτός από αυτή τη σελίδα (αναβαθμίστε για ξεκλείδωμα)"
+
+#: includes/admin/settings.php:250
+msgid "Upgrade for page targeting"
+msgstr "Αναβάθμιση για στόχευση σε σελίδες"
+
+#: includes/admin/settings.php:276
+msgid "Verify For:"
+msgstr "Επαλήθευση για:"
+
+#: includes/admin/settings.php:280
+msgid "21+ Recreational"
+msgstr "21+ Ξεχωριστά για διασκέδαση"
+
+#: includes/admin/settings.php:283
+#: includes/admin/settings.php:294
+#: includes/admin/settings.php:305
+#: includes/admin/settings.php:316
+#: includes/admin/settings.php:346
+msgid "Standard Screenshot"
+msgstr "Τυπικό στιγμιότυπο οθόνης"
+
+#: includes/admin/settings.php:291
+msgid "19+ Recreational"
+msgstr "19+ Ξεχωριστά για διασκέδαση"
+
+#: includes/admin/settings.php:302
+msgid "18+ Recreational"
+msgstr "18+ Ξεχωριστά για διασκέδαση"
+
+#: includes/admin/settings.php:313
+msgid "18+ Medical"
+msgstr "18+ Ιατρικό"
+
+#: includes/admin/settings.php:327
+msgid "18+ Medical/21+ Recreational (upgrade to unlock)"
+msgstr "18+ Ιατρικό/21+ Ξεχωριστά για διασκέδαση (αναβάθμιση για ξεκλείδωμα)"
+
+#: includes/admin/settings.php:335
+msgid "Free-form Custom Text (upgrade to unlock)"
+msgstr "Προσαρμοσμένο κείμενο ελεύθερου τύπου (αναβάθμιση για ξεκλείδωμα)"
+
+#: includes/admin/settings.php:344
+msgid "Birthdate (upgrade to unlock)"
+msgstr "Ημερομηνία γέννησης (αναβάθμιση για ξεκλείδωμα)"
+
+#: includes/admin/settings.php:359
+msgid "years old or older to view this site"
+msgstr "ετών ή μεγαλύτερος για να δείτε αυτόν τον ιστότοπο"
+
+#: includes/admin/settings.php:370
+msgid "minutes"
+msgstr "λεπτά"
+
+#: includes/admin/settings.php:383
+msgid "Membership"
+msgstr "Μέλος"
+
+#: includes/admin/settings.php:387
+msgid "Require users to confirm their age before registering to this site"
+msgstr ""
+"Απαιτείται από τους χρήστες να επιβεβαιώσουν την ηλικία τους πριν εγγραφούν "
+"σε αυτόν τον ιστότοπο"
+
+#: includes/admin/settings.php:441
+msgid "Confirm \"Enable Verification\" settings before showing popup"
+msgstr ""
+"Επιβεβαιώστε τις ρυθμίσεις «Ενεργοποίηση Επιβεβαίωσης» πριν εμφανιστεί το "
+"παράθυρο"
+
+#: includes/admin/settings.php:468
+msgid "Date dropdowns"
+msgstr "Αναδυόμενα με ημερομηνία"
+
+#: includes/admin/settings.php:469
+msgid "Inputs"
+msgstr "Πεδία εισόδου"
+
+#: includes/admin/settings.php:470
+msgid "Confirm checkbox"
+msgstr "Πλαίσιο επιβεβαίωσης"
+
+#: includes/functions.php:339
+#, php-format
+msgid "You must be over %d to enter this site."
+msgstr "Πρέπει να είστε άνω των %d για να εισέλθετε σε αυτόν τον ιστότοπο."
+
+#: includes/functions.php:355
+msgid "January"
+msgstr "Ιανουάριος"
+
+#: includes/functions.php:356
+msgid "February"
+msgstr "Φεβρουάριος"
+
+#: includes/functions.php:357
+msgid "March"
+msgstr "Μάρτιος"
+
+#: includes/functions.php:358
+msgid "April"
+msgstr "Απρίλιος"
+
+#: includes/functions.php:359
+msgid "May"
+msgstr "Μάιος"
+
+#: includes/functions.php:360
+msgid "June"
+msgstr "Ιούνιος"
+
+#: includes/functions.php:361
+msgid "July"
+msgstr "Ιούλιος"
+
+#: includes/functions.php:362
+msgid "August"
+msgstr "Αύγουστος"
+
+#: includes/functions.php:363
+msgid "September"
+msgstr "Σεπτέμβριος"
+
+#: includes/functions.php:364
+msgid "October"
+msgstr "Οκτώβριος"
+
+#: includes/functions.php:365
+msgid "November"
+msgstr "Νοέμβριος"
+
+#: includes/functions.php:366
+msgid "December"
+msgstr "Δεκέμβριος"
+
+#: includes/functions.php:372
+#: includes/functions.php:373
+msgid "Month"
+msgstr "Μήνας"
+
+#: includes/functions.php:379
+#: includes/functions.php:380
+msgid "Day"
+msgstr "Ημέρα"
+
+#: includes/functions.php:386
+#: includes/functions.php:387
+msgid "Year"
+msgstr "Έτος"
+
+#: includes/functions.php:552
+#: includes/functions.php:639
+#: includes/functions.php:722
+msgid "Sorry, you must be of legal age to enter this website."
+msgstr ""
+"Λυπούμαστε, πρέπει να είστε άνω της νόμιμης ηλικίας για να εισέλθετε σε "
+"αυτόν τον ιστότοπο."
+
+#: includes/functions.php:595
+msgid "Enter Site &raquo;"
+msgstr "Είσοδος στον Ιστότοπο &raquo;"
+
+#: includes/functions.php:625
+msgid "Remember me next time"
+msgstr "Θυμήσου με την επόμενη φορά"
+
+#: includes/functions.php:726
+msgid ""
+"Sorry, you must be an 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"Λυπούμαστε, πρέπει να είστε 18 ετών ή άνω και έγκυρος ασθενής με ιατρική "
+"μαριχουάνα για να εισέλθετε σε αυτόν τον ιστότοπο."
+
+#: includes/functions.php:727
+msgid ""
+"Sorry, you must be 21 or over, or an 18 years or over valid medical "
+"marijuana patient, to enter this website."
+msgstr ""
+"Λυπούμαστε, πρέπει να είστε 21 ετών ή άνω, ή έγκυρος ασθενής με ιατρική "
+"μαριχουάνα ηλικίας 18 ετών ή άνω, για να εισέλθετε σε αυτόν τον ιστότοπο."
+
+#: includes/functions.php:790
+msgid "I am at least 21 years old"
+msgstr "Είμαι τουλάχιστον 21 ετών"
+
+#: includes/functions.php:808
+msgid "Please confirm your age"
+msgstr "Παρακαλώ επιβεβαιώστε την ηλικία σας"
+
+#: includes/functions.php:830
+msgid "Unlock Premium Features"
+msgstr "Ξεκλειδώστε τα Premium Χαρακτηριστικά"
+
+#: includes/functions.php:844
+msgid "Upgrade Now"
+msgstr "Αναβαθμίστε Τώρα"
+
+#: includes/functions.php:849
+msgid "Start 14-Day Free Trial"
+msgstr "Ξεκινήστε Δωρεάν Δοκιμή 14 Ημερών"
+
+#: includes/functions.php:849
+msgid "(risk free, no credit card)"
+msgstr "(χωρίς ρίσκο, χωρίς πιστωτική κάρτα)"
+
+#: includes/functions.php:852
+msgid "(On Free Trial Now)"
+msgstr "(Σε Δωρεάν Δοκιμή Τώρα)"
+
+#: includes/functions.php:863
+msgid "Include / exclude certain pages"
+msgstr "Συμπεριλάβετε / εξαιρέστε ορισμένες σελίδες"
+
+#: includes/functions.php:864
+msgid "Customizable"
+msgstr "Προσαρμόσιμο"
+
+#: includes/functions.php:864
+msgid "Free-form text option"
+msgstr "Επιλογή ελεύθερου κειμένου"
+
+#: includes/functions.php:865
+msgid "Translation Ready"
+msgstr "Έτοιμο για Μετάφραση"
+
+#: includes/functions.php:865
+msgid "Self translate to any language"
+msgstr "Αυτομετάφραση σε οποιαδήποτε γλώσσα"
+
+#: includes/functions.php:866
+msgid "Brand It"
+msgstr "Μάρκαρε"
+
+#: includes/functions.php:866
+msgid "Your logo and colors"
+msgstr "Το λογότυπο και τα χρώματά σας"
+
+#: includes/functions.php:867
+msgid "Design Background"
+msgstr "Φόντο Σχεδίασης"
+
+#: includes/functions.php:867
+msgid "Set transparency and color"
+msgstr "Ορίστε διαφάνεια και χρώμα"
+
+#: includes/functions.php:868
+msgid "Welcome Message"
+msgstr "Μήνυμα καλωσορίσματος"
+
+#: includes/functions.php:868
+msgid "Add a welcome message"
+msgstr "Προσθέστε μήνυμα καλωσορίσματος"
+
+#: includes/functions.php:869
+msgid "Remember Visitors"
+msgstr "Θυμηθείτε τους επισκέπτες"
+
+#: includes/functions.php:869
+msgid "\"Remember me\" checkbox"
+msgstr "\"Θυμήσου με\" κουτί επιλογής"
+
+#: includes/functions.php:870
+msgid "Med/Rec Combo"
+msgstr "Συνδυασμός Med/Rec"
+
+#: includes/functions.php:870
+msgid "18+ med with 21+ rec"
+msgstr "Med 18+ με Rec 21+"
+
+#: includes/functions.php:871
+msgid "Premium Support"
+msgstr "Προ premium υποστήριξη"
+
+#: includes/functions.php:871
+msgid "World-class email support from the U.S."
+msgstr "Υποστήριξη μέσω email παγκόσμιας κλάσης από τις ΗΠΑ"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid "Hey %1$s"
+msgstr "Γειά σου %1$s"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid ""
+"To enjoy all of the features of this plugin and future updates, Five Star "
+"Plugins needs to connect %4$s to Freemius."
+msgstr ""
+"Για να απολαύσετε όλες τις λειτουργίες αυτού του πρόσθετου και μελλοντικές "
+"ενημερώσεις, το Five Star Plugins χρειάζεται να συνδέσει το %4$s με το "
+"Freemius."
+
+#: includes/premium/functions-premium.php:388
+msgid "You must be 21 years old to visit this site."
+msgstr ""
+"Πρέπει να είστε 21 ετών ή μεγαλύτερος για να επισκεφθείτε αυτόν τον "
+"ιστότοπο."
+
+#: includes/premium/functions-premium.php:401
+msgid "Please verify your age"
+msgstr "Παρακαλώ επαληθεύστε την ηλικία σας"

@@ -226,6 +226,122 @@ function emav_verify_form() {
 }
 
 /**
+ * Returns an agree button color without requiring premium helpers to load.
+ *
+ * @return string
+ */
+function emav_get_safe_agree_button_background_color() {
+    if ( function_exists( 'emav_get_agree_btn_background_color' ) ) {
+        return emav_get_agree_btn_background_color();
+    }
+    if ( current_theme_supports( 'custom-background' ) ) {
+        return '#' . get_background_color();
+    }
+    return '#2dc937';
+}
+
+/**
+ * Returns a disagree button color without requiring premium helpers to load.
+ *
+ * @return string
+ */
+function emav_get_safe_disagree_button_background_color() {
+    if ( function_exists( 'emav_get_disAgree_btn_background_color' ) ) {
+        return emav_get_disAgree_btn_background_color();
+    }
+    if ( current_theme_supports( 'custom-background' ) ) {
+        return '#' . get_background_color();
+    }
+    return '#cc3232';
+}
+
+/**
+ * Returns whether premium birthdate verification is active.
+ *
+ * @return bool
+ */
+function emav_birthdate_verification_is_enabled() {
+    global $emav_fs;
+    if ( !isset( $emav_fs ) || !is_object( $emav_fs ) || !method_exists( $emav_fs, 'can_use_premium_code' ) ) {
+        return false;
+    }
+    return 7 === (int) emav_age_verify_option() && $emav_fs->can_use_premium_code();
+}
+
+/**
+ * Returns the age threshold used by the premium birthdate verifier.
+ *
+ * @return int
+ */
+function emav_get_birthdate_verify_age() {
+    $age = (int) get_option( '_emav_birthdate_verify_age', emav_get_minimum_age() );
+    if ( $age < 1 ) {
+        $age = 1;
+    }
+    if ( $age > 99 ) {
+        $age = 99;
+    }
+    return $age;
+}
+
+/**
+ * Returns the error text used for the premium birthdate verifier.
+ *
+ * @return string
+ */
+function emav_get_birthdate_error_text() {
+    return sprintf( __( 'You must be over %d to enter this site.', 'easy-marijuana-age-verify' ), emav_get_birthdate_verify_age() );
+}
+
+/**
+ * Returns the premium birthdate dropdown markup.
+ *
+ * @return string
+ */
+function emav_get_birthdate_fields_markup() {
+    if ( !emav_birthdate_verification_is_enabled() ) {
+        return '';
+    }
+    $months = array(
+        1  => __( 'January', 'easy-marijuana-age-verify' ),
+        2  => __( 'February', 'easy-marijuana-age-verify' ),
+        3  => __( 'March', 'easy-marijuana-age-verify' ),
+        4  => __( 'April', 'easy-marijuana-age-verify' ),
+        5  => __( 'May', 'easy-marijuana-age-verify' ),
+        6  => __( 'June', 'easy-marijuana-age-verify' ),
+        7  => __( 'July', 'easy-marijuana-age-verify' ),
+        8  => __( 'August', 'easy-marijuana-age-verify' ),
+        9  => __( 'September', 'easy-marijuana-age-verify' ),
+        10 => __( 'October', 'easy-marijuana-age-verify' ),
+        11 => __( 'November', 'easy-marijuana-age-verify' ),
+        12 => __( 'December', 'easy-marijuana-age-verify' ),
+    );
+    $current_year = (int) gmdate( 'Y', current_time( 'timestamp' ) );
+    $min_age = emav_get_birthdate_verify_age();
+    $markup = '<div class="emav-birthdate-fields" data-min-age="' . esc_attr( $min_age ) . '">';
+    $markup .= '<select id="emav_verify_month" class="emav-birthdate-month" aria-label="' . esc_attr__( 'Month', 'easy-marijuana-age-verify' ) . '">';
+    $markup .= '<option value="">' . esc_html__( 'Month', 'easy-marijuana-age-verify' ) . '</option>';
+    foreach ( $months as $value => $label ) {
+        $markup .= '<option value="' . esc_attr( $value ) . '">' . esc_html( $label ) . '</option>';
+    }
+    $markup .= '</select>';
+    $markup .= '<select id="emav_verify_day" class="emav-birthdate-day" aria-label="' . esc_attr__( 'Day', 'easy-marijuana-age-verify' ) . '">';
+    $markup .= '<option value="">' . esc_html__( 'Day', 'easy-marijuana-age-verify' ) . '</option>';
+    for ($day = 1; $day <= 31; $day++) {
+        $markup .= '<option value="' . esc_attr( $day ) . '">' . esc_html( $day ) . '</option>';
+    }
+    $markup .= '</select>';
+    $markup .= '<select id="emav_verify_year" class="emav-birthdate-year" aria-label="' . esc_attr__( 'Year', 'easy-marijuana-age-verify' ) . '">';
+    $markup .= '<option value="">' . esc_html__( 'Year', 'easy-marijuana-age-verify' ) . '</option>';
+    for ($year = $current_year; $year >= $current_year - 120; $year--) {
+        $markup .= '<option value="' . esc_attr( $year ) . '">' . esc_html( $year ) . '</option>';
+    }
+    $markup .= '</select>';
+    $markup .= '</div>';
+    return $markup;
+}
+
+/**
  * Adds the user's WP role to the Body CSS Class for Testing Mode
  *
  * @since 1.1
@@ -305,9 +421,16 @@ function emav_get_verify_form() {
     //$input_type = emav_get_input_type();
     // Marijuana Age Verify Option
     $option = (int) emav_age_verify_option();
+    $birthdate_enabled = emav_birthdate_verification_is_enabled();
+    if ( 7 === $option && !$birthdate_enabled ) {
+        $option = 1;
+    }
     switch ( $option ) {
         case 6:
             $optionID = 5;
+            break;
+        case 7:
+            $optionID = 6;
             break;
         case 5:
             $optionID = 4;
@@ -318,46 +441,51 @@ function emav_get_verify_form() {
     }
     // Button Array Labels
     if ( function_exists( 'emav_get_custom_agreebutton_text' ) ) {
+        $custom_agree_button_text = trim( (string) get_option( '_emav_custom_agreebutton_text' ) );
         $age_confirm_btn_arr = array(
             '',
-            'I am 21 or older',
-            'I am 19 or older',
-            'I am 18 or older',
-            'Yes',
-            emav_get_custom_agreebutton_text()
+            __( 'I am 21 or older', 'easy-marijuana-age-verify' ),
+            __( 'I am 19 or older', 'easy-marijuana-age-verify' ),
+            __( 'I am 18 or older', 'easy-marijuana-age-verify' ),
+            __( 'Yes', 'easy-marijuana-age-verify' ),
+            emav_get_custom_agreebutton_text(),
+            ( '' !== $custom_agree_button_text ? $custom_agree_button_text : __( 'Enter', 'easy-marijuana-age-verify' ) )
         );
     } else {
         // Button Array Labels
         $age_confirm_btn_arr = array(
             '',
-            'I am 21 or older',
-            'I am 19 or older',
-            'I am 18 or older',
-            'Yes',
-            'I am 21 or older'
+            __( 'I am 21 or older', 'easy-marijuana-age-verify' ),
+            __( 'I am 19 or older', 'easy-marijuana-age-verify' ),
+            __( 'I am 18 or older', 'easy-marijuana-age-verify' ),
+            __( 'Yes', 'easy-marijuana-age-verify' ),
+            __( 'I am 21 or older', 'easy-marijuana-age-verify' ),
+            __( 'Enter', 'easy-marijuana-age-verify' )
         );
     }
     if ( function_exists( 'emav_get_custom_disagreebutton_text' ) ) {
         $age_btn_arr = array(
             '',
-            'I am under 21',
-            'I am under 19',
-            'I am under 18',
-            'No',
-            emav_get_custom_disagreebutton_text()
+            __( 'I am under 21', 'easy-marijuana-age-verify' ),
+            __( 'I am under 19', 'easy-marijuana-age-verify' ),
+            __( 'I am under 18', 'easy-marijuana-age-verify' ),
+            __( 'No', 'easy-marijuana-age-verify' ),
+            emav_get_custom_disagreebutton_text(),
+            __( 'No', 'easy-marijuana-age-verify' )
         );
     } else {
         $age_btn_arr = array(
             '',
-            'I am under 21',
-            'I am under 19',
-            'I am under 18',
-            'No',
-            'I am under 21'
+            __( 'I am under 21', 'easy-marijuana-age-verify' ),
+            __( 'I am under 19', 'easy-marijuana-age-verify' ),
+            __( 'I am under 18', 'easy-marijuana-age-verify' ),
+            __( 'No', 'easy-marijuana-age-verify' ),
+            __( 'I am under 21', 'easy-marijuana-age-verify' ),
+            __( 'No', 'easy-marijuana-age-verify' )
         );
     }
     // Default error text, just in case.
-    $no_error_text = __( 'Sorry, you must be of legal age to enter this website.' );
+    $no_error_text = __( 'Sorry, you must be of legal age to enter this website.', 'easy-marijuana-age-verify' );
     // Pull in option's error code
     $no_error_text = emav_get_error_text();
     // Selected Button Label Option
@@ -372,15 +500,19 @@ function emav_get_verify_form() {
     $form .= '<form id="emav_verify_form" action="' . esc_url( home_url( '/' ) ) . '" method="post">';
     // This IF will be executed only if the user in a trial mode or have a valid license.
     if ( $emav_fs->can_use_premium_code() ) {
-        $form .= '<div style="display: none; color:' . emav_getContrastYIQ( ltrim( emav_get_overlay_color(), '#' ) ) . ' !important;" class="emav-error">' . $no_error_text . '</div>';
+        $form .= '<div style="display: none; color:' . emav_get_content_surface_text_color() . ' !important;" class="emav-error">' . $no_error_text . '</div>';
     } else {
         $form .= '<div style="display: none;" class="emav-error">' . $no_error_text . '</div>';
     }
     do_action( 'emav_form_before_inputs' );
     $form .= '<input type="hidden" name="emav_verify_confirm" id="emav_verify_confirm" value="" />';
-    $form .= '<div class="emav_buttons"><input type="button" name="confirm_age" id="emav_confirm_age" value="' . $age_confirm_btn_label . '" ' . $confirm_btn_style . ' />';
-    $form .= '<div class="emav_buttons_sep"></div>';
-    $form .= '<input type="button" name="not_confirm_age" id="emav_not_confirm_age" value="' . $age_btn_label . '" ' . $not_confirm_btn_style . '></div>';
+    $form .= emav_get_birthdate_fields_markup();
+    $form .= '<div class="emav_buttons"><input type="button" name="confirm_age" id="emav_confirm_age" value="' . esc_attr( $age_confirm_btn_label ) . '" ' . $confirm_btn_style . ' />';
+    if ( !$birthdate_enabled ) {
+        $form .= '<div class="emav_buttons_sep"></div>';
+        $form .= '<input type="button" name="not_confirm_age" id="emav_not_confirm_age" value="' . esc_attr( $age_btn_label ) . '" ' . $not_confirm_btn_style . '>';
+    }
+    $form .= '</div>';
     do_action( 'emav_form_after_inputs' );
     $form .= '</form>';
     return apply_filters( 'emav_verify_form', $form );
@@ -390,16 +522,19 @@ function emav_get_error_text() {
     $optionID = 0;
     // Catch-all in case something goes wrong
     $error_msg_arr = array(
-        __( 'Sorry, you must be of legal age to enter this website.' ),
-        __( 'Sorry, you must be 21 or over to enter this website.' ),
-        __( 'Sorry, you must be 19 or over to enter this website.' ),
-        __( 'Sorry, you must be 18 or over to enter this website.' ),
-        __( 'Sorry, you must be 18 years or over valid medical marijuana patient to enter this website.' ),
-        __( 'Sorry, you must be 21 or over, or 18 years or over valid medical marijuana patient, to enter this website.' ),
-        __( '' )
+        __( 'Sorry, you must be of legal age to enter this website.', 'easy-marijuana-age-verify' ),
+        __( 'Sorry, you must be 21 or over to enter this website.', 'easy-marijuana-age-verify' ),
+        __( 'Sorry, you must be 19 or over to enter this website.', 'easy-marijuana-age-verify' ),
+        __( 'Sorry, you must be 18 or over to enter this website.', 'easy-marijuana-age-verify' ),
+        __( 'Sorry, you must be 18 years or over valid medical marijuana patient to enter this website.', 'easy-marijuana-age-verify' ),
+        __( 'Sorry, you must be 21 or over, or 18 years or over valid medical marijuana patient, to enter this website.', 'easy-marijuana-age-verify' ),
+        ''
     );
     $optionID = (int) emav_age_verify_option();
-    return $error_msg_arr[$optionID];
+    if ( 7 === $optionID ) {
+        return emav_get_birthdate_error_text();
+    }
+    return ( isset( $error_msg_arr[$optionID] ) ? $error_msg_arr[$optionID] : $error_msg_arr[0] );
 }
 
 /**
@@ -411,15 +546,38 @@ function emav_get_error_text() {
  */
 function emav_get_overlay_color() {
     global $emav_fs;
+    $color = '#000000';
     // This IF will be executed only if the user in a trial mode or have a valid license.
     if ( $emav_fs->can_use_premium_code() ) {
         if ( get_option( '_emav_overlay_color' ) ) {
             $color = get_option( '_emav_overlay_color' );
         }
-    } else {
-        $color = '#000000';
     }
     return apply_filters( 'emav_overlay_color', $color );
+}
+
+/**
+ * Returns the background color used for the visible content surface.
+ *
+ * @return string
+ */
+function emav_get_content_surface_color() {
+    if ( function_exists( 'emav_get_content_background_color' ) ) {
+        return emav_get_content_background_color();
+    }
+    return emav_get_overlay_color();
+}
+
+/**
+ * Returns the foreground color used for content inside the overlay.
+ *
+ * @return string
+ */
+function emav_get_content_surface_text_color() {
+    if ( function_exists( 'emav_get_content_text_color' ) ) {
+        return emav_get_content_text_color();
+    }
+    return emav_getContrastYIQ( ltrim( emav_get_content_surface_color(), '#' ) );
 }
 
 /***********************************************************/
@@ -440,12 +598,13 @@ function emav_user_age_verify() {
     // Catch-all in case something goes wrong
     $error_msg_arr = array(
         '',
-        'Sorry, you must be of legal age to enter this website.',
-        'Sorry, you must be 21 or over to enter this website.',
-        'Sorry, you must be 19 or over to enter this website.',
-        'Sorry, you must be 18 or over to enter this website.',
-        'Sorry, you must be an 18 years or over valid medical marijuana patient to enter this website.',
-        'Sorry, you must be 21 or over, or an 18 years or over valid medical marijuana patient, to enter this website.'
+        __( 'Sorry, you must be of legal age to enter this website.', 'easy-marijuana-age-verify' ),
+        __( 'Sorry, you must be 21 or over to enter this website.', 'easy-marijuana-age-verify' ),
+        __( 'Sorry, you must be 19 or over to enter this website.', 'easy-marijuana-age-verify' ),
+        __( 'Sorry, you must be 18 or over to enter this website.', 'easy-marijuana-age-verify' ),
+        __( 'Sorry, you must be an 18 years or over valid medical marijuana patient to enter this website.', 'easy-marijuana-age-verify' ),
+        __( 'Sorry, you must be 21 or over, or an 18 years or over valid medical marijuana patient, to enter this website.', 'easy-marijuana-age-verify' ),
+        emav_get_birthdate_error_text()
     );
     $optionID = (int) emav_age_verify_option();
     error_log( $optionID );
@@ -534,7 +693,7 @@ function emav_display_upgrade_features() {
     $contents = '<table class="form-table emav-premium-features">
 		<tr class="emav-premiumHead">
 			<th class="emav-preBanner" scope="column" colspan=2>
-				<h1>Unlock Premium Features</h1>
+				<h1>' . esc_html__( 'Unlock Premium Features', 'easy-marijuana-age-verify' ) . '</h1>
 			</th>
 		</tr>
 		<!--<tr><td colspan=2><center><b>Promo Here</b></center></td></tr>-->';
@@ -546,14 +705,14 @@ function emav_display_upgrade_features() {
 			</tr>';
     }
     $contents .= '<tr>
-			<th style="text-align: center; padding-bottom: 20px;" scope="column" colspan="2"><a class="emav-btnBuy" href="' . esc_url( emav_upgrade_url() ) . '">Upgrade Now</a>
+			<th style="text-align: center; padding-bottom: 20px;" scope="column" colspan="2"><a class="emav-btnBuy" href="' . esc_url( emav_upgrade_url() ) . '">' . esc_html__( 'Upgrade Now', 'easy-marijuana-age-verify' ) . '</a>
 			</th>
 		</tr>';
     if ( !emav_fs()->is_trial() ) {
         $contents .= '<tr><th style="text-align: center; padding-bottom: 20px;" scope="column" colspan="2"><a class="emav-trialLink" href="' . esc_url( '/wp-admin/admin.php?trial=true&page=easy-marijuana-age-verify-pricing' ) . '">' . __( 'Start 14-Day Free Trial', 'easy-marijuana-age-verify' ) . '</a><span style="font-weight: 400;">' . __( '(risk free, no credit card)', 'easy-marijuana-age-verify' ) . '</span></th></tr>';
     } else {
         $contents .= '<tr>
-			<th style="text-align: center; padding-bottom: 20px;" scope="column" colspan="2">(On Free Trial Now)
+			<th style="text-align: center; padding-bottom: 20px;" scope="column" colspan="2">' . esc_html__( '(On Free Trial Now)', 'easy-marijuana-age-verify' ) . '
 			</th></tr>';
     }
     $contents .= '</table>';
@@ -587,7 +746,7 @@ function emav_fs_custom_connect_message_on_update(
     $freemius_link
 ) {
     return sprintf(
-        __( 'Hey %1$s' ) . '<br>' . __( 'To enjoy all of the features of this plugin and future updates, Five Star Plugins needs to connect %4$s to Freemius.', 'easy-marijuana-age-verify' ),
+        __( 'Hey %1$s', 'easy-marijuana-age-verify' ) . '<br>' . __( 'To enjoy all of the features of this plugin and future updates, Five Star Plugins needs to connect %4$s to Freemius.', 'easy-marijuana-age-verify' ),
         $user_first_name,
         '<b>' . $plugin_title . '</b>',
         '<b>' . $user_login . '</b>',
@@ -608,7 +767,7 @@ function emav_freemius_new_message(
     $freemius_link
 ) {
     return sprintf(
-        __( 'Hey %1$s' ) . '<br>' . __( 'To enjoy all of the features of this plugin and future updates, Five Star Plugins needs to connect %4$s to Freemius.', 'easy-marijuana-age-verify' ),
+        __( 'Hey %1$s', 'easy-marijuana-age-verify' ) . '<br>' . __( 'To enjoy all of the features of this plugin and future updates, Five Star Plugins needs to connect %4$s to Freemius.', 'easy-marijuana-age-verify' ),
         $user_first_name,
         '<b>' . $plugin_title . '</b>',
         '<b>' . $user_login . '</b>',
@@ -725,30 +884,36 @@ function emav_print_header() {
     if ( function_exists( 'emav_get_custom_age_text' ) ) {
         $heading_text_arr = array(
             '',
-            'Please verify your age to enter.',
-            'Please verify your age to enter.',
-            'Please verify your age to enter.',
-            'Are you a 18+ valid medical marijuana patient?',
-            'Are you 21+ or a 18+ valid medical marijuana patient?',
-            emav_get_custom_age_text()
+            __( 'Please verify your age to enter.', 'easy-marijuana-age-verify' ),
+            __( 'Please verify your age to enter.', 'easy-marijuana-age-verify' ),
+            __( 'Please verify your age to enter.', 'easy-marijuana-age-verify' ),
+            __( 'Are you a 18+ valid medical marijuana patient?', 'easy-marijuana-age-verify' ),
+            __( 'Are you 21+ or a 18+ valid medical marijuana patient?', 'easy-marijuana-age-verify' ),
+            emav_get_custom_age_text(),
+            __( 'Enter your birth date to continue.', 'easy-marijuana-age-verify' )
         );
     } else {
         $heading_text_arr = array(
             '',
-            'Please verify your age to enter.',
-            'Please verify your age to enter.',
-            'Please verify your age to enter.',
-            'Are you a 18+ valid medical marijuana patient?',
-            'Are you 21+ or a 18+ valid medical marijuana patient?',
-            'Please verify your age to enter.'
+            __( 'Please verify your age to enter.', 'easy-marijuana-age-verify' ),
+            __( 'Please verify your age to enter.', 'easy-marijuana-age-verify' ),
+            __( 'Please verify your age to enter.', 'easy-marijuana-age-verify' ),
+            __( 'Are you a 18+ valid medical marijuana patient?', 'easy-marijuana-age-verify' ),
+            __( 'Are you 21+ or a 18+ valid medical marijuana patient?', 'easy-marijuana-age-verify' ),
+            __( 'Please verify your age to enter.', 'easy-marijuana-age-verify' ),
+            __( 'Enter your birth date to continue.', 'easy-marijuana-age-verify' )
         );
     }
-    if ( emav_age_verify_option() < 1 || emav_age_verify_option() > 6 ) {
+    $verify_option = (int) emav_age_verify_option();
+    if ( 7 === $verify_option && !emav_birthdate_verification_is_enabled() ) {
+        $verify_option = 1;
+    }
+    if ( $verify_option < 1 || $verify_option > 7 ) {
         $emav_title = $heading_text_arr[1];
     } else {
-        $emav_title = $heading_text_arr[emav_age_verify_option()];
+        $emav_title = $heading_text_arr[$verify_option];
     }
-    printf( '<h3 style="color:' . emav_getContrastYIQ( ltrim( emav_get_overlay_color(), '#' ) ) . ';">%s</h3>', $emav_title );
+    printf( '<h3 style="color:' . emav_get_content_surface_text_color() . ';">%s</h3>', $emav_title );
 }
 
 function emav_print_disclaimer() {
@@ -766,7 +931,7 @@ function emav_print_disclaimer() {
     );
     $disclaimer_decoded = html_entity_decode( $disclaimer );
     $sanitized_disclaimer = wp_kses( $disclaimer_decoded, $allowed_tags );
-    printf( '<div class="disclaimer"><p style="color:%s;">%s</p></div>', esc_attr( emav_getContrastYIQ( ltrim( emav_get_overlay_color(), '#' ) ) ), $sanitized_disclaimer );
+    printf( '<div class="disclaimer"><p style="color:%s;">%s</p></div>', esc_attr( emav_get_content_surface_text_color() ), $sanitized_disclaimer );
 }
 
 add_filter( 'emav_before_form', 'emav_print_header', 4 );

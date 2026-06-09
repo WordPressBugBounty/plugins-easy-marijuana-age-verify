@@ -20,6 +20,15 @@
     transform: translateY(-50%)
 }
 
+#emav-overlay.emav-overlay-panel-boxed {
+    width: calc(100% - 40px);
+    max-width: 760px;
+    padding: 36px 28px 28px;
+    border-radius: 24px;
+    box-shadow: 0 22px 70px rgba(0, 0, 0, 0.35);
+    box-sizing: border-box;
+}
+
 #evav_verify_form {
     margin-bottom: 8px !important;
 }
@@ -43,6 +52,10 @@
     background:none !important;
     color: white;
     text-decoration: underline;
+}
+
+#emav-overlay.emav-overlay-panel-boxed .disclaimer a {
+    color: inherit;
 }
 
 #emav-overlay img {
@@ -112,6 +125,49 @@
     margin-bottom: 0;
 }
 
+.emav-birthdate-fields {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    max-width: 520px;
+    margin: 0 auto 15px;
+}
+
+.emav-birthdate-fields select {
+    width: auto;
+    min-width: 95px;
+    padding: 15px 12px;
+    line-height: initial;
+    border-radius: 10px;
+    border: 0;
+    background: #ffffff;
+    color: #111111;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+    appearance: auto;
+    -webkit-appearance: menulist;
+    -moz-appearance: menulist;
+}
+
+.emav-birthdate-fields select:focus {
+    outline: none;
+    box-shadow: 0px 0px 12px 1px cyan;
+}
+
+.emav-birthdate-month {
+    flex: 1.6;
+}
+
+.emav-birthdate-day {
+    flex: 1;
+}
+
+.emav-birthdate-year {
+    flex: 1.2;
+}
+
 .emav_buttons input {
     text-transform: initial;
 }
@@ -164,6 +220,12 @@
         max-height: 100vh;
     }
 
+    #emav-overlay.emav-overlay-panel-boxed {
+        width: calc(100% - 24px);
+        padding: 26px 18px 20px;
+        border-radius: 18px;
+    }
+
     #emav-overlay h2 {
         font-size: 28px;
     }
@@ -197,6 +259,17 @@
     #emav-overlay input[type=checkbox] {
         margin-top: 1em;
         height: 10px;
+    }
+
+    .emav-birthdate-fields {
+        max-width: 90%;
+        gap: 8px;
+    }
+
+    .emav-birthdate-fields select {
+        min-width: 0;
+        font-size: 14px;
+        padding: 12px 8px;
     }
 }
 
@@ -237,6 +310,19 @@
 
     #emav-overlay input[type=checkbox] {
         margin-top: 1em;
+    }
+
+    #emav-overlay.emav-overlay-panel-boxed {
+        padding: 18px 16px 16px;
+    }
+
+    .emav-birthdate-fields {
+        margin-bottom: 10px;
+    }
+
+    .emav-birthdate-fields select {
+        font-size: 13px;
+        padding: 10px 8px;
     }
 }
 

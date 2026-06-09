@@ -64,34 +64,103 @@ jQuery(document).ready(function ($) {
 		  }
 	 });
 
-	/* Check custom text option selection, show/hide fields */
-	if ( $('input:radio[name=_emav_user_age_verify_option]:checked').val() == '6' ) {
-		$('h2:contains("Free-Form Custom Text")').fadeIn();
-		$('input[name=_emav_custom_age_text]').closest('tr').fadeIn();
-		$('input[name=_emav_custom_agreebutton_text]').closest('tr').fadeIn();
-		$('input[name=_emav_custom_disagreebutton_text]').closest('tr').fadeIn();
-		$('input[name=_emav_disagree_error_text]').closest('tr').fadeIn();
-	} else {
-		$('h2:contains("Free-Form Custom Text")').hide();
-		$('input[name=_emav_custom_age_text]').closest('tr').hide();
-		$('input[name=_emav_custom_agreebutton_text]').closest('tr').hide();
-		$('input[name=_emav_custom_disagreebutton_text]').closest('tr').hide();
-		$('input[name=_emav_disagree_error_text]').closest('tr').hide();
-	}
-	$('.emav-age-header-option input').on('click', function() {
-		if ($(this).val() == '6') {
-			$('h2:contains("Free-Form Custom Text")').fadeIn();
-			$('input[name=_emav_custom_age_text]').closest('tr').fadeIn();
-			$('input[name=_emav_custom_agreebutton_text]').closest('tr').fadeIn();
-			$('input[name=_emav_custom_disagreebutton_text]').closest('tr').fadeIn();
-			$('input[name=_emav_disagree_error_text]').closest('tr').fadeIn();
+	function toggleVerifyOptionFields(speed) {
+		var selectedValue = $('input:radio[name=_emav_user_age_verify_option]:checked').val();
+		var freeFormRows = [
+			$('input[name=_emav_custom_age_text]').closest('tr'),
+			$('input[name=_emav_custom_disagreebutton_text]').closest('tr'),
+			$('input[name=_emav_disagree_error_text]').closest('tr')
+		];
+		var sharedRows = [
+			$('input[name=_emav_custom_agreebutton_text]').closest('tr')
+		];
+		var noButtonColorRow = $('input[name=_emav_disAgree_btn_bgcolor]').closest('tr');
+		var $freeFormHeading = $('h2:contains("Free-Form Custom Text")');
+		var $birthdateSetting = $('.emav-birthdate-setting');
+		var method = speed === 'slow' ? 'fade' : 'toggle';
+		var showFreeForm = selectedValue == '6';
+		var showBirthdate = selectedValue == '7';
+
+		if (method === 'fade') {
+			$freeFormHeading.stop(true, true)[showFreeForm ? 'fadeIn' : 'fadeOut']();
+			$birthdateSetting.stop(true, true)[showBirthdate ? 'fadeIn' : 'fadeOut']();
+			$.each(freeFormRows, function(_, $row) {
+				$row.stop(true, true)[showFreeForm ? 'fadeIn' : 'fadeOut']();
+			});
+			$.each(sharedRows, function(_, $row) {
+				$row.stop(true, true)[(showFreeForm || showBirthdate) ? 'fadeIn' : 'fadeOut']();
+			});
+			noButtonColorRow.stop(true, true)[showBirthdate ? 'fadeOut' : 'fadeIn']();
 		} else {
-			$('h2:contains("Free-Form Custom Text")').fadeOut();
-			$('input[name=_emav_custom_age_text]').closest('tr').fadeOut();
-			$('input[name=_emav_custom_agreebutton_text]').closest('tr').fadeOut();
-			$('input[name=_emav_custom_disagreebutton_text]').closest('tr').fadeOut();
-			$('input[name=_emav_disagree_error_text]').closest('tr').fadeOut();
+			$freeFormHeading.toggle(showFreeForm);
+			$birthdateSetting.toggle(showBirthdate);
+			$.each(freeFormRows, function(_, $row) {
+				$row.toggle(showFreeForm);
+			});
+			$.each(sharedRows, function(_, $row) {
+				$row.toggle(showFreeForm || showBirthdate);
+			});
+			noButtonColorRow.toggle(!showBirthdate);
 		}
+	}
+
+	toggleVerifyOptionFields('fast');
+	$('input:radio[name=_emav_user_age_verify_option]').on('change', function() {
+		toggleVerifyOptionFields('slow');
+	});
+
+	function toggleOverlayBoxFields(speed) {
+		var isBoxEnabled = $('#_emav_overlay_box').is(':checked');
+		var $boxColorRow = $('#_emav_box_bgcolor').closest('tr');
+		var $boxGradientRow = $('#_emav_box_gradient').closest('tr');
+		var $boxGradientEndRow = $('#_emav_box_gradient_end_color').closest('tr');
+		var $boxGradientDirectionRow = $('#_emav_box_gradient_direction').closest('tr');
+		var isBoxGradientEnabled = isBoxEnabled && $('#_emav_box_gradient').is(':checked');
+		var $boxColorLabel = $('.emav-box-color-label');
+
+		$boxColorLabel.text(isBoxGradientEnabled ? 'Box Gradient Start Color' : 'Box Background Color');
+
+		if (speed === 'slow') {
+			$boxColorRow.stop(true, true)[isBoxEnabled ? 'fadeIn' : 'fadeOut']();
+			$boxGradientRow.stop(true, true)[isBoxEnabled ? 'fadeIn' : 'fadeOut']();
+			$boxGradientEndRow.stop(true, true)[isBoxGradientEnabled ? 'fadeIn' : 'fadeOut']();
+			$boxGradientDirectionRow.stop(true, true)[isBoxGradientEnabled ? 'fadeIn' : 'fadeOut']();
+		} else {
+			$boxColorRow.toggle(isBoxEnabled);
+			$boxGradientRow.toggle(isBoxEnabled);
+			$boxGradientEndRow.toggle(isBoxGradientEnabled);
+			$boxGradientDirectionRow.toggle(isBoxGradientEnabled);
+		}
+	}
+
+	toggleOverlayBoxFields('fast');
+	$('#_emav_overlay_box').on('change', function() {
+		toggleOverlayBoxFields('slow');
+	});
+	$('#_emav_box_gradient').on('change', function() {
+		toggleOverlayBoxFields('slow');
+	});
+
+	function toggleGradientFields(speed) {
+		var isGradientEnabled = $('#_emav_background_gradient').is(':checked');
+		var $overlayColorLabel = $('.emav-overlay-color-label');
+		var $gradientEndRow = $('#_emav_gradient_end_color').closest('tr');
+		var $gradientDirectionRow = $('#_emav_gradient_direction').closest('tr');
+
+		$overlayColorLabel.text(isGradientEnabled ? 'Gradient Start Color' : 'Background Color');
+
+		if (speed === 'slow') {
+			$gradientEndRow.stop(true, true)[isGradientEnabled ? 'fadeIn' : 'fadeOut']();
+			$gradientDirectionRow.stop(true, true)[isGradientEnabled ? 'fadeIn' : 'fadeOut']();
+		} else {
+			$gradientEndRow.toggle(isGradientEnabled);
+			$gradientDirectionRow.toggle(isGradientEnabled);
+		}
+	}
+
+	toggleGradientFields('fast');
+	$('#_emav_background_gradient').on('change', function() {
+		toggleGradientFields('slow');
 	});
 
 	/* Testing the Logo Image onLoad */
@@ -130,6 +199,9 @@ jQuery(document).ready(function ($) {
 	});
 
 	$('#_emav_overlay_color').wpColorPicker();
+	$('#_emav_gradient_end_color').wpColorPicker();
+	$('#_emav_box_bgcolor').wpColorPicker();
+	$('#_emav_box_gradient_end_color').wpColorPicker();
 	$('#_emav_agree_btn_bgcolor').wpColorPicker();
 	$('#_emav_disAgree_btn_bgcolor').wpColorPicker();
 	// show character count

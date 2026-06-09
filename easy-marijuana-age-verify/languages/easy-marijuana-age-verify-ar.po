@@ -1,0 +1,1152 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marijuana Age Verify 2.0.5\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/easy-marijuana-age-verify\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-09T18:42:04+00:00\n"
+"PO-Revision-Date: 2026-06-09 18:51+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: easy-marijuana-age-verify\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"Language: ar\n"
+
+#: easy-marijuana-age-verify.php
+#. Plugin Name of the plugin
+msgid "Marijuana Age Verify"
+msgstr "تحقق من عمر الماريجوانا"
+
+#: easy-marijuana-age-verify.php
+#. Description of the plugin
+msgid "Age verification for marijuana websites."
+msgstr "التحقق من العمر لمواقع الماريجوانا."
+
+#: easy-marijuana-age-verify.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 ستار بلاجنز"
+
+#: easy-marijuana-age-verify.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:134
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:150
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:161
+msgid "Cheatin&#8217; huh?"
+msgstr "هل أنت تغشّ؟"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid "Enable Verification"
+msgstr "تفعيل التحقق"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid ""
+"Popup will not show when disabled. Use Testing Mode during setup, then show "
+"when it's ready."
+msgstr ""
+"لن يظهر النافذة المنبثقة عند تعطيله. استخدم وضع الاختبار أثناء الإعداد، ثم "
+"اعرضه عند الانتهاء."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+#: includes/admin/premium/settings-premium.php:564
+#: includes/admin/settings.php:232
+#: includes/functions.php:863
+msgid "Page Targeting"
+msgstr "استهداف الصفحة"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+msgid "Include or exclude a certain page."
+msgstr "تشمل أو تستثني صفحة معينة."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+#: includes/admin/settings.php:437
+msgid "Realtime Settings Check"
+msgstr "فحص الإعدادات في الوقت الحقيقي"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+msgid "May help caching issues, adds delay to popup."
+msgstr "قد يساعد في مشاكل التخزين المؤقت، ويضيف تأخيرًا للنافذة المنبثقة."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Verify For"
+msgstr "التحقق من"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Select a turnkey setting. Upgrade to Premium to edit text and background."
+msgstr "اختر إعدادًا جاهزًا. قم بالترقية إلى النسخة المميزة لتحرير النص والخلفية."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid "Optional small print takes HTML link."
+msgstr "الطباعة الاختيارية تتطلب رابط HTML."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid ""
+"Disclaimer Text <span class=\"dashicons dashicons-info "
+"emavoptionshovertip\" title=\""
+msgstr ""
+"نص التنصل <span class=\"dashicons dashicons-info emavoptionshovertip\" "
+"title=\""
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:306
+msgid "Require age verification for this content"
+msgstr "تطلب التحقق من العمر لهذا المحتوى"
+
+#: includes/admin/premium/settings-premium.php:26
+#: includes/admin/premium/settings-premium.php:32
+#: includes/admin/premium/settings-premium.php:38
+#: includes/admin/settings.php:164
+#: includes/functions.php:1017
+#: includes/functions.php:1018
+#: includes/functions.php:1019
+#: includes/functions.php:1028
+#: includes/functions.php:1029
+#: includes/functions.php:1030
+#: includes/functions.php:1033
+msgid "Please verify your age to enter."
+msgstr "يرجى التحقق من عمرك للدخول."
+
+#: includes/admin/premium/settings-premium.php:27
+#: includes/functions.php:510
+#: includes/functions.php:521
+#: includes/functions.php:525
+msgid "I am 21 or older"
+msgstr "عمري 21 سنة أو أكثر"
+
+#: includes/admin/premium/settings-premium.php:28
+#: includes/functions.php:532
+#: includes/functions.php:542
+#: includes/functions.php:546
+msgid "I am under 21"
+msgstr "أنا أقل من 21 سنة"
+
+#: includes/admin/premium/settings-premium.php:29
+#: includes/functions.php:640
+#: includes/functions.php:723
+msgid "Sorry, you must be 21 or over to enter this website."
+msgstr "آسف، يجب أن تكون 21 سنة أو أكثر للدخول إلى هذا الموقع."
+
+#: includes/admin/premium/settings-premium.php:33
+#: includes/functions.php:511
+#: includes/functions.php:522
+msgid "I am 19 or older"
+msgstr "عمري 19 سنة أو أكثر"
+
+#: includes/admin/premium/settings-premium.php:34
+#: includes/functions.php:533
+#: includes/functions.php:543
+msgid "I am under 19"
+msgstr "أنا أقل من 19 سنة"
+
+#: includes/admin/premium/settings-premium.php:35
+#: includes/functions.php:641
+#: includes/functions.php:724
+msgid "Sorry, you must be 19 or over to enter this website."
+msgstr "آسف، يجب أن تكون 19 سنة أو أكثر للدخول إلى هذا الموقع."
+
+#: includes/admin/premium/settings-premium.php:39
+#: includes/functions.php:512
+#: includes/functions.php:523
+msgid "I am 18 or older"
+msgstr "عمري 18 سنة أو أكثر"
+
+#: includes/admin/premium/settings-premium.php:40
+#: includes/functions.php:534
+#: includes/functions.php:544
+msgid "I am under 18"
+msgstr "أنا أقل من 18 سنة"
+
+#: includes/admin/premium/settings-premium.php:41
+#: includes/functions.php:642
+#: includes/functions.php:725
+msgid "Sorry, you must be 18 or over to enter this website."
+msgstr "آسف، يجب أن تكون 18 سنة أو أكثر للدخول إلى هذا الموقع."
+
+#: includes/admin/premium/settings-premium.php:44
+#: includes/functions.php:1020
+#: includes/functions.php:1031
+msgid "Are you a 18+ valid medical marijuana patient?"
+msgstr "هل أنت مريض مرخص بتناول الماريجوانا الطبية ويبلغ من العمر 18 سنة أو أكثر؟"
+
+#: includes/admin/premium/settings-premium.php:45
+#: includes/admin/premium/settings-premium.php:51
+#: includes/functions.php:513
+#: includes/functions.php:524
+msgid "Yes"
+msgstr "نعم"
+
+#: includes/admin/premium/settings-premium.php:46
+#: includes/admin/premium/settings-premium.php:52
+#: includes/admin/premium/settings-premium.php:64
+#: includes/functions.php:535
+#: includes/functions.php:537
+#: includes/functions.php:545
+#: includes/functions.php:547
+msgid "No"
+msgstr "لا"
+
+#: includes/admin/premium/settings-premium.php:47
+#: includes/functions.php:643
+msgid ""
+"Sorry, you must be 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"عذرًا، يجب أن تكون عمر 18 عامًا أو أكثر لتكون مؤهلاً كمريض مرخص بالحشيش "
+"الطبي للدخول إلى هذا الموقع."
+
+#: includes/admin/premium/settings-premium.php:50
+#: includes/functions.php:1021
+#: includes/functions.php:1032
+msgid "Are you 21+ or a 18+ valid medical marijuana patient?"
+msgstr "هل أنت 21+ أو مريض مرخص بالحشيش الطبي يبلغ من العمر 18+؟"
+
+#: includes/admin/premium/settings-premium.php:53
+#: includes/functions.php:644
+msgid ""
+"Sorry, you must be 21 or over, or 18 years or over valid medical marijuana "
+"patient, to enter this website."
+msgstr ""
+"عذرًا، يجب أن تكون عمر 21 عامًا أو أكثر، أو مريض مرخص بالحشيش الطبي يبلغ من "
+"العمر 18+ للدخول إلى هذا الموقع."
+
+#: includes/admin/premium/settings-premium.php:56
+#: includes/admin/premium/settings-premium.php:57
+#: includes/admin/premium/settings-premium.php:58
+#: includes/admin/premium/settings-premium.php:59
+#: includes/admin/premium/settings-premium.php:162
+#: includes/admin/premium/settings-premium.php:174
+#: includes/functions.php:584
+msgid "Your text here"
+msgstr "نصك هنا"
+
+#: includes/admin/premium/settings-premium.php:62
+#: includes/functions.php:1023
+#: includes/functions.php:1034
+msgid "Enter your birth date to continue."
+msgstr "أدخل تاريخ ميلادك للمتابعة."
+
+#: includes/admin/premium/settings-premium.php:63
+#: includes/functions.php:515
+#: includes/functions.php:526
+msgid "Enter"
+msgstr "ادخل"
+
+#: includes/admin/premium/settings-premium.php:65
+msgid "You must be over 21 to enter this site."
+msgstr "يجب أن يكون عمرك أكثر من 21 للدخول إلى هذا الموقع."
+
+#: includes/admin/premium/settings-premium.php:81
+msgid "Enter text to validate an age..."
+msgstr "أدخل نص للتحقق من العمر..."
+
+#: includes/admin/premium/settings-premium.php:97
+msgid "Enter text to validate..."
+msgstr "أدخل نص للتحقق..."
+
+#: includes/admin/premium/settings-premium.php:113
+msgid "Enter text to not validate..."
+msgstr "أدخل نصًا لعدم التحقق..."
+
+#: includes/admin/premium/settings-premium.php:128
+msgid "Enter text for error message..."
+msgstr "أدخل نص لرسالة الخطأ..."
+
+#: includes/admin/premium/settings-premium.php:186
+msgid "Return Visitor Cookie"
+msgstr "كوكيز الزائر العائد"
+
+#: includes/admin/premium/settings-premium.php:190
+msgid "Show “Remember Me” checkbox"
+msgstr "عرض خانة “تذكرني”"
+
+#: includes/admin/premium/settings-premium.php:205
+msgid "Overlay Color"
+msgstr "لون التراكب"
+
+#: includes/admin/premium/settings-premium.php:225
+msgid "Background Gradient"
+msgstr "تدرج الخلفية"
+
+#: includes/admin/premium/settings-premium.php:229
+#: includes/admin/premium/settings-premium.php:332
+msgid "Use background gradient"
+msgstr "استخدام تدرج الخلفية"
+
+#: includes/admin/premium/settings-premium.php:244
+#: includes/admin/premium/settings-premium.php:760
+msgid "Gradient End Color"
+msgstr "لون نهاية التدرج"
+
+#: includes/admin/premium/settings-premium.php:264
+#: includes/admin/premium/settings-premium.php:768
+msgid "Gradient Direction"
+msgstr "اتجاه التدرج"
+
+#: includes/admin/premium/settings-premium.php:267
+#: includes/admin/premium/settings-premium.php:370
+msgid "Center"
+msgstr "المنتصف"
+
+#: includes/admin/premium/settings-premium.php:268
+#: includes/admin/premium/settings-premium.php:371
+msgid "Top to Bottom"
+msgstr "من الأعلى إلى الأسفل"
+
+#: includes/admin/premium/settings-premium.php:269
+#: includes/admin/premium/settings-premium.php:372
+msgid "Bottom to Top"
+msgstr "من الأسفل إلى الأعلى"
+
+#: includes/admin/premium/settings-premium.php:270
+#: includes/admin/premium/settings-premium.php:373
+msgid "Left to Right"
+msgstr "من اليسار إلى اليمين"
+
+#: includes/admin/premium/settings-premium.php:271
+#: includes/admin/premium/settings-premium.php:374
+msgid "Right to Left"
+msgstr "من اليمين إلى اليسار"
+
+#: includes/admin/premium/settings-premium.php:272
+#: includes/admin/premium/settings-premium.php:375
+msgid "Top Left to Bottom Right"
+msgstr "من أعلى اليسار إلى أسفل اليمين"
+
+#: includes/admin/premium/settings-premium.php:273
+#: includes/admin/premium/settings-premium.php:376
+msgid "Top Right to Bottom Left"
+msgstr "من أعلى اليمين إلى أسفل اليسار"
+
+#: includes/admin/premium/settings-premium.php:288
+msgid "Overlay Box"
+msgstr "علبة التراكب"
+
+#: includes/admin/premium/settings-premium.php:292
+msgid "Show box around the form"
+msgstr "عرض صندوق حول النموذج"
+
+#: includes/admin/premium/settings-premium.php:308
+#: includes/admin/premium/settings-premium.php:798
+msgid "Box Background Color"
+msgstr "لون خلفية الصندوق"
+
+#: includes/admin/premium/settings-premium.php:328
+msgid "Box Gradient"
+msgstr "تدرج صندوق"
+
+#: includes/admin/premium/settings-premium.php:347
+#: includes/admin/premium/settings-premium.php:814
+msgid "Box Gradient End Color"
+msgstr "لون نهاية تدرج الصندوق"
+
+#: includes/admin/premium/settings-premium.php:367
+#: includes/admin/premium/settings-premium.php:822
+msgid "Box Gradient Direction"
+msgstr "اتجاه تدرج الصندوق"
+
+#: includes/admin/premium/settings-premium.php:391
+msgid "Styling"
+msgstr "التصميم"
+
+#: includes/admin/premium/settings-premium.php:395
+msgid "Use built-in CSS on the front-end (recommended)"
+msgstr "استخدام CSS المدمج في الواجهة الأمامية (موصى به)"
+
+#: includes/admin/premium/settings-premium.php:411
+msgid "Background Color Agree Button"
+msgstr "لون خلفية زر الموافقة"
+
+#: includes/admin/premium/settings-premium.php:437
+msgid "Background Color Disagree Button"
+msgstr "لون خلفية زر عدم الموافقة"
+
+#: includes/admin/premium/settings-premium.php:465
+msgid "Upload Logo"
+msgstr "تحميل الشعار"
+
+#: includes/admin/premium/settings-premium.php:469
+msgid "Add Logo"
+msgstr "إضافة شعار"
+
+#: includes/admin/premium/settings-premium.php:471
+msgid "Select Logo"
+msgstr "اختيار شعار"
+
+#: includes/admin/premium/settings-premium.php:473
+msgid "Clear Logo"
+msgstr "مسح الشعار"
+
+#: includes/admin/premium/settings-premium.php:495
+msgid "Adjust Level of Transparency "
+msgstr "ضبط مستوى الشفافية "
+
+#: includes/admin/premium/settings-premium.php:499
+msgid "60% Opacity"
+msgstr "عتامة 60%"
+
+#: includes/admin/premium/settings-premium.php:500
+msgid "65% Opacity"
+msgstr "عتامة 65%"
+
+#: includes/admin/premium/settings-premium.php:501
+msgid "70% Opacity"
+msgstr "عتامة 70%"
+
+#: includes/admin/premium/settings-premium.php:502
+msgid "75% Opacity"
+msgstr "عتامة 75%"
+
+#: includes/admin/premium/settings-premium.php:503
+msgid "80% Opacity"
+msgstr "عتامة 80%"
+
+#: includes/admin/premium/settings-premium.php:504
+msgid "85% Opacity"
+msgstr "عتامة 85%"
+
+#: includes/admin/premium/settings-premium.php:505
+msgid "90% Opacity"
+msgstr "عتامة 90%"
+
+#: includes/admin/premium/settings-premium.php:506
+msgid "95% Opacity"
+msgstr "عتامة 95%"
+
+#: includes/admin/premium/settings-premium.php:507
+msgid "100% Opacity"
+msgstr "عتامة 100%"
+
+#: includes/admin/premium/settings-premium.php:522
+msgid "18+ Medical/21+ Recreational"
+msgstr "تراخيص 18+ طبية / 21+ ترفيهية"
+
+#: includes/admin/premium/settings-premium.php:522
+#: includes/admin/premium/settings-premium.php:535
+#: includes/admin/premium/settings-premium.php:549
+#: includes/admin/settings.php:284
+#: includes/admin/settings.php:286
+#: includes/admin/settings.php:295
+#: includes/admin/settings.php:297
+#: includes/admin/settings.php:306
+#: includes/admin/settings.php:308
+#: includes/admin/settings.php:317
+#: includes/admin/settings.php:319
+#: includes/admin/settings.php:328
+#: includes/admin/settings.php:337
+#: includes/admin/settings.php:347
+msgid "Premium Screenshot"
+msgstr "لقطة شاشة مميزة"
+
+#: includes/admin/premium/settings-premium.php:535
+msgid "Free-form Custom Text"
+msgstr "نص مخصص حر"
+
+#: includes/admin/premium/settings-premium.php:549
+msgid "Birthdate"
+msgstr "تاريخ الميلاد"
+
+#: includes/admin/premium/settings-premium.php:551
+msgid "Verify Age over:"
+msgstr "تحقق من العمر فوق:"
+
+#: includes/admin/premium/settings-premium.php:568
+msgid "Show on all pages"
+msgstr "عرض على جميع الصفحات"
+
+#: includes/admin/premium/settings-premium.php:573
+msgid "Show on this page only"
+msgstr "عرض فقط على هذه الصفحة"
+
+#: includes/admin/premium/settings-premium.php:578
+msgid "Show everywhere except this page"
+msgstr "عرض في كل مكان ما عدا هذه الصفحة"
+
+#: includes/admin/premium/settings-premium.php:590
+msgid "Page "
+msgstr "الصفحة "
+
+#: includes/admin/premium/settings-premium.php:599
+msgid "— Select a Page —"
+msgstr "— اختر صفحة —"
+
+#: includes/admin/premium/settings-premium.php:631
+#: includes/admin/premium/settings-premium.php:633
+msgid "Blog Posts"
+msgstr "مشاركات المدونة"
+
+#: includes/admin/premium/settings-premium.php:637
+#: includes/admin/premium/settings-premium.php:639
+msgid "Product Pages"
+msgstr "صفحات المنتج"
+
+#: includes/admin/premium/settings-premium.php:644
+#: includes/admin/premium/settings-premium.php:646
+msgid "All WooCommerce Pages"
+msgstr "جميع صفحات ووكومرس"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Premium Options"
+msgstr "خيارات مميزة"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Select “free-form” above to show editable text fields."
+msgstr "اختر \"نموذج حر\" أعلاه لعرض حقول النص القابلة للتحرير."
+
+#: includes/admin/premium/settings-premium.php:663
+msgid "Free-Form Custom Text"
+msgstr "نص مخصص بالنموذج الحر"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Age Prompt"
+msgstr "موجه العمر"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Required question."
+msgstr "سؤال مطلوب."
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Yes Button Text"
+msgstr "نص زر نعم"
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Required to verify."
+msgstr "مطلوب للتحقق."
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "No Button Text"
+msgstr "نص زر لا"
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "Required to not verify."
+msgstr "مطلوب لعدم التحقق."
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Error Text"
+msgstr "نص الخطأ"
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Required. Appears when user clicks no button."
+msgstr "مطلوب. يظهر عندما ينقر المستخدم على زر لا."
+
+#: includes/admin/premium/settings-premium.php:702
+msgid "User Experience"
+msgstr "تجربة المستخدم"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "Enable Return Visitor Cookie"
+msgstr "تمكين ملف تعريف الارتباط للزائر العائد"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "A return visitor cookie allows verified visitors to skip next time."
+msgstr ""
+"ملف تعريف الارتباط للزائر العائد يسمح للزائرين الموثوق بهم بتخطي الخطوة "
+"التالية في المرات القادمة."
+
+#: includes/admin/premium/settings-premium.php:716
+msgid "Buttons"
+msgstr "الأزرار"
+
+#: includes/admin/premium/settings-premium.php:722
+msgid "Yes Button Color"
+msgstr "لون زر نعم"
+
+#: includes/admin/premium/settings-premium.php:722
+#: includes/admin/premium/settings-premium.php:730
+msgid ""
+"SMARTtext automatically sets text color to black or white based on button "
+"color."
+msgstr "SMARTtext يضبط تلقائيًا لون النص إلى الأسود أو الأبيض بناءً على لون الزر."
+
+#: includes/admin/premium/settings-premium.php:730
+msgid "No Button Color"
+msgstr "لون زر لا"
+
+#: includes/admin/premium/settings-premium.php:738
+msgid "Background"
+msgstr "الخلفية"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid ""
+"SMARTtext automatically sets text color to black or white based on "
+"background color."
+msgstr "SMARTtext يضبط تلقائيًا لون النص إلى الأسود أو الأبيض بناءً على لون الخلفية."
+
+#: includes/admin/premium/settings-premium.php:752
+#: includes/admin/premium/settings-premium.php:806
+msgid "Gradient"
+msgstr "تدرج لوني"
+
+#: includes/admin/premium/settings-premium.php:752
+msgid "Blend the overlay background between two colors."
+msgstr "امزج خلفية التراكب بين لونين."
+
+#: includes/admin/premium/settings-premium.php:760
+msgid "The second color used when background gradient is enabled."
+msgstr "اللون الثاني المستخدم عند تفعيل تدرج الخلفية."
+
+#: includes/admin/premium/settings-premium.php:768
+msgid "Choose how the gradient flows across the background."
+msgstr "اختر كيفية تدفق التدرج عبر الخلفية."
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Background Opacity"
+msgstr "شفافية الخلفية"
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Hide content 60-100%."
+msgstr "اخف المحتوى بنسبة 60-100%."
+
+#: includes/admin/premium/settings-premium.php:784
+msgid "Box"
+msgstr "مربع"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Form Box"
+msgstr "مربع النموذج"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Place the modal content inside a centered box layout."
+msgstr "ضع محتوى النموذج داخل تخطيط مربع مركزي."
+
+#: includes/admin/premium/settings-premium.php:798
+msgid "Sets the inner box background when box mode is enabled."
+msgstr "يضبط خلفية الصندوق الداخلي عند تفعيل وضع الصندوق."
+
+#: includes/admin/premium/settings-premium.php:806
+msgid "Blend the box panel between two colors."
+msgstr "ادمج لوحة الصندوق بين لونين."
+
+#: includes/admin/premium/settings-premium.php:814
+msgid "The second color used when box gradient is enabled."
+msgstr "اللون الثاني المستخدم عند تفعيل تدرج اللون في الصندوق."
+
+#: includes/admin/premium/settings-premium.php:822
+msgid "Choose how the gradient flows across the box."
+msgstr "اختر كيف يتدفق التدرج عبر الصندوق."
+
+#: includes/admin/premium/settings-premium.php:830
+msgid "Branding"
+msgstr "العلامة التجارية"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Add Headline"
+msgstr "إضافة عنوان رئيسي"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Optional headline centers below logo."
+msgstr "العنوان الاختياري يكون في وسط الشعار."
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Add Text Below Headline"
+msgstr "إضافة نص أسفل العنوان"
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Optional body copy."
+msgstr "نص الجسم الاختياري."
+
+#: includes/admin/premium/settings-premium.php:856
+msgid "Your Logo"
+msgstr "شعارك"
+
+#: includes/admin/premium/settings-premium.php:856
+msgid ""
+"Upload any size or dimension. The responsive display resizes it to 650 "
+"pixels max tall or wide."
+msgstr ""
+"قم بتحميل أي حجم أو أبعاد. يعيد العرض المستجيب تحجيمه إلى 650 بكسل كحد أقصى "
+"للطول أو العرض."
+
+#: includes/admin/settings.php:18
+msgid "WP Rocket cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ WP Rocket."
+
+#: includes/admin/settings.php:24
+msgid "W3TC cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ W3TC."
+
+#: includes/admin/settings.php:30
+msgid "WP Super Cache cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ WP Super Cache."
+
+#: includes/admin/settings.php:36
+msgid "WP Fastest Cache cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ WP Fastest Cache."
+
+#: includes/admin/settings.php:43
+msgid "WPEngine cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ WPEngine."
+
+#: includes/admin/settings.php:49
+msgid "SiteGround Optimizer cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ SiteGround Optimizer."
+
+#: includes/admin/settings.php:55
+msgid "LiteSpeed cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ LiteSpeed."
+
+#: includes/admin/settings.php:61
+msgid "Cache Enabler cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ Cache Enabler."
+
+#: includes/admin/settings.php:67
+msgid "Pagely cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ Pagely."
+
+#: includes/admin/settings.php:73
+msgid "Autoptimize cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ Autoptimize."
+
+#: includes/admin/settings.php:79
+msgid "Comet Cache cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ Comet Cache."
+
+#: includes/admin/settings.php:85
+msgid "Hummingbird cache cleared."
+msgstr "تم مسح ذاكرة التخزين المؤقتة لـ Hummingbird."
+
+#: includes/admin/settings.php:89
+msgid "NOTE: Please be sure to clear any page caches for new settings to display."
+msgstr "ملاحظة: يرجى التأكد من مسح أي ذاكرة مؤقتة للصفحات لعرض الإعدادات الجديدة."
+
+#: includes/admin/settings.php:99
+msgid "Easy Marijuana Age Verify banner"
+msgstr "شريط التحقق من عمر الماريجوانا بسهولة"
+
+#: includes/admin/settings.php:102
+msgid " Marijuana Age Verify"
+msgstr " التحقق من عمر الماريجوانا"
+
+#: includes/admin/settings.php:117
+msgid ""
+"<strong>Clear Cookie:</strong> Popup stopped after clicking yes? <br/> "
+"Detects if a cookie is set in your browser from this plugin and clears it. "
+"Refresh this page to recheck."
+msgstr ""
+"<strong>مسح الكوكيز:</strong> توقفت النافذة المنبثقة بعد النقر على نعم؟ "
+"<br/> يكتشف إذا تم تعيين كوكيز في متصفحك من هذا الإضافة ويقوم بمسحها. قم "
+"بتحديث الصفحة لإعادة التحقق."
+
+#: includes/admin/settings.php:119
+msgid "No Cookie Set"
+msgstr "لم يتم تعيين كوكيز"
+
+#: includes/admin/settings.php:131
+msgid ""
+"Need Help? Click the  icon on the bottom right to search our <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Knowledge Base</a> or to send an email for "
+"Premium support."
+msgstr ""
+"هل تحتاج إلى مساعدة؟ انقر على الرمز في الأسفل يمينًا للبحث في <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">قاعدة المعرفة</a> أو لإرسال بريد إلكتروني للدعم "
+"المميز."
+
+#: includes/admin/settings.php:132
+msgid ""
+"Read: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">My age window isn't showing.</a>"
+msgstr ""
+"اقرأ: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">نافذة التحقق من العمر لا تظهر.</a>"
+
+#: includes/admin/settings.php:133
+msgid ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">Contact "
+"Us</a> to report a bug, suggest a feature, ask a billing question, or "
+"request Premium support."
+msgstr ""
+"<a href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">اتصل "
+"بنا</a> للإبلاغ عن خطأ، اقتراح ميزة، طرح سؤال حول الفوترة، أو طلب دعم مميز."
+
+#: includes/admin/settings.php:134
+msgid ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">Visit "
+"The Support Center</a> for more."
+msgstr ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">قم "
+"بزيارة مركز الدعم</a> للمزيد."
+
+#: includes/admin/settings.php:135
+msgid ""
+"Use Age Verify with Pretty Simple Popup for <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">perfectly timed marketing popups</a>."
+msgstr ""
+"استخدم التحقق من العمر مع نافذة منبثقة بسيطة جدًا لـ <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">نوافذ تسويق منسقة بشكل مثالي</a>."
+
+#: includes/admin/settings.php:136
+msgid ""
+"Like this? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Rate This Plugin</a>"
+msgstr ""
+"هل أعجبك؟ <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">قم بتقييم هذا الإضافة</a>"
+
+#: includes/admin/settings.php:138
+msgid ""
+"Developed and supported by <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> in San Diego, CA"
+msgstr ""
+"تم تطويره ودعمه بواسطة <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 ستار بلامجز</a> في سان دييغو، كاليفورنيا"
+
+#: includes/admin/settings.php:178
+msgid "Require verification for"
+msgstr "يتطلب التحقق من"
+
+#: includes/admin/settings.php:182
+msgid "Entire site"
+msgstr "الموقع بأكمله"
+
+#: includes/admin/settings.php:187
+msgid "Specific content"
+msgstr "محتوى محدد"
+
+#: includes/admin/settings.php:204
+msgid "Enable verification:"
+msgstr "تمكين التحقق:"
+
+#: includes/admin/settings.php:208
+msgid "Disable"
+msgstr "تعطيل"
+
+#: includes/admin/settings.php:213
+msgid "[TESTING MODE] Admins only"
+msgstr "[وضع الاختبار] للمسؤولين فقط"
+
+#: includes/admin/settings.php:218
+msgid "Show except to logged-in users"
+msgstr "عرض ما عدا للمستخدمين المسجلين"
+
+#: includes/admin/settings.php:223
+msgid "Show to all visitors"
+msgstr "عرض لجميع الزوار"
+
+#: includes/admin/settings.php:236
+msgid "Show on all pages (upgrade to unlock)"
+msgstr "عرض على جميع الصفحات (ترقية لفتح الميزة)"
+
+#: includes/admin/settings.php:241
+msgid "Show on this page only (upgrade to unlock)"
+msgstr "عرض على هذه الصفحة فقط (ترقية لفتح الميزة)"
+
+#: includes/admin/settings.php:246
+msgid "Show everywhere except this page (upgrade to unlock)"
+msgstr "عرض في كل مكان ما عدا هذه الصفحة (ترقية لفتح الميزة)"
+
+#: includes/admin/settings.php:250
+msgid "Upgrade for page targeting"
+msgstr "ترقية لاستهداف الصفحة"
+
+#: includes/admin/settings.php:276
+msgid "Verify For:"
+msgstr "التحقق من لـ:"
+
+#: includes/admin/settings.php:280
+msgid "21+ Recreational"
+msgstr "21+ ترفيهي"
+
+#: includes/admin/settings.php:283
+#: includes/admin/settings.php:294
+#: includes/admin/settings.php:305
+#: includes/admin/settings.php:316
+#: includes/admin/settings.php:346
+msgid "Standard Screenshot"
+msgstr "لقطة شاشة قياسية"
+
+#: includes/admin/settings.php:291
+msgid "19+ Recreational"
+msgstr "19+ ترفيهي"
+
+#: includes/admin/settings.php:302
+msgid "18+ Recreational"
+msgstr "18+ ترفيهي"
+
+#: includes/admin/settings.php:313
+msgid "18+ Medical"
+msgstr "18+ طبي"
+
+#: includes/admin/settings.php:327
+msgid "18+ Medical/21+ Recreational (upgrade to unlock)"
+msgstr "18+ طبي / 21+ ترفيهي (ترقية لفتح الميزة)"
+
+#: includes/admin/settings.php:335
+msgid "Free-form Custom Text (upgrade to unlock)"
+msgstr "نص مخصص بشكل حر (ترقية لفتح الميزة)"
+
+#: includes/admin/settings.php:344
+msgid "Birthdate (upgrade to unlock)"
+msgstr "تاريخ الميلاد (ترقية لفتح الميزة)"
+
+#: includes/admin/settings.php:359
+msgid "years old or older to view this site"
+msgstr "سن 18 سنة أو أكثر لعرض هذا الموقع"
+
+#: includes/admin/settings.php:370
+msgid "minutes"
+msgstr "دقائق"
+
+#: includes/admin/settings.php:383
+msgid "Membership"
+msgstr "العضوية"
+
+#: includes/admin/settings.php:387
+msgid "Require users to confirm their age before registering to this site"
+msgstr "يتطلب من المستخدمين تأكيد عمرهم قبل التسجيل في هذا الموقع"
+
+#: includes/admin/settings.php:441
+msgid "Confirm \"Enable Verification\" settings before showing popup"
+msgstr "قم بتأكيد إعدادات \"تمكين التحقق\" قبل عرض النافذة المنبثقة"
+
+#: includes/admin/settings.php:468
+msgid "Date dropdowns"
+msgstr "قوائم التحديد للتاريخ"
+
+#: includes/admin/settings.php:469
+msgid "Inputs"
+msgstr "مدخلات"
+
+#: includes/admin/settings.php:470
+msgid "Confirm checkbox"
+msgstr "مربع الاختيار للتأكيد"
+
+#: includes/functions.php:339
+#, php-format
+msgid "You must be over %d to enter this site."
+msgstr "يجب أن تكون أكبر من %d للدخول إلى هذا الموقع."
+
+#: includes/functions.php:355
+msgid "January"
+msgstr "يناير"
+
+#: includes/functions.php:356
+msgid "February"
+msgstr "فبراير"
+
+#: includes/functions.php:357
+msgid "March"
+msgstr "مارس"
+
+#: includes/functions.php:358
+msgid "April"
+msgstr "أبريل"
+
+#: includes/functions.php:359
+msgid "May"
+msgstr "مايو"
+
+#: includes/functions.php:360
+msgid "June"
+msgstr "يونيو"
+
+#: includes/functions.php:361
+msgid "July"
+msgstr "يوليو"
+
+#: includes/functions.php:362
+msgid "August"
+msgstr "أغسطس"
+
+#: includes/functions.php:363
+msgid "September"
+msgstr "سبتمبر"
+
+#: includes/functions.php:364
+msgid "October"
+msgstr "أكتوبر"
+
+#: includes/functions.php:365
+msgid "November"
+msgstr "نوفمبر"
+
+#: includes/functions.php:366
+msgid "December"
+msgstr "ديسمبر"
+
+#: includes/functions.php:372
+#: includes/functions.php:373
+msgid "Month"
+msgstr "الشهر"
+
+#: includes/functions.php:379
+#: includes/functions.php:380
+msgid "Day"
+msgstr "اليوم"
+
+#: includes/functions.php:386
+#: includes/functions.php:387
+msgid "Year"
+msgstr "السنة"
+
+#: includes/functions.php:552
+#: includes/functions.php:639
+#: includes/functions.php:722
+msgid "Sorry, you must be of legal age to enter this website."
+msgstr "عذرًا، يجب أن تكون بالسن القانونية للدخول إلى هذا الموقع."
+
+#: includes/functions.php:595
+msgid "Enter Site &raquo;"
+msgstr "دخول الموقع &raquo;"
+
+#: includes/functions.php:625
+msgid "Remember me next time"
+msgstr "تذكرني في المرة القادمة"
+
+#: includes/functions.php:726
+msgid ""
+"Sorry, you must be an 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"عذرًا، يجب أن تكون مريضًا قانونيًا يستخدم الماريجوانا الطبية لعمر 18 سنة أو "
+"أكثر للدخول إلى هذا الموقع."
+
+#: includes/functions.php:727
+msgid ""
+"Sorry, you must be 21 or over, or an 18 years or over valid medical "
+"marijuana patient, to enter this website."
+msgstr ""
+"عذرًا، يجب أن تكون 21 سنة أو أكثر، أو مريضًا قانونيًا يستخدم الماريجوانا "
+"الطبية لعمر 18 سنة أو أكثر، للدخول إلى هذا الموقع."
+
+#: includes/functions.php:790
+msgid "I am at least 21 years old"
+msgstr "أنا أبلغ من العمر على الأقل 21 سنة"
+
+#: includes/functions.php:808
+msgid "Please confirm your age"
+msgstr "يرجى تأكيد عمرك"
+
+#: includes/functions.php:830
+msgid "Unlock Premium Features"
+msgstr "افتح الميزات المميزة"
+
+#: includes/functions.php:844
+msgid "Upgrade Now"
+msgstr "التحديث الآن"
+
+#: includes/functions.php:849
+msgid "Start 14-Day Free Trial"
+msgstr "ابدأ تجربة مجانية لمدة 14 يومًا"
+
+#: includes/functions.php:849
+msgid "(risk free, no credit card)"
+msgstr "(بدون مخاطر، لا حاجة لبطاقة ائتمان)"
+
+#: includes/functions.php:852
+msgid "(On Free Trial Now)"
+msgstr "(جارٍ استخدام النسخة التجريبية المجانية الآن)"
+
+#: includes/functions.php:863
+msgid "Include / exclude certain pages"
+msgstr "تضمين / استبعاد صفحات معينة"
+
+#: includes/functions.php:864
+msgid "Customizable"
+msgstr "قابل للتخصيص"
+
+#: includes/functions.php:864
+msgid "Free-form text option"
+msgstr "خيار النص الحر"
+
+#: includes/functions.php:865
+msgid "Translation Ready"
+msgstr "جاهز للترجمة"
+
+#: includes/functions.php:865
+msgid "Self translate to any language"
+msgstr "قم بالترجمة الذاتية لأي لغة"
+
+#: includes/functions.php:866
+msgid "Brand It"
+msgstr "علامتك التجارية"
+
+#: includes/functions.php:866
+msgid "Your logo and colors"
+msgstr "شعارك وألوانك"
+
+#: includes/functions.php:867
+msgid "Design Background"
+msgstr "خلفية التصميم"
+
+#: includes/functions.php:867
+msgid "Set transparency and color"
+msgstr "ضبط الشفافية واللون"
+
+#: includes/functions.php:868
+msgid "Welcome Message"
+msgstr "رسالة الترحيب"
+
+#: includes/functions.php:868
+msgid "Add a welcome message"
+msgstr "إضافة رسالة ترحيب"
+
+#: includes/functions.php:869
+msgid "Remember Visitors"
+msgstr "تذكر الزائرين"
+
+#: includes/functions.php:869
+msgid "\"Remember me\" checkbox"
+msgstr "\"تذكرني\" مربع الاختيار"
+
+#: includes/functions.php:870
+msgid "Med/Rec Combo"
+msgstr "مزيج med/Rec"
+
+#: includes/functions.php:870
+msgid "18+ med with 21+ rec"
+msgstr "med +18 مع rec +21"
+
+#: includes/functions.php:871
+msgid "Premium Support"
+msgstr "الدعم المميز"
+
+#: includes/functions.php:871
+msgid "World-class email support from the U.S."
+msgstr "دعم البريد الإلكتروني من الطراز العالمي من الولايات المتحدة"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid "Hey %1$s"
+msgstr "مرحبًا %1$s"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid ""
+"To enjoy all of the features of this plugin and future updates, Five Star "
+"Plugins needs to connect %4$s to Freemius."
+msgstr ""
+"للاستفادة من جميع ميزات هذا البرنامج والإصدارات المستقبلية، يحتاج Five Star "
+"Plugins إلى ربط %4$s بـ Freemius."
+
+#: includes/premium/functions-premium.php:388
+msgid "You must be 21 years old to visit this site."
+msgstr "يجب أن تبلغ من العمر 21 عامًا لزيارة هذا الموقع."
+
+#: includes/premium/functions-premium.php:401
+msgid "Please verify your age"
+msgstr "يرجى التحقق من عمرك"

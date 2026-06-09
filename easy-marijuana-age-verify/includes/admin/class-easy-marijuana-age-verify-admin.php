@@ -192,7 +192,7 @@ final class Easy_Marijuana_Age_Verify_Admin {
         // AJAX Section
         add_settings_field(
             '_emav_settings_ajax',
-            __( 'Realtime Settings Check', 'easy-marijuana-age-verify' ) . ' <span class="dashicons dashicons-info emavoptionshovertip" title="' . __( 'May help caching issues, adds delay to popup.', 'easy-marijuana-age-verify' ) . '"></span>' . $this->small( '(<a href="https://support.5starplugins.com/article/202-realtime-settings-check" target="_blank">Learn more</a>)' ),
+            __( 'Realtime Settings Check', 'easy-marijuana-age-verify' ) . ' <span class="dashicons dashicons-info emavoptionshovertip" title="' . __( 'May help caching issues, adds delay to popup.', 'easy-marijuana-age-verify' ) . '"></span>' . $this->small( '(<a href="https://support.5starplugins.com/hc/670402815/94/realtime-settings-check?category_id=26" target="_blank">Learn more</a>)' ),
             'emav_settings_callback_ajax_check',
             'easy-marijuana-age-verify',
             'emav_settings_general'

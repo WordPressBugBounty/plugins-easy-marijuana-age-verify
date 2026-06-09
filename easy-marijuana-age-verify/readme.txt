@@ -1,8 +1,8 @@
 === Marijuana Age Verify ===
 Contributors: 5starplugins
 Tags: cannabis, marijuana, dispensary, age verify, age verification
-Tested up to: 6.8.1
-Stable tag: 2.0.4
+Tested up to: 7.0
+Stable tag: 2.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,6 +67,9 @@ Marijuana Age Verify is developed and supported by **5 Star Plugins in the Unite
 
 >Premium Benefits:
 
+>* **Birthdate Verification**
+>* **Box Design**
+>* **Gradient Color Options**
 >* **Page Targeting**
 >* **Translation Ready**
 >* **Edit All Text**
@@ -155,20 +158,28 @@ If your question is not listed here [visit our knowledge base.](https://support.
 6. Design options and additional settings in WordPress Dashboard - Premium
 
 == Upgrade Notice ==
-Update! Updated Freemius SDK to latest version for best experience and performance
+Please update! Added birthdate verification, new background and box gradient color options, box display option, WordPress 7.0 compatibility, and an updated Freemius SDK.
 
 == Changelog ==
+= 2.0.5 =
+* Added premium birthdate verification option
+* Added premium box display option
+* Added premium gradient color options for the background and box
+* Tested up to WordPress 7.x
+* Updated Freemius SDK to v2.13.1
+* Updated language translations
+
 = 2.0.4 =
-* Fixed error with saving due to page targeting option not checked properly.
+* Fixed error with saving due to page targeting option not checked properly
 
 = 2.0.3 =
-* Updated Freemius SDK to latest version for best experience and performance
+* Updated Freemius SDK to v2.12.2 for best experience and performance
 
 = 2.0.2 =
-* Fix Blog Index page targeting issue (premium version).
+* Fix Blog Index page targeting issue (premium version)
 
 = 2.0.1 =
-* Moved H1 to H2 to prevent SEO Audit issues.
+* Moved H1 to H2 to prevent SEO Audit issues
 
 = 2.0 =
 * Improved page targeting to include blog posts option
@@ -195,79 +206,79 @@ Update! Updated Freemius SDK to latest version for best experience and performan
 * Updated: Freemius SDK to v2.5.10
 
 = 1.5.1 =
-* Updated: Updated Freemius SDK to privacy-focused v2.5.5, and bump WP Tested version to 6.2.
+* Updated: Updated Freemius SDK to privacy-focused v2.5.5, and bump WP Tested version to 6.2
 
 = 1.4 =
 * Fixed: Realtime Check fix
-* Updated: Admin UI and display improvements, Freemius SDK to latest, and bump WP compatibility version to latest.
+* Updated: Admin UI and display improvements, Freemius SDK to latest, and bump WP compatibility version to latest
 
 = 1.3.4 =
-* Updated: Fixes cookie path, fixes clear cookie button.
+* Updated: Fixes cookie path, fixes clear cookie button
 
 = 1.3.3 =
-* Updated: Small bug fixes skipping cookie when admin. Updates Freemius SDK with improvements and security fixes, and bump WP compatibility version to 5.9.1.
+* Updated: Small bug fixes skipping cookie when admin. Updates Freemius SDK with improvements and security fixes, and bump WP compatibility version to 5.9.1
 
 = 1.3.2 =
-* Updated: Small bug fixes in admin. Freemius SDK with improvements and security fixes, and bump WP compatibility version to 5.9.1.
+* Updated: Small bug fixes in admin. Freemius SDK with improvements and security fixes, and bump WP compatibility version to 5.9.1
 
 = 1.3.1 =
-* Updated: Freemius SDK with improvements and security fixes, and bump WP compatibility version to 5.9.1.
+* Updated: Freemius SDK with improvements and security fixes, and bump WP compatibility version to 5.9.1
 
 = 1.3 =
-* Update: Improved instant overlay display, skipping the cache bypass check; Added an option to the enable cache-bypass check; Added Clear Cookie button in Settings.
+* Update: Improved instant overlay display, skipping the cache bypass check; Added an option to the enable cache-bypass check; Added Clear Cookie button in Settings
 
 = 1.2.1 =
-* Fixed: Premium only - fixed Free-Form header visibility bug.
+* Fixed: Premium only - fixed Free-Form header visibility bug
 
 = 1.2 =
-* Added: Cache clearing on save (for specific caching systems), Admin-Only Test Mode, Free-form text editing to Premium version.
-* Updated: Copy and FAQs, plugin settings improvements.
-* Fixed: Fix small bugs, improved CSS tweaks, responsive display improvements.
+* Added: Cache clearing on save (for specific caching systems), Admin-Only Test Mode, Free-form text editing to Premium version
+* Updated: Copy and FAQs, plugin settings improvements
+* Fixed: Fix small bugs, improved CSS tweaks, responsive display improvements
 
 = 1.1.1 =
-* Updated: Updated Freemius SDK, bump compatibility to 5.7.
+* Updated: Updated Freemius SDK, bump compatibility to 5.7
 
 = 1.1 =
-* Updated: Updated Freemius SDK, responsive CSS tweaks.
+* Updated: Updated Freemius SDK, responsive CSS tweaks
 
 = 1.0.12 =
-* Fixed: Improve Logo centering for better theme compatibility, and ADA via adding alt text to Premium version logo image.
+* Fixed: Improve Logo centering for better theme compatibility, and ADA via adding alt text to Premium version logo image
 
 = 1.0.11 =
-* Fixed: Improve ADA via .focus() when showing popup.
+* Fixed: Improve ADA via .focus() when showing popup
 
 = 1.0.10 =
-* Fixed: Fix small bugs, improved responsive CSS tweaks, updated copy and FAQs, updated Freemius SDK.
+* Fixed: Fix small bugs, improved responsive CSS tweaks, updated copy and FAQs, updated Freemius SDK
 
 = 1.0.9 =
-* Fixed: Fix reported sporadic Yes button admin-ajax errors preventing dismissal of the overlay, especially in Safari.
+* Fixed: Fix reported sporadic Yes button admin-ajax errors preventing dismissal of the overlay, especially in Safari
 
 = 1.0.8 =
-* Fixed: Headline text field now fixed, sorry about that issue.
-* Fixed: Removed default disclaimer text due to the new field being displayed immediately. We will add some default text that you can review before saving/displaying soon.
+* Fixed: Headline text field now fixed, sorry about that issue
+* Fixed: Removed default disclaimer text due to the new field being displayed immediately. We will add some default text that you can review before saving/displaying soon
 
 = 1.0.7 =
-* Fixed: Premium JS display logic issue resolved, Premium version confirmation is now instant - no ajax delay.
-* Fixed: New JS based body CSS to resolve scroll issues after confirmation.
+* Fixed: Premium JS display logic issue resolved, Premium version confirmation is now instant - no ajax delay
+* Fixed: New JS based body CSS to resolve scroll issues after confirmation
 
 = 1.0.6 =
-* Fixed: Improved JS-based display and cookie logic to resolve issues with cached scripts.
-* Added: Customizable age headline and disclaimer text.
+* Fixed: Improved JS-based display and cookie logic to resolve issues with cached scripts
+* Added: Customizable age headline and disclaimer text
 
 = 1.0.5 =
-* Fix: Fix small jQuery issues with some themes, and revamped CSS classes, please clear page and CDN caches, and adjusted media buttons.
+* Fix: Fix small jQuery issues with some themes, and revamped CSS classes, please clear page and CDN caches, and adjusted media buttons
 
 = 1.0.4 =
-* Fix: Caching of non-overlay page fixed, page/server/CDN cache should be cleared on activation. H1/H2 size and color issues fixed. Fix logo max-height issue.
+* Fix: Caching of non-overlay page fixed, page/server/CDN cache should be cleared on activation. H1/H2 size and color issues fixed. Fix logo max-height issue
 
 = 1.0.3 =
-* Fix: Caching of non-overlay page fixed, page/server/CDN cache should be cleared on activation. H1/H2 size and color issues fixed. Fix logo max-height issue.
+* Fix: Caching of non-overlay page fixed, page/server/CDN cache should be cleared on activation. H1/H2 size and color issues fixed. Fix logo max-height issue
 
 = 1.0.2 =
-* Fix: jquery issue.
+* Fix: jquery issue
 
 = 1.0.1 =
-* Added: remove logo button. Added introductory offer for Premium version.
+* Added: remove logo button. Added introductory offer for Premium version
 
 = 1.0 =
-* Initial release.
+* Initial release

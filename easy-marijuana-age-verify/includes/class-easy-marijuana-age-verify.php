@@ -22,7 +22,7 @@ final class Easy_Marijuana_Age_Verify {
      *
      * @since 0.2.6
      */
-    const VERSION = '2.0.4';
+    const VERSION = '2.0.5';
 
     /**
      * The only instance of this class.
@@ -266,13 +266,18 @@ final class Easy_Marijuana_Age_Verify {
             return;
         }
         $overlay_style = 'style="display:none;background: rgba(00, 00, 00, 0.85);"';
+        $overlay_class = 'emav-overlay-panel';
+        $panel_style = '';
         if ( function_exists( 'emav_premium_overlay_style' ) ) {
-            $bg_clr = ltrim( emav_get_overlay_color(), '#' );
-            $split_bg_clr = str_split( $bg_clr, 2 );
-            $r_bg_clr = hexdec( $split_bg_clr[0] );
-            $g_bg_clr = hexdec( $split_bg_clr[1] );
-            $b_bg_clr = hexdec( $split_bg_clr[2] );
-            $overlay_style = 'style="display:none;background:rgba(' . $r_bg_clr . ', ' . $g_bg_clr . ', ' . $b_bg_clr . ', ' . emav_get_transparency() . ' );"';
+            $overlay_style = 'style="display:none;' . esc_attr( trim( str_replace( 'style=', '', trim( emav_premium_overlay_style() ) ), "'\"" ) ) . '"';
+            if ( function_exists( 'emav_overlay_box_is_enabled' ) && emav_overlay_box_is_enabled() ) {
+                $overlay_class .= ' emav-overlay-panel-boxed';
+                if ( function_exists( 'emav_box_gradient_is_enabled' ) && emav_box_gradient_is_enabled() ) {
+                    $panel_style = ' style="background:' . esc_attr( emav_get_box_gradient_css() ) . ';"';
+                } else {
+                    $panel_style = ' style="background-color:' . esc_attr( emav_get_box_background_color() ) . ';"';
+                }
+            }
         }
         ?>
 
@@ -282,7 +287,11 @@ final class Easy_Marijuana_Age_Verify {
 			<?php 
         do_action( 'emav_before_modal' );
         ?>
-				<div id="emav-overlay">
+				<div id="emav-overlay" class="<?php 
+        echo esc_attr( $overlay_class );
+        ?>"<?php 
+        echo $panel_style;
+        ?>>
 				<?php 
         do_action( 'emav_before_form' );
         ?>
@@ -319,7 +328,7 @@ final class Easy_Marijuana_Age_Verify {
         if ( !emav_content_is_restricted() ) {
             return $content;
         }
-        return sprintf( apply_filters( 'emav_restricted_content_message', __( 'You must be %1s years old to view this content.', $this->plugin_name ) . ' <a href="%2s">' . __( 'Please verify your age', $this->plugin_name, $this->plugin_name ) . '</a>.' ), esc_html( emav_get_minimum_age() ), esc_url( get_permalink( get_the_ID() ) ) );
+        return sprintf( apply_filters( 'emav_restricted_content_message', __( 'You must be %1s years old to view this content.', $this->plugin_name ) . ' <a href="%2s">' . __( 'Please verify your age', $this->plugin_name ) . '</a>.' ), esc_html( emav_get_minimum_age() ), esc_url( get_permalink( get_the_ID() ) ) );
     }
 
     /**

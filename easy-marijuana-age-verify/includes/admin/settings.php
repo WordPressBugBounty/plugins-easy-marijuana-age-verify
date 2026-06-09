@@ -15,78 +15,78 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 			// WP Rocket
 			if ( function_exists( 'rocket_clean_domain' ) ) {
 			  rocket_clean_domain();
-			  echo "<div class='notice notice-success is-dismissible'><p>WP Rocket cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'WP Rocket cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 				 $emav_cleared = TRUE;
 			}
 			// W3 Total Cache : w3tc
 			if ( function_exists( 'w3tc_pgcache_flush' ) ) {
 			  w3tc_pgcache_flush();
-			  echo "<div class='notice notice-success is-dismissible'><p>W3TC cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'W3TC cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			  $emav_cleared = TRUE;
 			}
 			// WP Super Cache : wp-super-cache
 			if ( function_exists( 'wp_cache_clear_cache' ) ) {
 			  wp_cache_clear_cache();
-			  echo "<div class='notice notice-success is-dismissible'><p>WP Super Cache cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'WP Super Cache cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			  $emav_cleared = TRUE;
 			}
 			// WP Fastest Cache
 			if( function_exists('wpfc_clear_all_cache') ) {
 			  wpfc_clear_all_cache(true);
-			  echo "<div class='notice notice-success is-dismissible'><p>WP Fastest Cache cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'WP Fastest Cache cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			  $emav_cleared = TRUE;
 			}
 			// WPEngine
 			if ( class_exists( 'WpeCommon' ) && method_exists( 'WpeCommon', 'purge_memcached' ) ) {
 			  WpeCommon::purge_memcached();
 			  WpeCommon::purge_varnish_cache();
-			  echo "<div class='notice notice-success is-dismissible'><p>WPEngine cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'WPEngine cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			  $emav_cleared = TRUE;
 			}
 			// SG Optimizer by Siteground
 			if ( function_exists( 'sg_cachepress_purge_cache' ) ) {
 			  sg_cachepress_purge_cache();
-			  echo "<div class='notice notice-success is-dismissible'><p>SiteGround Optimizer cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'SiteGround Optimizer cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			  $emav_cleared = TRUE;
 			}
 			// LiteSpeed
 			if( class_exists('LiteSpeed_Cache_API') && method_exists('LiteSpeed_Cache_API', 'purge_all') ) {
 			  LiteSpeed_Cache_API::purge_all();
-			  echo "<div class='notice notice-success is-dismissible'><p>LiteSpeed cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'LiteSpeed cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			  $emav_cleared = TRUE;
 			}
 			// Cache Enabler
 			if( class_exists('Cache_Enabler') && method_exists('Cache_Enabler', 'clear_total_cache') ) {
 			  Cache_Enabler::clear_total_cache();
-			  echo "<div class='notice notice-success is-dismissible'><p>Cache Enabler cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'Cache Enabler cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			  $emav_cleared = TRUE;
 			}
 			// Pagely
 			if ( class_exists('PagelyCachePurge') && method_exists('PagelyCachePurge','purgeAll') ) {
 			  PagelyCachePurge::purgeAll();
-			  echo "<div class='notice notice-success is-dismissible'><p>Pagely cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'Pagely cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			  $emav_cleared = TRUE;
 			}
 			// Autoptimize
 			if( class_exists('autoptimizeCache') && method_exists( 'autoptimizeCache', 'clearall') ) {
 			  autoptimizeCache::clearall();
-			  echo "<div class='notice notice-success is-dismissible'><p>Autoptimize cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'Autoptimize cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			  $emav_cleared = TRUE;
 			}
 			// Comet cache
 			if( class_exists('comet_cache') && method_exists('comet_cache', 'clear') ) {
 			  comet_cache::clear();
-			  echo "<div class='notice notice-success is-dismissible'><p>Comet Cache cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'Comet Cache cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			  $emav_cleared = TRUE;
 			}
 			// Hummingbird Cache
 			if( class_exists('\Hummingbird\WP_Hummingbird') && method_exists('\Hummingbird\WP_Hummingbird', 'flush_cache') ) {
 			  \Hummingbird\WP_Hummingbird::flush_cache();
-			  echo "<div class='notice notice-success is-dismissible'><p>Hummingbird cache cleared.</p></div>";
+			  echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'Hummingbird cache cleared.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			  $emav_cleared = TRUE;
 			}
 			if (! $emav_cleared == TRUE) {
-				echo "<div class='notice notice-success is-dismissible'><p>NOTE: Please be sure to clear any page caches for new settings to display.</p></div>";
+				echo "<div class='notice notice-success is-dismissible'><p>" . esc_html__( 'NOTE: Please be sure to clear any page caches for new settings to display.', 'easy-marijuana-age-verify' ) . "</p></div>";
 			}
 
 		}
@@ -96,7 +96,7 @@ function emav_settings_page() { ?>
 	<div class="wrap">
 		<div class="emav-options-column1">
 			<div class="emav-headerDiv" >
-			<a href="https://5starplugins.com/" target="_blank"><img class="emav-headerImg" src="<?php echo plugin_dir_url(__FILE__) . '../../includes/images/banner.jpg';?>"></a>
+			<img class="emav-headerImg" src="<?php echo plugin_dir_url(__FILE__) . '../../includes/images/banner.jpg';?>" alt="<?php esc_attr_e( 'Easy Marijuana Age Verify banner', 'easy-marijuana-age-verify' ); ?>">
 			</div>
 
 			<h1 class="emav-header-title"><?php esc_html_e( ' Marijuana Age Verify', 'easy-marijuana-age-verify' ) ?></h1>
@@ -116,7 +116,7 @@ function emav_settings_page() { ?>
 			<div class="emav-preview-note">
 				<?php echo sprintf( __( '<strong>Clear Cookie:</strong> Popup stopped after clicking yes? <br/> Detects if a cookie is set in your browser from this plugin and clears it. Refresh this page to recheck.', 'easy-marijuana-age-verify' ));?>
 				<p/>
-				<button id="emav-clear-cookie" onclick='return emav_clear_cookie();' disabled>No Cookie Set</button>
+				<button id="emav-clear-cookie" onclick='return emav_clear_cookie();' disabled><?php echo esc_html__( 'No Cookie Set', 'easy-marijuana-age-verify' ); ?></button>
 			</div>
 		</div>
 		<div class="emav-premium-column2">
@@ -246,9 +246,9 @@ function emav_settings_callback_pagetargeting_option_field() {
 				<?php esc_html_e( 'Show everywhere except this page (upgrade to unlock)', 'easy-marijuana-age-verify' ); ?>
 			</label>
 	  	</p>
-			<select name="_emav_pagetargeting_option[page_id]" id="_emav_pagetargeting_option">
-				<option value="0">Upgrade for page targeting</option>
-			</select>
+            	<select name="_emav_pagetargeting_option[page_id]" id="_emav_pagetargeting_option">
+            		<option value="0"><?php echo esc_html__( 'Upgrade for page targeting', 'easy-marijuana-age-verify' ); ?></option>
+            	</select>
 	</fieldset>
 	<?php
 	} else {
@@ -279,44 +279,44 @@ function emav_settings_callback_ask_visitors_field() { ?>
 			<input type="radio" name="_emav_user_age_verify_option" value="1" <?php checked( '1', get_option( '_emav_user_age_verify_option', '1' ) ); ?>/>
 			 <?php esc_html_e( '21+ Recreational', 'easy-marijuana-age-verify' ); ?>
 		</label>
-		<?php if(!function_exists('emav_premium_verify_option')){
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Standard-21-Rec-2022.jpg" class="thickbox">Standard Screenshot</a> | ';
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-21-Rec-2022.jpg" class="thickbox">Premium Screenshot</a>';
+				<?php if(!function_exists('emav_premium_verify_option')){
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Standard-21-Rec-2022.jpg" class="thickbox">' . esc_html__( 'Standard Screenshot', 'easy-marijuana-age-verify' ) . '</a> | ';
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-21-Rec-2022.jpg" class="thickbox">' . esc_html__( 'Premium Screenshot', 'easy-marijuana-age-verify' ) . '</a>';
 			} else {
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-21-Rec-2022.jpg" class="thickbox">Premium Screenshot</a>';
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-21-Rec-2022.jpg" class="thickbox">' . esc_html__( 'Premium Screenshot', 'easy-marijuana-age-verify' ) . '</a>';
 			} ?>
 		<br />
 		<label>
 			<input type="radio" name="_emav_user_age_verify_option" value="2" <?php checked( '2', get_option( '_emav_user_age_verify_option', '2' ) ); ?>/>
 			 <?php esc_html_e( '19+ Recreational', 'easy-marijuana-age-verify' ); ?>
 		</label>
-		<?php if(!function_exists('emav_premium_verify_option')){
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Standard-19-Rec-2022.jpg" class="thickbox">Standard Screenshot</a> | ';
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-19-Rec-2022.jpg" class="thickbox">Premium Screenshot</a>';
+				<?php if(!function_exists('emav_premium_verify_option')){
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Standard-19-Rec-2022.jpg" class="thickbox">' . esc_html__( 'Standard Screenshot', 'easy-marijuana-age-verify' ) . '</a> | ';
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-19-Rec-2022.jpg" class="thickbox">' . esc_html__( 'Premium Screenshot', 'easy-marijuana-age-verify' ) . '</a>';
 			} else {
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-19-Rec-2022.jpg" class="thickbox">Premium Screenshot</a>';
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-19-Rec-2022.jpg" class="thickbox">' . esc_html__( 'Premium Screenshot', 'easy-marijuana-age-verify' ) . '</a>';
 			} ?>
 		<br />
 		<label>
 			<input type="radio" name="_emav_user_age_verify_option" value="3" <?php checked( '3', get_option( '_emav_user_age_verify_option', '3' ) ); ?>/>
 			 <?php esc_html_e( '18+ Recreational', 'easy-marijuana-age-verify' ); ?>
 		</label>
-		<?php if(!function_exists('emav_premium_verify_option')){
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Standard-18-Rec-2022.jpg" class="thickbox">Standard Screenshot</a> | ';
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-18-Rec-2022.jpg" class="thickbox">Premium Screenshot</a>';
+				<?php if(!function_exists('emav_premium_verify_option')){
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Standard-18-Rec-2022.jpg" class="thickbox">' . esc_html__( 'Standard Screenshot', 'easy-marijuana-age-verify' ) . '</a> | ';
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-18-Rec-2022.jpg" class="thickbox">' . esc_html__( 'Premium Screenshot', 'easy-marijuana-age-verify' ) . '</a>';
 			} else {
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-18-Rec-2022.jpg" class="thickbox">Premium Screenshot</a>';
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-18-Rec-2022.jpg" class="thickbox">' . esc_html__( 'Premium Screenshot', 'easy-marijuana-age-verify' ) . '</a>';
 			} ?>
 		<br />
 		<label>
 			<input type="radio" name="_emav_user_age_verify_option" value="4" <?php checked( '4', get_option( '_emav_user_age_verify_option', '4' ) ); ?>/>
 			 <?php esc_html_e( '18+ Medical', 'easy-marijuana-age-verify' ); ?>
 		</label>
-		<?php if(!function_exists('emav_premium_verify_option')){
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Standard-18-Med-2022.jpg" class="thickbox">Standard Screenshot</a> | ';
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-18-Med-2022.jpg" class="thickbox">Premium Screenshot</a>';
+				<?php if(!function_exists('emav_premium_verify_option')){
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Standard-18-Med-2022.jpg" class="thickbox">' . esc_html__( 'Standard Screenshot', 'easy-marijuana-age-verify' ) . '</a> | ';
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-18-Med-2022.jpg" class="thickbox">' . esc_html__( 'Premium Screenshot', 'easy-marijuana-age-verify' ) . '</a>';
 			} else {
-				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-18-Med-2022.jpg" class="thickbox">Premium Screenshot</a>';
+				echo '<a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-18-Med-2022.jpg" class="thickbox">' . esc_html__( 'Premium Screenshot', 'easy-marijuana-age-verify' ) . '</a>';
 			} ?>
 		<br />
 		 <?php
@@ -325,17 +325,26 @@ function emav_settings_callback_ask_visitors_field() { ?>
 		} else { ?>
 				<label>
 				 <span style="margin-left: 23px;font-style: italic;"><?php esc_html_e( '18+ Medical/21+ Recreational (upgrade to unlock)', 'easy-marijuana-age-verify' ); ?></span>
-				</label> <a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-Med-Rec-Combo-2022.jpg"
-				class="thickbox">Premium Screenshot</a>
-		<?php }
+				</label> <a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-Med-Rec-Combo-2022.jpg" class="thickbox"><?php echo esc_html__( 'Premium Screenshot', 'easy-marijuana-age-verify' ); ?></a>
+			<?php }
 		if(function_exists('emav_premium_opentext_option')) {
 			echo emav_premium_opentext_option();
 		} else { ?>
 			<br />
 			<label>
 				<span style="margin-left: 23px;font-style: italic;"><?php esc_html_e( 'Free-form Custom Text (upgrade to unlock)', 'easy-marijuana-age-verify' ); ?></span>
-			</label> <a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-Freeform-2022.jpg"
-				class="thickbox">Premium Screenshot</a>
+            	</label> <a href="https://5starplugins.com/wp-content/uploads/2022/08/MAV_Premium-Freeform-2022.jpg"
+                class="thickbox"><?php echo esc_html__( 'Premium Screenshot', 'easy-marijuana-age-verify' ); ?></a>
+		<?php }
+		if(function_exists('emav_premium_birthdate_option')) {
+			echo emav_premium_birthdate_option();
+		} else { ?>
+			<br />
+			<label>
+				<span style="margin-left: 23px;font-style: italic;"><?php esc_html_e( 'Birthdate (upgrade to unlock)', 'easy-marijuana-age-verify' ); ?></span>
+			</label>
+			<a href="https://5starplugins.com/wp-content/uploads/2026/06/MAV-birthdate-screenshot.jpg" class="thickbox"><?php echo esc_html__( 'Standard Screenshot', 'easy-marijuana-age-verify' ); ?></a> |
+			<a href="https://5starplugins.com/wp-content/uploads/2026/06/MAV-birthdate-screenshot.jpg" class="thickbox"><?php echo esc_html__( 'Premium Screenshot', 'easy-marijuana-age-verify' ); ?></a>
 		<?php } ?>
 		</fieldset>
 	<?php }
