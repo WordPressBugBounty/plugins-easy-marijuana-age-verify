@@ -1,0 +1,1162 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marijuana Age Verify 2.0.5\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/easy-marijuana-age-verify\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-09T18:42:04+00:00\n"
+"PO-Revision-Date: 2026-06-09 18:51+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: easy-marijuana-age-verify\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sv-SE\n"
+
+#: easy-marijuana-age-verify.php
+#. Plugin Name of the plugin
+msgid "Marijuana Age Verify"
+msgstr "Cannabisålder Verifier"
+
+#: easy-marijuana-age-verify.php
+#. Description of the plugin
+msgid "Age verification for marijuana websites."
+msgstr "Åldersverifiering för cannabiswebbplatser."
+
+#: easy-marijuana-age-verify.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 Star Plugins"
+
+#: easy-marijuana-age-verify.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:134
+msgid "Settings"
+msgstr "Inställningar"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:150
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:161
+msgid "Cheatin&#8217; huh?"
+msgstr "Gör fusk, va?"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid "Enable Verification"
+msgstr "Aktivera verifiering"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid ""
+"Popup will not show when disabled. Use Testing Mode during setup, then show "
+"when it's ready."
+msgstr ""
+"Popup visas inte när den är inaktiverad. Använd testläge under "
+"installationen, och visa den när den är klar."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+#: includes/admin/premium/settings-premium.php:564
+#: includes/admin/settings.php:232
+#: includes/functions.php:863
+msgid "Page Targeting"
+msgstr "Sidmålgrupp"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+msgid "Include or exclude a certain page."
+msgstr "Inkludera eller exkludera en viss sida."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+#: includes/admin/settings.php:437
+msgid "Realtime Settings Check"
+msgstr "Kontroll av inställningar i realtid"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+msgid "May help caching issues, adds delay to popup."
+msgstr "Kan hjälpa med cacheproblem, lägger till fördröjning till popupen."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Verify For"
+msgstr "Verifiera för"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Select a turnkey setting. Upgrade to Premium to edit text and background."
+msgstr ""
+"Välj en färdiginställd konfiguration. Uppgradera till Premium för att "
+"redigera text och bakgrund."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid "Optional small print takes HTML link."
+msgstr "Valfri liten text som tar HTML-länk."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid ""
+"Disclaimer Text <span class=\"dashicons dashicons-info "
+"emavoptionshovertip\" title=\""
+msgstr ""
+"Ansvarsfriskrivning Text <span class=\"dashicons dashicons-info "
+"emavoptionshovertip\" title=\""
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:306
+msgid "Require age verification for this content"
+msgstr "Kräv åldersverifiering för detta innehåll"
+
+#: includes/admin/premium/settings-premium.php:26
+#: includes/admin/premium/settings-premium.php:32
+#: includes/admin/premium/settings-premium.php:38
+#: includes/admin/settings.php:164
+#: includes/functions.php:1017
+#: includes/functions.php:1018
+#: includes/functions.php:1019
+#: includes/functions.php:1028
+#: includes/functions.php:1029
+#: includes/functions.php:1030
+#: includes/functions.php:1033
+msgid "Please verify your age to enter."
+msgstr "Vänligen verifiera din ålder för att fortsätta."
+
+#: includes/admin/premium/settings-premium.php:27
+#: includes/functions.php:510
+#: includes/functions.php:521
+#: includes/functions.php:525
+msgid "I am 21 or older"
+msgstr "Jag är 21 eller äldre"
+
+#: includes/admin/premium/settings-premium.php:28
+#: includes/functions.php:532
+#: includes/functions.php:542
+#: includes/functions.php:546
+msgid "I am under 21"
+msgstr "Jag är under 21"
+
+#: includes/admin/premium/settings-premium.php:29
+#: includes/functions.php:640
+#: includes/functions.php:723
+msgid "Sorry, you must be 21 or over to enter this website."
+msgstr "Tyvärr, du måste vara 21 eller äldre för att komma in på denna webbplats."
+
+#: includes/admin/premium/settings-premium.php:33
+#: includes/functions.php:511
+#: includes/functions.php:522
+msgid "I am 19 or older"
+msgstr "Jag är 19 eller äldre"
+
+#: includes/admin/premium/settings-premium.php:34
+#: includes/functions.php:533
+#: includes/functions.php:543
+msgid "I am under 19"
+msgstr "Jag är under 19"
+
+#: includes/admin/premium/settings-premium.php:35
+#: includes/functions.php:641
+#: includes/functions.php:724
+msgid "Sorry, you must be 19 or over to enter this website."
+msgstr "Tyvärr, du måste vara 19 eller äldre för att komma in på denna webbplats."
+
+#: includes/admin/premium/settings-premium.php:39
+#: includes/functions.php:512
+#: includes/functions.php:523
+msgid "I am 18 or older"
+msgstr "Jag är 18 eller äldre"
+
+#: includes/admin/premium/settings-premium.php:40
+#: includes/functions.php:534
+#: includes/functions.php:544
+msgid "I am under 18"
+msgstr "Jag är under 18"
+
+#: includes/admin/premium/settings-premium.php:41
+#: includes/functions.php:642
+#: includes/functions.php:725
+msgid "Sorry, you must be 18 or over to enter this website."
+msgstr "Tyvärr, du måste vara 18 eller äldre för att komma in på denna webbplats."
+
+#: includes/admin/premium/settings-premium.php:44
+#: includes/functions.php:1020
+#: includes/functions.php:1031
+msgid "Are you a 18+ valid medical marijuana patient?"
+msgstr "Är du en giltig medicinsk marijuana-patient som är 18+?"
+
+#: includes/admin/premium/settings-premium.php:45
+#: includes/admin/premium/settings-premium.php:51
+#: includes/functions.php:513
+#: includes/functions.php:524
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin/premium/settings-premium.php:46
+#: includes/admin/premium/settings-premium.php:52
+#: includes/admin/premium/settings-premium.php:64
+#: includes/functions.php:535
+#: includes/functions.php:537
+#: includes/functions.php:545
+#: includes/functions.php:547
+msgid "No"
+msgstr "Nej"
+
+#: includes/admin/premium/settings-premium.php:47
+#: includes/functions.php:643
+msgid ""
+"Sorry, you must be 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"Förlåt, du måste vara 18 år eller äldre för att vara giltig medicinsk "
+"marijuana-patient för att komma in på denna webbplats."
+
+#: includes/admin/premium/settings-premium.php:50
+#: includes/functions.php:1021
+#: includes/functions.php:1032
+msgid "Are you 21+ or a 18+ valid medical marijuana patient?"
+msgstr "Är du 21+ eller en giltig medicinsk marijuana-patient som är 18+?"
+
+#: includes/admin/premium/settings-premium.php:53
+#: includes/functions.php:644
+msgid ""
+"Sorry, you must be 21 or over, or 18 years or over valid medical marijuana "
+"patient, to enter this website."
+msgstr ""
+"Förlåt, du måste vara 21 år eller äldre, eller 18 år eller äldre som giltig "
+"medicinsk marijuana-patient, för att komma in på denna webbplats."
+
+#: includes/admin/premium/settings-premium.php:56
+#: includes/admin/premium/settings-premium.php:57
+#: includes/admin/premium/settings-premium.php:58
+#: includes/admin/premium/settings-premium.php:59
+#: includes/admin/premium/settings-premium.php:162
+#: includes/admin/premium/settings-premium.php:174
+#: includes/functions.php:584
+msgid "Your text here"
+msgstr "Din text här"
+
+#: includes/admin/premium/settings-premium.php:62
+#: includes/functions.php:1023
+#: includes/functions.php:1034
+msgid "Enter your birth date to continue."
+msgstr "Ange ditt födelsedatum för att fortsätta."
+
+#: includes/admin/premium/settings-premium.php:63
+#: includes/functions.php:515
+#: includes/functions.php:526
+msgid "Enter"
+msgstr "Enter"
+
+#: includes/admin/premium/settings-premium.php:65
+msgid "You must be over 21 to enter this site."
+msgstr "Du måste vara över 21 för att komma in på denna webbplats."
+
+#: includes/admin/premium/settings-premium.php:81
+msgid "Enter text to validate an age..."
+msgstr "Ange text för att verifiera ålder..."
+
+#: includes/admin/premium/settings-premium.php:97
+msgid "Enter text to validate..."
+msgstr "Ange text för att verifiera..."
+
+#: includes/admin/premium/settings-premium.php:113
+msgid "Enter text to not validate..."
+msgstr "Ange text för att inte verifiera..."
+
+#: includes/admin/premium/settings-premium.php:128
+msgid "Enter text for error message..."
+msgstr "Ange text för felmeddelande..."
+
+#: includes/admin/premium/settings-premium.php:186
+msgid "Return Visitor Cookie"
+msgstr "Besökar-cookie"
+
+#: includes/admin/premium/settings-premium.php:190
+msgid "Show “Remember Me” checkbox"
+msgstr "Visa “Kom ihåg mig”-checkbox"
+
+#: includes/admin/premium/settings-premium.php:205
+msgid "Overlay Color"
+msgstr "Överläggsfärg"
+
+#: includes/admin/premium/settings-premium.php:225
+msgid "Background Gradient"
+msgstr "Bakgrundsgradient"
+
+#: includes/admin/premium/settings-premium.php:229
+#: includes/admin/premium/settings-premium.php:332
+msgid "Use background gradient"
+msgstr "Använd bakgrundsgradient"
+
+#: includes/admin/premium/settings-premium.php:244
+#: includes/admin/premium/settings-premium.php:760
+msgid "Gradient End Color"
+msgstr "Gradientens slutfärg"
+
+#: includes/admin/premium/settings-premium.php:264
+#: includes/admin/premium/settings-premium.php:768
+msgid "Gradient Direction"
+msgstr "Gradientens riktning"
+
+#: includes/admin/premium/settings-premium.php:267
+#: includes/admin/premium/settings-premium.php:370
+msgid "Center"
+msgstr "Mitt"
+
+#: includes/admin/premium/settings-premium.php:268
+#: includes/admin/premium/settings-premium.php:371
+msgid "Top to Bottom"
+msgstr "Top till botten"
+
+#: includes/admin/premium/settings-premium.php:269
+#: includes/admin/premium/settings-premium.php:372
+msgid "Bottom to Top"
+msgstr "Botten till top"
+
+#: includes/admin/premium/settings-premium.php:270
+#: includes/admin/premium/settings-premium.php:373
+msgid "Left to Right"
+msgstr "Vänster till höger"
+
+#: includes/admin/premium/settings-premium.php:271
+#: includes/admin/premium/settings-premium.php:374
+msgid "Right to Left"
+msgstr "Höger till vänster"
+
+#: includes/admin/premium/settings-premium.php:272
+#: includes/admin/premium/settings-premium.php:375
+msgid "Top Left to Bottom Right"
+msgstr "Övre vänstra till nedre högra"
+
+#: includes/admin/premium/settings-premium.php:273
+#: includes/admin/premium/settings-premium.php:376
+msgid "Top Right to Bottom Left"
+msgstr "Övre högra till nedre vänstra"
+
+#: includes/admin/premium/settings-premium.php:288
+msgid "Overlay Box"
+msgstr "Överläggsbox"
+
+#: includes/admin/premium/settings-premium.php:292
+msgid "Show box around the form"
+msgstr "Visa ruta runt formuläret"
+
+#: includes/admin/premium/settings-premium.php:308
+#: includes/admin/premium/settings-premium.php:798
+msgid "Box Background Color"
+msgstr "Boxens bakgrundsfärg"
+
+#: includes/admin/premium/settings-premium.php:328
+msgid "Box Gradient"
+msgstr "Boxens gradient"
+
+#: includes/admin/premium/settings-premium.php:347
+#: includes/admin/premium/settings-premium.php:814
+msgid "Box Gradient End Color"
+msgstr "Boxens slutfärg för gradienten"
+
+#: includes/admin/premium/settings-premium.php:367
+#: includes/admin/premium/settings-premium.php:822
+msgid "Box Gradient Direction"
+msgstr "Box Gradient Direction"
+
+#: includes/admin/premium/settings-premium.php:391
+msgid "Styling"
+msgstr "Styling"
+
+#: includes/admin/premium/settings-premium.php:395
+msgid "Use built-in CSS on the front-end (recommended)"
+msgstr "Använd inbyggd CSS på frontend (rekommenderas)"
+
+#: includes/admin/premium/settings-premium.php:411
+msgid "Background Color Agree Button"
+msgstr "Bakgrundsfärg Bekräfta-knapp"
+
+#: includes/admin/premium/settings-premium.php:437
+msgid "Background Color Disagree Button"
+msgstr "Bakgrundsfärg Avböj-knapp"
+
+#: includes/admin/premium/settings-premium.php:465
+msgid "Upload Logo"
+msgstr "Ladda upp Logotyp"
+
+#: includes/admin/premium/settings-premium.php:469
+msgid "Add Logo"
+msgstr "Lägg till Logotyp"
+
+#: includes/admin/premium/settings-premium.php:471
+msgid "Select Logo"
+msgstr "Välj Logotyp"
+
+#: includes/admin/premium/settings-premium.php:473
+msgid "Clear Logo"
+msgstr "Rensa Logotyp"
+
+#: includes/admin/premium/settings-premium.php:495
+msgid "Adjust Level of Transparency "
+msgstr "Justera Transparensnivå "
+
+#: includes/admin/premium/settings-premium.php:499
+msgid "60% Opacity"
+msgstr "60% Opacitet"
+
+#: includes/admin/premium/settings-premium.php:500
+msgid "65% Opacity"
+msgstr "65% Opacitet"
+
+#: includes/admin/premium/settings-premium.php:501
+msgid "70% Opacity"
+msgstr "70% Opacitet"
+
+#: includes/admin/premium/settings-premium.php:502
+msgid "75% Opacity"
+msgstr "75% Opacitet"
+
+#: includes/admin/premium/settings-premium.php:503
+msgid "80% Opacity"
+msgstr "80% Opacitet"
+
+#: includes/admin/premium/settings-premium.php:504
+msgid "85% Opacity"
+msgstr "85% Opacitet"
+
+#: includes/admin/premium/settings-premium.php:505
+msgid "90% Opacity"
+msgstr "90% Opacitet"
+
+#: includes/admin/premium/settings-premium.php:506
+msgid "95% Opacity"
+msgstr "95% Opacitet"
+
+#: includes/admin/premium/settings-premium.php:507
+msgid "100% Opacity"
+msgstr "100% Opacitet"
+
+#: includes/admin/premium/settings-premium.php:522
+msgid "18+ Medical/21+ Recreational"
+msgstr "18+ Medicinsk/21+ Recreational"
+
+#: includes/admin/premium/settings-premium.php:522
+#: includes/admin/premium/settings-premium.php:535
+#: includes/admin/premium/settings-premium.php:549
+#: includes/admin/settings.php:284
+#: includes/admin/settings.php:286
+#: includes/admin/settings.php:295
+#: includes/admin/settings.php:297
+#: includes/admin/settings.php:306
+#: includes/admin/settings.php:308
+#: includes/admin/settings.php:317
+#: includes/admin/settings.php:319
+#: includes/admin/settings.php:328
+#: includes/admin/settings.php:337
+#: includes/admin/settings.php:347
+msgid "Premium Screenshot"
+msgstr "Premium Skärmdump"
+
+#: includes/admin/premium/settings-premium.php:535
+msgid "Free-form Custom Text"
+msgstr "Fristående Anpassad Text"
+
+#: includes/admin/premium/settings-premium.php:549
+msgid "Birthdate"
+msgstr "Födelsedatum"
+
+#: includes/admin/premium/settings-premium.php:551
+msgid "Verify Age over:"
+msgstr "Verifiera ålder över:"
+
+#: includes/admin/premium/settings-premium.php:568
+msgid "Show on all pages"
+msgstr "Visa på alla sidor"
+
+#: includes/admin/premium/settings-premium.php:573
+msgid "Show on this page only"
+msgstr "Visa endast på denna sida"
+
+#: includes/admin/premium/settings-premium.php:578
+msgid "Show everywhere except this page"
+msgstr "Visa överallt utom denna sida"
+
+#: includes/admin/premium/settings-premium.php:590
+msgid "Page "
+msgstr "Sida "
+
+#: includes/admin/premium/settings-premium.php:599
+msgid "— Select a Page —"
+msgstr "— Välj en sida —"
+
+#: includes/admin/premium/settings-premium.php:631
+#: includes/admin/premium/settings-premium.php:633
+msgid "Blog Posts"
+msgstr "Blogginlägg"
+
+#: includes/admin/premium/settings-premium.php:637
+#: includes/admin/premium/settings-premium.php:639
+msgid "Product Pages"
+msgstr "Produktsidor"
+
+#: includes/admin/premium/settings-premium.php:644
+#: includes/admin/premium/settings-premium.php:646
+msgid "All WooCommerce Pages"
+msgstr "Alla WooCommerce-sidor"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Premium Options"
+msgstr "Premiumalternativ"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Select “free-form” above to show editable text fields."
+msgstr "Välj “fritt formulär” ovan för att visa redigerbara textfält."
+
+#: includes/admin/premium/settings-premium.php:663
+msgid "Free-Form Custom Text"
+msgstr "Fritt formulär anpassad text"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Age Prompt"
+msgstr "Åldersprompt"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Required question."
+msgstr "Obligatoriskt fråga."
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Yes Button Text"
+msgstr "Ja-knapptext"
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Required to verify."
+msgstr "Krävs för att verifiera."
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "No Button Text"
+msgstr "Nej-knapptext"
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "Required to not verify."
+msgstr "Krävs för att inte verifiera."
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Error Text"
+msgstr "Feltext"
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Required. Appears when user clicks no button."
+msgstr "Obligatoriskt. Visas när användaren klickar nej-knappen."
+
+#: includes/admin/premium/settings-premium.php:702
+msgid "User Experience"
+msgstr "Användarupplevelse"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "Enable Return Visitor Cookie"
+msgstr "Aktivera återbesökscookie"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "A return visitor cookie allows verified visitors to skip next time."
+msgstr "En återbesökscookie tillåter verifierade besökare att hoppa över nästa gång."
+
+#: includes/admin/premium/settings-premium.php:716
+msgid "Buttons"
+msgstr "Knappar"
+
+#: includes/admin/premium/settings-premium.php:722
+msgid "Yes Button Color"
+msgstr "Ja-knappfärg"
+
+#: includes/admin/premium/settings-premium.php:722
+#: includes/admin/premium/settings-premium.php:730
+msgid ""
+"SMARTtext automatically sets text color to black or white based on button "
+"color."
+msgstr ""
+"SMARTtext ställer automatiskt in textfärgen till svart eller vitt baserat "
+"på knappfärgen."
+
+#: includes/admin/premium/settings-premium.php:730
+msgid "No Button Color"
+msgstr "Nej-knappfärg"
+
+#: includes/admin/premium/settings-premium.php:738
+msgid "Background"
+msgstr "Bakgrund"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid "Background Color"
+msgstr "Bakgrundsfärg"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid ""
+"SMARTtext automatically sets text color to black or white based on "
+"background color."
+msgstr ""
+"SMARTtext ställer automatiskt in textfärgen till svart eller vitt baserat "
+"på bakgrundsfärgen."
+
+#: includes/admin/premium/settings-premium.php:752
+#: includes/admin/premium/settings-premium.php:806
+msgid "Gradient"
+msgstr "Gradient"
+
+#: includes/admin/premium/settings-premium.php:752
+msgid "Blend the overlay background between two colors."
+msgstr "Blanda overlay-bakgrund mellan två färger."
+
+#: includes/admin/premium/settings-premium.php:760
+msgid "The second color used when background gradient is enabled."
+msgstr "Den andra färgen som används när bakgrundsgradient är aktiverad."
+
+#: includes/admin/premium/settings-premium.php:768
+msgid "Choose how the gradient flows across the background."
+msgstr "Välj hur gradienten flyter över bakgrunden."
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Background Opacity"
+msgstr "Bakgrundsopacitet"
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Hide content 60-100%."
+msgstr "Dölj innehåll 60-100%."
+
+#: includes/admin/premium/settings-premium.php:784
+msgid "Box"
+msgstr "Ficka"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Form Box"
+msgstr "Formulärbox"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Place the modal content inside a centered box layout."
+msgstr "Placera det modala innehållet inuti en centrerad boxlayout."
+
+#: includes/admin/premium/settings-premium.php:798
+msgid "Sets the inner box background when box mode is enabled."
+msgstr "Sätter bakgrunden för den inre rutan när boxläge är aktiverat."
+
+#: includes/admin/premium/settings-premium.php:806
+msgid "Blend the box panel between two colors."
+msgstr "Blenda boxpanelen mellan två färger."
+
+#: includes/admin/premium/settings-premium.php:814
+msgid "The second color used when box gradient is enabled."
+msgstr "Den andra färgen som används när boxgradient är aktiverad."
+
+#: includes/admin/premium/settings-premium.php:822
+msgid "Choose how the gradient flows across the box."
+msgstr "Välj hur gradienten flyter över boxen."
+
+#: includes/admin/premium/settings-premium.php:830
+msgid "Branding"
+msgstr "Varumärke"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Add Headline"
+msgstr "Lägg till rubrik"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Optional headline centers below logo."
+msgstr "Valfri rubrik centrerad nedanför logotypen."
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Add Text Below Headline"
+msgstr "Lägg till text under rubriken"
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Optional body copy."
+msgstr "Valfri kroppstext."
+
+#: includes/admin/premium/settings-premium.php:856
+msgid "Your Logo"
+msgstr "Din Logga"
+
+#: includes/admin/premium/settings-premium.php:856
+msgid ""
+"Upload any size or dimension. The responsive display resizes it to 650 "
+"pixels max tall or wide."
+msgstr ""
+"Ladda upp vilken storlek eller dimension som helst. Den responsiva "
+"displayen resize:ar den till max 650 pixlar högt eller brett."
+
+#: includes/admin/settings.php:18
+msgid "WP Rocket cache cleared."
+msgstr "WP Rocket-cache rensad."
+
+#: includes/admin/settings.php:24
+msgid "W3TC cache cleared."
+msgstr "W3TC-cache rensad."
+
+#: includes/admin/settings.php:30
+msgid "WP Super Cache cache cleared."
+msgstr "WP Super Cache-cache rensad."
+
+#: includes/admin/settings.php:36
+msgid "WP Fastest Cache cache cleared."
+msgstr "WP Fastest Cache-cache rensad."
+
+#: includes/admin/settings.php:43
+msgid "WPEngine cache cleared."
+msgstr "WPEngine-cache rensad."
+
+#: includes/admin/settings.php:49
+msgid "SiteGround Optimizer cache cleared."
+msgstr "SiteGround Optimizer-cache rensad."
+
+#: includes/admin/settings.php:55
+msgid "LiteSpeed cache cleared."
+msgstr "LiteSpeed-cache rensad."
+
+#: includes/admin/settings.php:61
+msgid "Cache Enabler cache cleared."
+msgstr "Cache Enabler-cache rensad."
+
+#: includes/admin/settings.php:67
+msgid "Pagely cache cleared."
+msgstr "Pagely-cache rensad."
+
+#: includes/admin/settings.php:73
+msgid "Autoptimize cache cleared."
+msgstr "Autoptimize-cache rensad."
+
+#: includes/admin/settings.php:79
+msgid "Comet Cache cache cleared."
+msgstr "Comet Cache-cache rensad."
+
+#: includes/admin/settings.php:85
+msgid "Hummingbird cache cleared."
+msgstr "Hummingbird-cache rensad."
+
+#: includes/admin/settings.php:89
+msgid "NOTE: Please be sure to clear any page caches for new settings to display."
+msgstr ""
+"OBS: Var noga med att rensa eventuella sidcache för att visa de nya "
+"inställningarna."
+
+#: includes/admin/settings.php:99
+msgid "Easy Marijuana Age Verify banner"
+msgstr "Easy Marijuana Age Verify-banner"
+
+#: includes/admin/settings.php:102
+msgid " Marijuana Age Verify"
+msgstr " Marijuana Age Verify"
+
+#: includes/admin/settings.php:117
+msgid ""
+"<strong>Clear Cookie:</strong> Popup stopped after clicking yes? <br/> "
+"Detects if a cookie is set in your browser from this plugin and clears it. "
+"Refresh this page to recheck."
+msgstr ""
+"<strong>Rensa cookie:</strong> Popupen stoppades efter att ha klickat på "
+"ja? <br/> Detekterar om en cookie är inställd i din webbläsare från denna "
+"plugin och rensar den. Uppdatera sidan för att kontrollera igen."
+
+#: includes/admin/settings.php:119
+msgid "No Cookie Set"
+msgstr "Ingen cookie ställd"
+
+#: includes/admin/settings.php:131
+msgid ""
+"Need Help? Click the  icon on the bottom right to search our <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Knowledge Base</a> or to send an email for "
+"Premium support."
+msgstr ""
+"Behöver du hjälp? Klicka på  ikonen längst ner till höger för att söka i "
+"vår <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Kunskapsdatabas</a> eller skicka ett mail för "
+"Premium-support."
+
+#: includes/admin/settings.php:132
+msgid ""
+"Read: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">My age window isn't showing.</a>"
+msgstr ""
+"Läs: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">Min åldersruta visas inte.</a>"
+
+#: includes/admin/settings.php:133
+msgid ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">Contact "
+"Us</a> to report a bug, suggest a feature, ask a billing question, or "
+"request Premium support."
+msgstr ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\""
+">Kontakta oss</a> för att rapportera ett fel, föreslå en funktion, ställa "
+"en faktureringsfråga eller begära Premium-support."
+
+#: includes/admin/settings.php:134
+msgid ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">Visit "
+"The Support Center</a> for more."
+msgstr ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">Besök "
+"Supportcentret</a> för mer information."
+
+#: includes/admin/settings.php:135
+msgid ""
+"Use Age Verify with Pretty Simple Popup for <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">perfectly timed marketing popups</a>."
+msgstr ""
+"Använd Age Verify med Pretty Simple Popup för <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">perfekt timing för marknadsföringspopupar</a>."
+
+#: includes/admin/settings.php:136
+msgid ""
+"Like this? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Rate This Plugin</a>"
+msgstr ""
+"Gillar du detta? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Betygsätt detta plugin</a>"
+
+#: includes/admin/settings.php:138
+msgid ""
+"Developed and supported by <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> in San Diego, CA"
+msgstr ""
+"Utvecklat och supportat av <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> i San Diego, CA"
+
+#: includes/admin/settings.php:178
+msgid "Require verification for"
+msgstr "Kräv verifiering för"
+
+#: includes/admin/settings.php:182
+msgid "Entire site"
+msgstr "Hela webbplatsen"
+
+#: includes/admin/settings.php:187
+msgid "Specific content"
+msgstr "Specifikt innehåll"
+
+#: includes/admin/settings.php:204
+msgid "Enable verification:"
+msgstr "Aktivera verifiering:"
+
+#: includes/admin/settings.php:208
+msgid "Disable"
+msgstr "Inaktivera"
+
+#: includes/admin/settings.php:213
+msgid "[TESTING MODE] Admins only"
+msgstr "[TESTLÄGE] Endast administratörer"
+
+#: includes/admin/settings.php:218
+msgid "Show except to logged-in users"
+msgstr "Visa för inloggade användare"
+
+#: includes/admin/settings.php:223
+msgid "Show to all visitors"
+msgstr "Visa för alla besökare"
+
+#: includes/admin/settings.php:236
+msgid "Show on all pages (upgrade to unlock)"
+msgstr "Visa på alla sidor (uppgradera för att låsa upp)"
+
+#: includes/admin/settings.php:241
+msgid "Show on this page only (upgrade to unlock)"
+msgstr "Visa endast på denna sida (uppgradera för att låsa upp)"
+
+#: includes/admin/settings.php:246
+msgid "Show everywhere except this page (upgrade to unlock)"
+msgstr "Visa överallt förutom denna sida (uppgradera för att låsa upp)"
+
+#: includes/admin/settings.php:250
+msgid "Upgrade for page targeting"
+msgstr "Uppgradera för sidmålriktning"
+
+#: includes/admin/settings.php:276
+msgid "Verify For:"
+msgstr "Verifiera för:"
+
+#: includes/admin/settings.php:280
+msgid "21+ Recreational"
+msgstr "21+ Recreation"
+
+#: includes/admin/settings.php:283
+#: includes/admin/settings.php:294
+#: includes/admin/settings.php:305
+#: includes/admin/settings.php:316
+#: includes/admin/settings.php:346
+msgid "Standard Screenshot"
+msgstr "Standard Skärmbild"
+
+#: includes/admin/settings.php:291
+msgid "19+ Recreational"
+msgstr "19+ Recreation"
+
+#: includes/admin/settings.php:302
+msgid "18+ Recreational"
+msgstr "18+ Recreation"
+
+#: includes/admin/settings.php:313
+msgid "18+ Medical"
+msgstr "18+ Medicinsk"
+
+#: includes/admin/settings.php:327
+msgid "18+ Medical/21+ Recreational (upgrade to unlock)"
+msgstr "18+ Medicinsk/21+ Recreation (uppgradera för att låsa upp)"
+
+#: includes/admin/settings.php:335
+msgid "Free-form Custom Text (upgrade to unlock)"
+msgstr "Fritt formulerad anpassad text (uppgradera för att låsa upp)"
+
+#: includes/admin/settings.php:344
+msgid "Birthdate (upgrade to unlock)"
+msgstr "Födelsedatum (uppgradera för att låsa upp)"
+
+#: includes/admin/settings.php:359
+msgid "years old or older to view this site"
+msgstr "år gammal eller äldre för att visa denna webbplats"
+
+#: includes/admin/settings.php:370
+msgid "minutes"
+msgstr "minuter"
+
+#: includes/admin/settings.php:383
+msgid "Membership"
+msgstr "Medlemskap"
+
+#: includes/admin/settings.php:387
+msgid "Require users to confirm their age before registering to this site"
+msgstr ""
+"Kräv att användare bekräftar sin ålder innan de registrerar sig på denna "
+"webbplats"
+
+#: includes/admin/settings.php:441
+msgid "Confirm \"Enable Verification\" settings before showing popup"
+msgstr "Bekräfta \"Aktivera verifiering\" inställningar innan popup visas"
+
+#: includes/admin/settings.php:468
+msgid "Date dropdowns"
+msgstr "Datumrullgardiner"
+
+#: includes/admin/settings.php:469
+msgid "Inputs"
+msgstr "Inmatningar"
+
+#: includes/admin/settings.php:470
+msgid "Confirm checkbox"
+msgstr "Bekräftelseruta"
+
+#: includes/functions.php:339
+#, php-format
+msgid "You must be over %d to enter this site."
+msgstr "Du måste vara över %d för att komma in på denna webbplats."
+
+#: includes/functions.php:355
+msgid "January"
+msgstr "Januari"
+
+#: includes/functions.php:356
+msgid "February"
+msgstr "Februari"
+
+#: includes/functions.php:357
+msgid "March"
+msgstr "Mars"
+
+#: includes/functions.php:358
+msgid "April"
+msgstr "April"
+
+#: includes/functions.php:359
+msgid "May"
+msgstr "Maj"
+
+#: includes/functions.php:360
+msgid "June"
+msgstr "Juni"
+
+#: includes/functions.php:361
+msgid "July"
+msgstr "Juli"
+
+#: includes/functions.php:362
+msgid "August"
+msgstr "Augusti"
+
+#: includes/functions.php:363
+msgid "September"
+msgstr "September"
+
+#: includes/functions.php:364
+msgid "October"
+msgstr "Oktober"
+
+#: includes/functions.php:365
+msgid "November"
+msgstr "November"
+
+#: includes/functions.php:366
+msgid "December"
+msgstr "December"
+
+#: includes/functions.php:372
+#: includes/functions.php:373
+msgid "Month"
+msgstr "Månad"
+
+#: includes/functions.php:379
+#: includes/functions.php:380
+msgid "Day"
+msgstr "Dag"
+
+#: includes/functions.php:386
+#: includes/functions.php:387
+msgid "Year"
+msgstr "År"
+
+#: includes/functions.php:552
+#: includes/functions.php:639
+#: includes/functions.php:722
+msgid "Sorry, you must be of legal age to enter this website."
+msgstr "Tyvärr, du måste vara myndig för att komma in på denna webbplats."
+
+#: includes/functions.php:595
+msgid "Enter Site &raquo;"
+msgstr "Gå till Webbplats &raquo;"
+
+#: includes/functions.php:625
+msgid "Remember me next time"
+msgstr "Kom ihåg mig nästa gång"
+
+#: includes/functions.php:726
+msgid ""
+"Sorry, you must be an 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"Tyvärr, du måste vara minst 18 år och ha giltigt medicinskt marijuana-kort "
+"för att komma in på denna webbplats."
+
+#: includes/functions.php:727
+msgid ""
+"Sorry, you must be 21 or over, or an 18 years or over valid medical "
+"marijuana patient, to enter this website."
+msgstr ""
+"Tyvärr, du måste vara 21 år eller äldre, eller minst 18 år med giltigt "
+"medicinskt marijuana-kort, för att komma in på denna webbplats."
+
+#: includes/functions.php:790
+msgid "I am at least 21 years old"
+msgstr "Jag är minst 21 år gammal"
+
+#: includes/functions.php:808
+msgid "Please confirm your age"
+msgstr "Vänligen bekräfta din ålder"
+
+#: includes/functions.php:830
+msgid "Unlock Premium Features"
+msgstr "Lås upp Premium-funktioner"
+
+#: includes/functions.php:844
+msgid "Upgrade Now"
+msgstr "Uppgradera nu"
+
+#: includes/functions.php:849
+msgid "Start 14-Day Free Trial"
+msgstr "Start 14-dagars gratis provperiod"
+
+#: includes/functions.php:849
+msgid "(risk free, no credit card)"
+msgstr "(riskfritt, inget kreditkort)"
+
+#: includes/functions.php:852
+msgid "(On Free Trial Now)"
+msgstr "(På gratis prov nu)"
+
+#: includes/functions.php:863
+msgid "Include / exclude certain pages"
+msgstr "Inkludera / exkludera vissa sidor"
+
+#: includes/functions.php:864
+msgid "Customizable"
+msgstr "Anpassningsbar"
+
+#: includes/functions.php:864
+msgid "Free-form text option"
+msgstr "Fritt textalternativ"
+
+#: includes/functions.php:865
+msgid "Translation Ready"
+msgstr "Översättningsklar"
+
+#: includes/functions.php:865
+msgid "Self translate to any language"
+msgstr "Själv översätt till vilket språk som helst"
+
+#: includes/functions.php:866
+msgid "Brand It"
+msgstr "Varumärkesanpassa"
+
+#: includes/functions.php:866
+msgid "Your logo and colors"
+msgstr "Din logotyp och färger"
+
+#: includes/functions.php:867
+msgid "Design Background"
+msgstr "Designbakgrund"
+
+#: includes/functions.php:867
+msgid "Set transparency and color"
+msgstr "Ställ in transparens och färg"
+
+#: includes/functions.php:868
+msgid "Welcome Message"
+msgstr "Välkomstmeddelande"
+
+#: includes/functions.php:868
+msgid "Add a welcome message"
+msgstr "Lägg till ett välkomstmeddelande"
+
+#: includes/functions.php:869
+msgid "Remember Visitors"
+msgstr "Kom ihåg besökare"
+
+#: includes/functions.php:869
+msgid "\"Remember me\" checkbox"
+msgstr "\"Kom ihåg mig\"-rutan"
+
+#: includes/functions.php:870
+msgid "Med/Rec Combo"
+msgstr "Med/Rec-kombination"
+
+#: includes/functions.php:870
+msgid "18+ med with 21+ rec"
+msgstr "18+ med 21+ rec"
+
+#: includes/functions.php:871
+msgid "Premium Support"
+msgstr "Premiumsupport"
+
+#: includes/functions.php:871
+msgid "World-class email support from the U.S."
+msgstr "Världsklass e-postsupport från USA"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid "Hey %1$s"
+msgstr "Hej %1$s"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid ""
+"To enjoy all of the features of this plugin and future updates, Five Star "
+"Plugins needs to connect %4$s to Freemius."
+msgstr ""
+"För att njuta av alla funktioner i denna plugin och framtida uppdateringar, "
+"behöver Five Star Plugins koppla %4$s till Freemius."
+
+#: includes/premium/functions-premium.php:388
+msgid "You must be 21 years old to visit this site."
+msgstr "Du måste vara 21 år för att besöka denna sida."
+
+#: includes/premium/functions-premium.php:401
+msgid "Please verify your age"
+msgstr "Vänligen verifiera din ålder"

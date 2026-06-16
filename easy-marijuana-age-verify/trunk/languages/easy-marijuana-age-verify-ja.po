@@ -1,0 +1,1134 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marijuana Age Verify 2.0.5\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/easy-marijuana-age-verify\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-09T18:42:04+00:00\n"
+"PO-Revision-Date: 2026-06-09 18:51+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: easy-marijuana-age-verify\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
+
+#: easy-marijuana-age-verify.php
+#. Plugin Name of the plugin
+msgid "Marijuana Age Verify"
+msgstr "マリファナ年齢確認"
+
+#: easy-marijuana-age-verify.php
+#. Description of the plugin
+msgid "Age verification for marijuana websites."
+msgstr "マリファナ関連ウェブサイトの年齢認証。"
+
+#: easy-marijuana-age-verify.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 Star Plugins"
+
+#: easy-marijuana-age-verify.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:134
+msgid "Settings"
+msgstr "設定"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:150
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:161
+msgid "Cheatin&#8217; huh?"
+msgstr "不正してるんじゃないの？"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid "Enable Verification"
+msgstr "認証を有効にする"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid ""
+"Popup will not show when disabled. Use Testing Mode during setup, then show "
+"when it's ready."
+msgstr "無効にするとポップアップは表示されません。設定時はテストモードを使用し、準備ができたら表示してください。"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+#: includes/admin/premium/settings-premium.php:564
+#: includes/admin/settings.php:232
+#: includes/functions.php:863
+msgid "Page Targeting"
+msgstr "ページターゲティング"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+msgid "Include or exclude a certain page."
+msgstr "特定のページを含めるまたは除外する。"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+#: includes/admin/settings.php:437
+msgid "Realtime Settings Check"
+msgstr "リアルタイム設定チェック"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+msgid "May help caching issues, adds delay to popup."
+msgstr "キャッシュ問題の解決に役立つ場合があり、ポップアップに遅延を追加します。"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Verify For"
+msgstr "確認対象"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Select a turnkey setting. Upgrade to Premium to edit text and background."
+msgstr "ターンキーモードを選択してください。テキストや背景を編集したい場合はプレミアムにアップグレードしてください。"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid "Optional small print takes HTML link."
+msgstr "オプションの小さな文字にはHTMLリンクが使えます。"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid ""
+"Disclaimer Text <span class=\"dashicons dashicons-info "
+"emavoptionshovertip\" title=\""
+msgstr "免責事項 <span class=\"dashicons dashicons-info emavoptionshovertip\" title=\""
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:306
+msgid "Require age verification for this content"
+msgstr "このコンテンツには年齢確認が必要です"
+
+#: includes/admin/premium/settings-premium.php:26
+#: includes/admin/premium/settings-premium.php:32
+#: includes/admin/premium/settings-premium.php:38
+#: includes/admin/settings.php:164
+#: includes/functions.php:1017
+#: includes/functions.php:1018
+#: includes/functions.php:1019
+#: includes/functions.php:1028
+#: includes/functions.php:1029
+#: includes/functions.php:1030
+#: includes/functions.php:1033
+msgid "Please verify your age to enter."
+msgstr "ご入場前に年齢を確認してください。"
+
+#: includes/admin/premium/settings-premium.php:27
+#: includes/functions.php:510
+#: includes/functions.php:521
+#: includes/functions.php:525
+msgid "I am 21 or older"
+msgstr "私は21歳以上です"
+
+#: includes/admin/premium/settings-premium.php:28
+#: includes/functions.php:532
+#: includes/functions.php:542
+#: includes/functions.php:546
+msgid "I am under 21"
+msgstr "私は21歳未満です"
+
+#: includes/admin/premium/settings-premium.php:29
+#: includes/functions.php:640
+#: includes/functions.php:723
+msgid "Sorry, you must be 21 or over to enter this website."
+msgstr "申し訳ありませんが、このウェブサイトに入るには21歳以上でなければなりません。"
+
+#: includes/admin/premium/settings-premium.php:33
+#: includes/functions.php:511
+#: includes/functions.php:522
+msgid "I am 19 or older"
+msgstr "私は19歳以上です"
+
+#: includes/admin/premium/settings-premium.php:34
+#: includes/functions.php:533
+#: includes/functions.php:543
+msgid "I am under 19"
+msgstr "私は19歳未満です"
+
+#: includes/admin/premium/settings-premium.php:35
+#: includes/functions.php:641
+#: includes/functions.php:724
+msgid "Sorry, you must be 19 or over to enter this website."
+msgstr "申し訳ありませんが、このウェブサイトに入るには19歳以上でなければなりません。"
+
+#: includes/admin/premium/settings-premium.php:39
+#: includes/functions.php:512
+#: includes/functions.php:523
+msgid "I am 18 or older"
+msgstr "私は18歳以上です"
+
+#: includes/admin/premium/settings-premium.php:40
+#: includes/functions.php:534
+#: includes/functions.php:544
+msgid "I am under 18"
+msgstr "私は18歳未満です"
+
+#: includes/admin/premium/settings-premium.php:41
+#: includes/functions.php:642
+#: includes/functions.php:725
+msgid "Sorry, you must be 18 or over to enter this website."
+msgstr "申し訳ありませんが、このウェブサイトに入るには18歳以上でなければなりません。"
+
+#: includes/admin/premium/settings-premium.php:44
+#: includes/functions.php:1020
+#: includes/functions.php:1031
+msgid "Are you a 18+ valid medical marijuana patient?"
+msgstr "あなたは有効な医療用マリファナ患者の18歳以上ですか？"
+
+#: includes/admin/premium/settings-premium.php:45
+#: includes/admin/premium/settings-premium.php:51
+#: includes/functions.php:513
+#: includes/functions.php:524
+msgid "Yes"
+msgstr "はい"
+
+#: includes/admin/premium/settings-premium.php:46
+#: includes/admin/premium/settings-premium.php:52
+#: includes/admin/premium/settings-premium.php:64
+#: includes/functions.php:535
+#: includes/functions.php:537
+#: includes/functions.php:545
+#: includes/functions.php:547
+msgid "No"
+msgstr "いいえ"
+
+#: includes/admin/premium/settings-premium.php:47
+#: includes/functions.php:643
+msgid ""
+"Sorry, you must be 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr "申し訳ありませんが、このウェブサイトにアクセスするには、医療用マリファナの有効な患者であり、18歳以上でなければなりません。"
+
+#: includes/admin/premium/settings-premium.php:50
+#: includes/functions.php:1021
+#: includes/functions.php:1032
+msgid "Are you 21+ or a 18+ valid medical marijuana patient?"
+msgstr "あなたは21歳以上ですか、それとも18歳以上の医療用マリファナ患者ですか？"
+
+#: includes/admin/premium/settings-premium.php:53
+#: includes/functions.php:644
+msgid ""
+"Sorry, you must be 21 or over, or 18 years or over valid medical marijuana "
+"patient, to enter this website."
+msgstr "申し訳ありませんが、このウェブサイトにアクセスするには、21歳以上、または18歳以上の有効な医療用マリファナ患者でなければなりません。"
+
+#: includes/admin/premium/settings-premium.php:56
+#: includes/admin/premium/settings-premium.php:57
+#: includes/admin/premium/settings-premium.php:58
+#: includes/admin/premium/settings-premium.php:59
+#: includes/admin/premium/settings-premium.php:162
+#: includes/admin/premium/settings-premium.php:174
+#: includes/functions.php:584
+msgid "Your text here"
+msgstr "あなたのテキストはこちら"
+
+#: includes/admin/premium/settings-premium.php:62
+#: includes/functions.php:1023
+#: includes/functions.php:1034
+msgid "Enter your birth date to continue."
+msgstr "続行するには生年月日を入力してください。"
+
+#: includes/admin/premium/settings-premium.php:63
+#: includes/functions.php:515
+#: includes/functions.php:526
+msgid "Enter"
+msgstr "入力"
+
+#: includes/admin/premium/settings-premium.php:65
+msgid "You must be over 21 to enter this site."
+msgstr "このサイトに入るには21歳以上である必要があります。"
+
+#: includes/admin/premium/settings-premium.php:81
+msgid "Enter text to validate an age..."
+msgstr "年齢を検証するためのテキストを入力..."
+
+#: includes/admin/premium/settings-premium.php:97
+msgid "Enter text to validate..."
+msgstr "検証するためのテキストを入力..."
+
+#: includes/admin/premium/settings-premium.php:113
+msgid "Enter text to not validate..."
+msgstr "検証しないためのテキストを入力..."
+
+#: includes/admin/premium/settings-premium.php:128
+msgid "Enter text for error message..."
+msgstr "エラーメッセージ用のテキストを入力..."
+
+#: includes/admin/premium/settings-premium.php:186
+msgid "Return Visitor Cookie"
+msgstr "リターンビジタークッキー"
+
+#: includes/admin/premium/settings-premium.php:190
+msgid "Show “Remember Me” checkbox"
+msgstr "「私を覚えていてください」チェックボックスを表示"
+
+#: includes/admin/premium/settings-premium.php:205
+msgid "Overlay Color"
+msgstr "オーバーレイの色"
+
+#: includes/admin/premium/settings-premium.php:225
+msgid "Background Gradient"
+msgstr "背景グラデーション"
+
+#: includes/admin/premium/settings-premium.php:229
+#: includes/admin/premium/settings-premium.php:332
+msgid "Use background gradient"
+msgstr "背景グラデーションを使用"
+
+#: includes/admin/premium/settings-premium.php:244
+#: includes/admin/premium/settings-premium.php:760
+msgid "Gradient End Color"
+msgstr "グラデーションの終了色"
+
+#: includes/admin/premium/settings-premium.php:264
+#: includes/admin/premium/settings-premium.php:768
+msgid "Gradient Direction"
+msgstr "グラデーションの方向"
+
+#: includes/admin/premium/settings-premium.php:267
+#: includes/admin/premium/settings-premium.php:370
+msgid "Center"
+msgstr "中央"
+
+#: includes/admin/premium/settings-premium.php:268
+#: includes/admin/premium/settings-premium.php:371
+msgid "Top to Bottom"
+msgstr "上から下へ"
+
+#: includes/admin/premium/settings-premium.php:269
+#: includes/admin/premium/settings-premium.php:372
+msgid "Bottom to Top"
+msgstr "下から上へ"
+
+#: includes/admin/premium/settings-premium.php:270
+#: includes/admin/premium/settings-premium.php:373
+msgid "Left to Right"
+msgstr "左から右へ"
+
+#: includes/admin/premium/settings-premium.php:271
+#: includes/admin/premium/settings-premium.php:374
+msgid "Right to Left"
+msgstr "右から左へ"
+
+#: includes/admin/premium/settings-premium.php:272
+#: includes/admin/premium/settings-premium.php:375
+msgid "Top Left to Bottom Right"
+msgstr "左上から右下へ"
+
+#: includes/admin/premium/settings-premium.php:273
+#: includes/admin/premium/settings-premium.php:376
+msgid "Top Right to Bottom Left"
+msgstr "右上から左下へ"
+
+#: includes/admin/premium/settings-premium.php:288
+msgid "Overlay Box"
+msgstr "オーバーレイボックス"
+
+#: includes/admin/premium/settings-premium.php:292
+msgid "Show box around the form"
+msgstr "フォームの周りにボックスを表示"
+
+#: includes/admin/premium/settings-premium.php:308
+#: includes/admin/premium/settings-premium.php:798
+msgid "Box Background Color"
+msgstr "ボックスの背景色"
+
+#: includes/admin/premium/settings-premium.php:328
+msgid "Box Gradient"
+msgstr "ボックスグラデーション"
+
+#: includes/admin/premium/settings-premium.php:347
+#: includes/admin/premium/settings-premium.php:814
+msgid "Box Gradient End Color"
+msgstr "ボックスグラデーションの終了色"
+
+#: includes/admin/premium/settings-premium.php:367
+#: includes/admin/premium/settings-premium.php:822
+msgid "Box Gradient Direction"
+msgstr "グラデーション方向"
+
+#: includes/admin/premium/settings-premium.php:391
+msgid "Styling"
+msgstr "スタイリング"
+
+#: includes/admin/premium/settings-premium.php:395
+msgid "Use built-in CSS on the front-end (recommended)"
+msgstr "フロントエンドで組み込みCSSを使用（推奨）"
+
+#: includes/admin/premium/settings-premium.php:411
+msgid "Background Color Agree Button"
+msgstr "賛成ボタンの背景色"
+
+#: includes/admin/premium/settings-premium.php:437
+msgid "Background Color Disagree Button"
+msgstr "反対ボタンの背景色"
+
+#: includes/admin/premium/settings-premium.php:465
+msgid "Upload Logo"
+msgstr "ロゴをアップロード"
+
+#: includes/admin/premium/settings-premium.php:469
+msgid "Add Logo"
+msgstr "ロゴを追加"
+
+#: includes/admin/premium/settings-premium.php:471
+msgid "Select Logo"
+msgstr "ロゴを選択"
+
+#: includes/admin/premium/settings-premium.php:473
+msgid "Clear Logo"
+msgstr "ロゴをクリア"
+
+#: includes/admin/premium/settings-premium.php:495
+msgid "Adjust Level of Transparency "
+msgstr "透明度の調整 "
+
+#: includes/admin/premium/settings-premium.php:499
+msgid "60% Opacity"
+msgstr "60% 不透明度"
+
+#: includes/admin/premium/settings-premium.php:500
+msgid "65% Opacity"
+msgstr "65% 不透明度"
+
+#: includes/admin/premium/settings-premium.php:501
+msgid "70% Opacity"
+msgstr "70% 不透明度"
+
+#: includes/admin/premium/settings-premium.php:502
+msgid "75% Opacity"
+msgstr "75% 不透明度"
+
+#: includes/admin/premium/settings-premium.php:503
+msgid "80% Opacity"
+msgstr "80% 不透明度"
+
+#: includes/admin/premium/settings-premium.php:504
+msgid "85% Opacity"
+msgstr "85% 不透明度"
+
+#: includes/admin/premium/settings-premium.php:505
+msgid "90% Opacity"
+msgstr "90% 不透明度"
+
+#: includes/admin/premium/settings-premium.php:506
+msgid "95% Opacity"
+msgstr "95% 不透明度"
+
+#: includes/admin/premium/settings-premium.php:507
+msgid "100% Opacity"
+msgstr "100% 不透明度"
+
+#: includes/admin/premium/settings-premium.php:522
+msgid "18+ Medical/21+ Recreational"
+msgstr "18歳以上の医療/21歳以上のレクリエーション"
+
+#: includes/admin/premium/settings-premium.php:522
+#: includes/admin/premium/settings-premium.php:535
+#: includes/admin/premium/settings-premium.php:549
+#: includes/admin/settings.php:284
+#: includes/admin/settings.php:286
+#: includes/admin/settings.php:295
+#: includes/admin/settings.php:297
+#: includes/admin/settings.php:306
+#: includes/admin/settings.php:308
+#: includes/admin/settings.php:317
+#: includes/admin/settings.php:319
+#: includes/admin/settings.php:328
+#: includes/admin/settings.php:337
+#: includes/admin/settings.php:347
+msgid "Premium Screenshot"
+msgstr "プレミアムスクリーンショット"
+
+#: includes/admin/premium/settings-premium.php:535
+msgid "Free-form Custom Text"
+msgstr "フリーフォームのカスタムテキスト"
+
+#: includes/admin/premium/settings-premium.php:549
+msgid "Birthdate"
+msgstr "誕生日"
+
+#: includes/admin/premium/settings-premium.php:551
+msgid "Verify Age over:"
+msgstr "年齢を確認してください:"
+
+#: includes/admin/premium/settings-premium.php:568
+msgid "Show on all pages"
+msgstr "すべてのページに表示"
+
+#: includes/admin/premium/settings-premium.php:573
+msgid "Show on this page only"
+msgstr "このページのみ表示"
+
+#: includes/admin/premium/settings-premium.php:578
+msgid "Show everywhere except this page"
+msgstr "このページを除くすべての場所に表示"
+
+#: includes/admin/premium/settings-premium.php:590
+msgid "Page "
+msgstr "ページ "
+
+#: includes/admin/premium/settings-premium.php:599
+msgid "— Select a Page —"
+msgstr "— ページを選択 —"
+
+#: includes/admin/premium/settings-premium.php:631
+#: includes/admin/premium/settings-premium.php:633
+msgid "Blog Posts"
+msgstr "ブログ記事"
+
+#: includes/admin/premium/settings-premium.php:637
+#: includes/admin/premium/settings-premium.php:639
+msgid "Product Pages"
+msgstr "商品ページ"
+
+#: includes/admin/premium/settings-premium.php:644
+#: includes/admin/premium/settings-premium.php:646
+msgid "All WooCommerce Pages"
+msgstr "すべてのWooCommerceページ"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Premium Options"
+msgstr "プレミアムオプション"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Select “free-form” above to show editable text fields."
+msgstr "上の「フリー形式」を選択して編集可能なテキストフィールドを表示します。"
+
+#: includes/admin/premium/settings-premium.php:663
+msgid "Free-Form Custom Text"
+msgstr "フリー形式のカスタムテキスト"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Age Prompt"
+msgstr "年齢のプロンプト"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Required question."
+msgstr "必須の質問です。"
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Yes Button Text"
+msgstr "はいボタンのテキスト"
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Required to verify."
+msgstr "確認のために必要です。"
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "No Button Text"
+msgstr "いいえボタンのテキスト"
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "Required to not verify."
+msgstr "確認しない場合に必要です。"
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Error Text"
+msgstr "エラーテキスト"
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Required. Appears when user clicks no button."
+msgstr "ユーザーがいいえボタンをクリックしたときに表示されます。"
+
+#: includes/admin/premium/settings-premium.php:702
+msgid "User Experience"
+msgstr "ユーザーエクスペリエンス"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "Enable Return Visitor Cookie"
+msgstr "リターン訪問者クッキーを有効にする"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "A return visitor cookie allows verified visitors to skip next time."
+msgstr "リターン訪問者クッキーにより、確認済みの訪問者は次回をスキップできます。"
+
+#: includes/admin/premium/settings-premium.php:716
+msgid "Buttons"
+msgstr "ボタン"
+
+#: includes/admin/premium/settings-premium.php:722
+msgid "Yes Button Color"
+msgstr "はいボタンの色"
+
+#: includes/admin/premium/settings-premium.php:722
+#: includes/admin/premium/settings-premium.php:730
+msgid ""
+"SMARTtext automatically sets text color to black or white based on button "
+"color."
+msgstr "SMARTtextは、ボタンの色に基づいて自動的に文字色を黒または白に設定します。"
+
+#: includes/admin/premium/settings-premium.php:730
+msgid "No Button Color"
+msgstr "いいえボタンの色"
+
+#: includes/admin/premium/settings-premium.php:738
+msgid "Background"
+msgstr "背景"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid "Background Color"
+msgstr "背景色"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid ""
+"SMARTtext automatically sets text color to black or white based on "
+"background color."
+msgstr "SMARTtextは、背景色に基づいて自動的に文字色を黒または白に設定します。"
+
+#: includes/admin/premium/settings-premium.php:752
+#: includes/admin/premium/settings-premium.php:806
+msgid "Gradient"
+msgstr "グラデーション"
+
+#: includes/admin/premium/settings-premium.php:752
+msgid "Blend the overlay background between two colors."
+msgstr "2つの色の間でオーバーレイ背景をブレンドします。"
+
+#: includes/admin/premium/settings-premium.php:760
+msgid "The second color used when background gradient is enabled."
+msgstr "背景グラデーションが有効なときに使用される2番目の色。"
+
+#: includes/admin/premium/settings-premium.php:768
+msgid "Choose how the gradient flows across the background."
+msgstr "グラデーションの流れを背景全体に選択します。"
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Background Opacity"
+msgstr "背景の不透明度"
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Hide content 60-100%."
+msgstr "コンテンツを60-100%非表示にします。"
+
+#: includes/admin/premium/settings-premium.php:784
+msgid "Box"
+msgstr "ボックス"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Form Box"
+msgstr "フォームボックス"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Place the modal content inside a centered box layout."
+msgstr "モーダルコンテンツを中央のボックスレイアウト内に配置します。"
+
+#: includes/admin/premium/settings-premium.php:798
+msgid "Sets the inner box background when box mode is enabled."
+msgstr "ボックスモードが有効な場合、内部ボックスの背景を設定します。"
+
+#: includes/admin/premium/settings-premium.php:806
+msgid "Blend the box panel between two colors."
+msgstr "2つの色の間でボックスパネルをブレンドします。"
+
+#: includes/admin/premium/settings-premium.php:814
+msgid "The second color used when box gradient is enabled."
+msgstr "グラデーションが有効な場合に使用される2番目の色。"
+
+#: includes/admin/premium/settings-premium.php:822
+msgid "Choose how the gradient flows across the box."
+msgstr "グラデーションの流れを選択します。"
+
+#: includes/admin/premium/settings-premium.php:830
+msgid "Branding"
+msgstr "ブランディング"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Add Headline"
+msgstr "見出しを追加"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Optional headline centers below logo."
+msgstr "オプションの見出しはロゴの下に中央配置されます。"
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Add Text Below Headline"
+msgstr "見出しの下にテキストを追加"
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Optional body copy."
+msgstr "オプションの本文。"
+
+#: includes/admin/premium/settings-premium.php:856
+msgid "Your Logo"
+msgstr "あなたのロゴ"
+
+#: includes/admin/premium/settings-premium.php:856
+msgid ""
+"Upload any size or dimension. The responsive display resizes it to 650 "
+"pixels max tall or wide."
+msgstr "任意のサイズまたは寸法をアップロードします。レスポンシブ表示は最大高さまたは幅を650ピクセルにリサイズします。"
+
+#: includes/admin/settings.php:18
+msgid "WP Rocket cache cleared."
+msgstr "WP Rocketのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:24
+msgid "W3TC cache cleared."
+msgstr "W3TCのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:30
+msgid "WP Super Cache cache cleared."
+msgstr "WP Super Cacheのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:36
+msgid "WP Fastest Cache cache cleared."
+msgstr "WP Fastest Cacheのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:43
+msgid "WPEngine cache cleared."
+msgstr "WPEngineのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:49
+msgid "SiteGround Optimizer cache cleared."
+msgstr "SiteGround Optimizerのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:55
+msgid "LiteSpeed cache cleared."
+msgstr "LiteSpeedのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:61
+msgid "Cache Enabler cache cleared."
+msgstr "Cache Enablerのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:67
+msgid "Pagely cache cleared."
+msgstr "Pagelyのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:73
+msgid "Autoptimize cache cleared."
+msgstr "Autoptimizeのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:79
+msgid "Comet Cache cache cleared."
+msgstr "Comet Cacheのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:85
+msgid "Hummingbird cache cleared."
+msgstr "Hummingbirdのキャッシュをクリアしました。"
+
+#: includes/admin/settings.php:89
+msgid "NOTE: Please be sure to clear any page caches for new settings to display."
+msgstr "注意：新しい設定を反映させるために、ページキャッシュを必ずクリアしてください。"
+
+#: includes/admin/settings.php:99
+msgid "Easy Marijuana Age Verify banner"
+msgstr "簡易マリファナ年齢認証バナー"
+
+#: includes/admin/settings.php:102
+msgid " Marijuana Age Verify"
+msgstr " マリファナ年齢認証"
+
+#: includes/admin/settings.php:117
+msgid ""
+"<strong>Clear Cookie:</strong> Popup stopped after clicking yes? <br/> "
+"Detects if a cookie is set in your browser from this plugin and clears it. "
+"Refresh this page to recheck."
+msgstr ""
+"<strong>Cookieをクリア:</strong> 「はい」をクリックした後にポップアップが停止しましたか？<br/> "
+"このプラグインから設定されたクッキーを検出してクリアします。再確認のためこのページを更新してください。"
+
+#: includes/admin/settings.php:119
+msgid "No Cookie Set"
+msgstr "クッキー未設定"
+
+#: includes/admin/settings.php:131
+msgid ""
+"Need Help? Click the  icon on the bottom right to search our <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Knowledge Base</a> or to send an email for "
+"Premium support."
+msgstr ""
+"ヘルプが必要ですか？ 右下のアイコンをクリックして、<a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">ナレッジベース</a>を検索するか、プレミアムサポートへのメールを送信してください。"
+
+#: includes/admin/settings.php:132
+msgid ""
+"Read: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">My age window isn't showing.</a>"
+msgstr ""
+"読む: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">私の年齢確認ウィンドウが表示されません。</a>"
+
+#: includes/admin/settings.php:133
+msgid ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">Contact "
+"Us</a> to report a bug, suggest a feature, ask a billing question, or "
+"request Premium support."
+msgstr ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">お問い合わせ</"
+"a> でバグ報告、機能提案、請求に関する質問、またはプレミアムサポートのリクエストを行ってください。"
+
+#: includes/admin/settings.php:134
+msgid ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">Visit "
+"The Support Center</a> for more."
+msgstr ""
+"<a href=\"https://5starplugins.com/get-support/\" "
+"target=\"_blank\">サポートセンターにアクセス</a> してください。"
+
+#: includes/admin/settings.php:135
+msgid ""
+"Use Age Verify with Pretty Simple Popup for <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">perfectly timed marketing popups</a>."
+msgstr ""
+"Age VerifyをPretty Simple Popupと組み合わせて、 <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">完璧なタイミングのマーケティングポップアップ</a>を実現します。"
+
+#: includes/admin/settings.php:136
+msgid ""
+"Like this? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Rate This Plugin</a>"
+msgstr ""
+"気に入りましたか？ <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">このプラグインを評価する</a>"
+
+#: includes/admin/settings.php:138
+msgid ""
+"Developed and supported by <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> in San Diego, CA"
+msgstr ""
+"サンディエゴ（カリフォルニア州）の <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> による開発・サポート"
+
+#: includes/admin/settings.php:178
+msgid "Require verification for"
+msgstr "確認が必要な項目"
+
+#: includes/admin/settings.php:182
+msgid "Entire site"
+msgstr "サイト全体"
+
+#: includes/admin/settings.php:187
+msgid "Specific content"
+msgstr "特定のコンテンツ"
+
+#: includes/admin/settings.php:204
+msgid "Enable verification:"
+msgstr "確認を有効にする："
+
+#: includes/admin/settings.php:208
+msgid "Disable"
+msgstr "無効にする"
+
+#: includes/admin/settings.php:213
+msgid "[TESTING MODE] Admins only"
+msgstr "[テストモード] 管理者のみ"
+
+#: includes/admin/settings.php:218
+msgid "Show except to logged-in users"
+msgstr "ログイン済みユーザーだけに表示"
+
+#: includes/admin/settings.php:223
+msgid "Show to all visitors"
+msgstr "すべての訪問者に表示"
+
+#: includes/admin/settings.php:236
+msgid "Show on all pages (upgrade to unlock)"
+msgstr "すべてのページに表示（アップグレードで解除）"
+
+#: includes/admin/settings.php:241
+msgid "Show on this page only (upgrade to unlock)"
+msgstr "このページだけに表示（アップグレードで解除）"
+
+#: includes/admin/settings.php:246
+msgid "Show everywhere except this page (upgrade to unlock)"
+msgstr "このページを除く全ての場所に表示（アップグレードで解除）"
+
+#: includes/admin/settings.php:250
+msgid "Upgrade for page targeting"
+msgstr "ページターゲティング用にアップグレード"
+
+#: includes/admin/settings.php:276
+msgid "Verify For:"
+msgstr "確認対象："
+
+#: includes/admin/settings.php:280
+msgid "21+ Recreational"
+msgstr "21歳以上のレクリエーション"
+
+#: includes/admin/settings.php:283
+#: includes/admin/settings.php:294
+#: includes/admin/settings.php:305
+#: includes/admin/settings.php:316
+#: includes/admin/settings.php:346
+msgid "Standard Screenshot"
+msgstr "標準スクリーンショット"
+
+#: includes/admin/settings.php:291
+msgid "19+ Recreational"
+msgstr "19歳以上のレクリエーション"
+
+#: includes/admin/settings.php:302
+msgid "18+ Recreational"
+msgstr "18歳以上のレクリエーション"
+
+#: includes/admin/settings.php:313
+msgid "18+ Medical"
+msgstr "18歳以上の医療用"
+
+#: includes/admin/settings.php:327
+msgid "18+ Medical/21+ Recreational (upgrade to unlock)"
+msgstr "18歳以上の医療用/21歳以上のレクリエーション（アップグレードで解除）"
+
+#: includes/admin/settings.php:335
+msgid "Free-form Custom Text (upgrade to unlock)"
+msgstr "フリーフォームのカスタムテキスト（アップグレードで解除）"
+
+#: includes/admin/settings.php:344
+msgid "Birthdate (upgrade to unlock)"
+msgstr "生年月日（アップグレードで解除）"
+
+#: includes/admin/settings.php:359
+msgid "years old or older to view this site"
+msgstr "このサイトを閲覧するには18歳以上またはそれ以上です"
+
+#: includes/admin/settings.php:370
+msgid "minutes"
+msgstr "分"
+
+#: includes/admin/settings.php:383
+msgid "Membership"
+msgstr "会員登録"
+
+#: includes/admin/settings.php:387
+msgid "Require users to confirm their age before registering to this site"
+msgstr "登録前にユーザーの年齢確認を必要とします"
+
+#: includes/admin/settings.php:441
+msgid "Confirm \"Enable Verification\" settings before showing popup"
+msgstr "ポップアップを表示する前に「確認有効化」設定を確認してください"
+
+#: includes/admin/settings.php:468
+msgid "Date dropdowns"
+msgstr "日付のドロップダウン"
+
+#: includes/admin/settings.php:469
+msgid "Inputs"
+msgstr "入力欄"
+
+#: includes/admin/settings.php:470
+msgid "Confirm checkbox"
+msgstr "確認用チェックボックス"
+
+#: includes/functions.php:339
+#, php-format
+msgid "You must be over %d to enter this site."
+msgstr "このサイトに入るには、%d歳以上でなければなりません。"
+
+#: includes/functions.php:355
+msgid "January"
+msgstr "1月"
+
+#: includes/functions.php:356
+msgid "February"
+msgstr "2月"
+
+#: includes/functions.php:357
+msgid "March"
+msgstr "3月"
+
+#: includes/functions.php:358
+msgid "April"
+msgstr "4月"
+
+#: includes/functions.php:359
+msgid "May"
+msgstr "5月"
+
+#: includes/functions.php:360
+msgid "June"
+msgstr "6月"
+
+#: includes/functions.php:361
+msgid "July"
+msgstr "7月"
+
+#: includes/functions.php:362
+msgid "August"
+msgstr "8月"
+
+#: includes/functions.php:363
+msgid "September"
+msgstr "9月"
+
+#: includes/functions.php:364
+msgid "October"
+msgstr "10月"
+
+#: includes/functions.php:365
+msgid "November"
+msgstr "11月"
+
+#: includes/functions.php:366
+msgid "December"
+msgstr "12月"
+
+#: includes/functions.php:372
+#: includes/functions.php:373
+msgid "Month"
+msgstr "月"
+
+#: includes/functions.php:379
+#: includes/functions.php:380
+msgid "Day"
+msgstr "日"
+
+#: includes/functions.php:386
+#: includes/functions.php:387
+msgid "Year"
+msgstr "年"
+
+#: includes/functions.php:552
+#: includes/functions.php:639
+#: includes/functions.php:722
+msgid "Sorry, you must be of legal age to enter this website."
+msgstr "申し訳ありませんが、法定年齢に達している必要があります。"
+
+#: includes/functions.php:595
+msgid "Enter Site &raquo;"
+msgstr "サイトに入る &raquo;"
+
+#: includes/functions.php:625
+msgid "Remember me next time"
+msgstr "次回も記憶する"
+
+#: includes/functions.php:726
+msgid ""
+"Sorry, you must be an 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr "申し訳ありませんが、このウェブサイトに入るには、有効な医療用マリファナ患者として18歳以上である必要があります。"
+
+#: includes/functions.php:727
+msgid ""
+"Sorry, you must be 21 or over, or an 18 years or over valid medical "
+"marijuana patient, to enter this website."
+msgstr "申し訳ありませんが、このウェブサイトに入るには、21歳以上、または18歳以上の有効な医療用マリファナ患者である必要があります。"
+
+#: includes/functions.php:790
+msgid "I am at least 21 years old"
+msgstr "私は少なくとも21歳です"
+
+#: includes/functions.php:808
+msgid "Please confirm your age"
+msgstr "年齢を確認してください"
+
+#: includes/functions.php:830
+msgid "Unlock Premium Features"
+msgstr "プレミアム機能を解除"
+
+#: includes/functions.php:844
+msgid "Upgrade Now"
+msgstr "今すぐアップグレード"
+
+#: includes/functions.php:849
+msgid "Start 14-Day Free Trial"
+msgstr "14日間無料トライアルを開始"
+
+#: includes/functions.php:849
+msgid "(risk free, no credit card)"
+msgstr "(リスクなし、クレジットカード不要)"
+
+#: includes/functions.php:852
+msgid "(On Free Trial Now)"
+msgstr "(現在無料トライアル中)"
+
+#: includes/functions.php:863
+msgid "Include / exclude certain pages"
+msgstr "特定のページを含める / 除外する"
+
+#: includes/functions.php:864
+msgid "Customizable"
+msgstr "カスタマイズ可能"
+
+#: includes/functions.php:864
+msgid "Free-form text option"
+msgstr "自由入力テキストオプション"
+
+#: includes/functions.php:865
+msgid "Translation Ready"
+msgstr "翻訳準備完了"
+
+#: includes/functions.php:865
+msgid "Self translate to any language"
+msgstr "任意の言語に自己翻訳"
+
+#: includes/functions.php:866
+msgid "Brand It"
+msgstr "ブランド化"
+
+#: includes/functions.php:866
+msgid "Your logo and colors"
+msgstr "あなたのロゴとカラー"
+
+#: includes/functions.php:867
+msgid "Design Background"
+msgstr "デザイン背景"
+
+#: includes/functions.php:867
+msgid "Set transparency and color"
+msgstr "透明度と色を設定"
+
+#: includes/functions.php:868
+msgid "Welcome Message"
+msgstr "ウェルカムメッセージ"
+
+#: includes/functions.php:868
+msgid "Add a welcome message"
+msgstr "ウェルカムメッセージを追加"
+
+#: includes/functions.php:869
+msgid "Remember Visitors"
+msgstr "訪問者を記憶"
+
+#: includes/functions.php:869
+msgid "\"Remember me\" checkbox"
+msgstr "\"私を覚えていてください\" チェックボックス"
+
+#: includes/functions.php:870
+msgid "Med/Rec Combo"
+msgstr "Med/Recコンボ"
+
+#: includes/functions.php:870
+msgid "18+ med with 21+ rec"
+msgstr "18歳以上の医療と21歳以上のレクリエーション"
+
+#: includes/functions.php:871
+msgid "Premium Support"
+msgstr "プレミアムサポート"
+
+#: includes/functions.php:871
+msgid "World-class email support from the U.S."
+msgstr "米国発の一流のメールサポート"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid "Hey %1$s"
+msgstr "やあ %1$s"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid ""
+"To enjoy all of the features of this plugin and future updates, Five Star "
+"Plugins needs to connect %4$s to Freemius."
+msgstr ""
+"このプラグインのすべての機能と今後のアップデートをお楽しみいただくには、Five Star Pluginsが %4$s "
+"をFreemiusに接続する必要があります。"
+
+#: includes/premium/functions-premium.php:388
+msgid "You must be 21 years old to visit this site."
+msgstr "このサイトを訪れるには21歳以上である必要があります。"
+
+#: includes/premium/functions-premium.php:401
+msgid "Please verify your age"
+msgstr "年齢を確認してください"

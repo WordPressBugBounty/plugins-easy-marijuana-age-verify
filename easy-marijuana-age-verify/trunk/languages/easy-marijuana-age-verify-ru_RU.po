@@ -1,0 +1,1175 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marijuana Age Verify 2.0.5\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/easy-marijuana-age-verify\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-09T18:42:04+00:00\n"
+"PO-Revision-Date: 2026-06-09 18:51+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: easy-marijuana-age-verify\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru-RU\n"
+
+#: easy-marijuana-age-verify.php
+#. Plugin Name of the plugin
+msgid "Marijuana Age Verify"
+msgstr "Проверка возраста для марихуаны"
+
+#: easy-marijuana-age-verify.php
+#. Description of the plugin
+msgid "Age verification for marijuana websites."
+msgstr "Проверка возраста для сайтов, посвящённых марихуане."
+
+#: easy-marijuana-age-verify.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 Звёзд Плагины"
+
+#: easy-marijuana-age-verify.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:134
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:150
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:161
+msgid "Cheatin&#8217; huh?"
+msgstr "Обмануть, да?"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid "Enable Verification"
+msgstr "Включить проверку"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid ""
+"Popup will not show when disabled. Use Testing Mode during setup, then show "
+"when it's ready."
+msgstr ""
+"Всплывающее окно не показывается, когда отключено. Используйте режим "
+"тестирования во время настройки, затем покажите, когда всё будет готово."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+#: includes/admin/premium/settings-premium.php:564
+#: includes/admin/settings.php:232
+#: includes/functions.php:863
+msgid "Page Targeting"
+msgstr "Настройка страницы"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+msgid "Include or exclude a certain page."
+msgstr "Включить или исключить определённую страницу."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+#: includes/admin/settings.php:437
+msgid "Realtime Settings Check"
+msgstr "Проверка настроек в реальном времени"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+msgid "May help caching issues, adds delay to popup."
+msgstr ""
+"Может помочь с кешированием, добавляет задержку перед показом всплывающего "
+"окна."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Verify For"
+msgstr "Проверка для"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Select a turnkey setting. Upgrade to Premium to edit text and background."
+msgstr ""
+"Выберите готовую настройку. Обновите до Премиум, чтобы редактировать текст "
+"и фон."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid "Optional small print takes HTML link."
+msgstr "Дополнительная небольшая надпись с HTML-ссылкой."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid ""
+"Disclaimer Text <span class=\"dashicons dashicons-info "
+"emavoptionshovertip\" title=\""
+msgstr ""
+"Текст отказа <span class=\"dashicons dashicons-info emavoptionshovertip\" "
+"title=\""
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:306
+msgid "Require age verification for this content"
+msgstr "Требуется подтверждение возраста для этого контента"
+
+#: includes/admin/premium/settings-premium.php:26
+#: includes/admin/premium/settings-premium.php:32
+#: includes/admin/premium/settings-premium.php:38
+#: includes/admin/settings.php:164
+#: includes/functions.php:1017
+#: includes/functions.php:1018
+#: includes/functions.php:1019
+#: includes/functions.php:1028
+#: includes/functions.php:1029
+#: includes/functions.php:1030
+#: includes/functions.php:1033
+msgid "Please verify your age to enter."
+msgstr "Пожалуйста, подтвердите ваш возраст для входа."
+
+#: includes/admin/premium/settings-premium.php:27
+#: includes/functions.php:510
+#: includes/functions.php:521
+#: includes/functions.php:525
+msgid "I am 21 or older"
+msgstr "Мне 21 или старше"
+
+#: includes/admin/premium/settings-premium.php:28
+#: includes/functions.php:532
+#: includes/functions.php:542
+#: includes/functions.php:546
+msgid "I am under 21"
+msgstr "Мне менее 21"
+
+#: includes/admin/premium/settings-premium.php:29
+#: includes/functions.php:640
+#: includes/functions.php:723
+msgid "Sorry, you must be 21 or over to enter this website."
+msgstr "Извините, для входа на этот сайт вам должно быть 21 или больше."
+
+#: includes/admin/premium/settings-premium.php:33
+#: includes/functions.php:511
+#: includes/functions.php:522
+msgid "I am 19 or older"
+msgstr "Мне 19 или старше"
+
+#: includes/admin/premium/settings-premium.php:34
+#: includes/functions.php:533
+#: includes/functions.php:543
+msgid "I am under 19"
+msgstr "Мне менее 19"
+
+#: includes/admin/premium/settings-premium.php:35
+#: includes/functions.php:641
+#: includes/functions.php:724
+msgid "Sorry, you must be 19 or over to enter this website."
+msgstr "Извините, для входа на этот сайт вам должно быть 19 или больше."
+
+#: includes/admin/premium/settings-premium.php:39
+#: includes/functions.php:512
+#: includes/functions.php:523
+msgid "I am 18 or older"
+msgstr "Мне 18 или старше"
+
+#: includes/admin/premium/settings-premium.php:40
+#: includes/functions.php:534
+#: includes/functions.php:544
+msgid "I am under 18"
+msgstr "Мне менее 18"
+
+#: includes/admin/premium/settings-premium.php:41
+#: includes/functions.php:642
+#: includes/functions.php:725
+msgid "Sorry, you must be 18 or over to enter this website."
+msgstr "Извините, для входа на этот сайт вам должно быть 18 или больше."
+
+#: includes/admin/premium/settings-premium.php:44
+#: includes/functions.php:1020
+#: includes/functions.php:1031
+msgid "Are you a 18+ valid medical marijuana patient?"
+msgstr "Вы являетесь действительным пациентом с медицинской марихуаной 18+?"
+
+#: includes/admin/premium/settings-premium.php:45
+#: includes/admin/premium/settings-premium.php:51
+#: includes/functions.php:513
+#: includes/functions.php:524
+msgid "Yes"
+msgstr "Да"
+
+#: includes/admin/premium/settings-premium.php:46
+#: includes/admin/premium/settings-premium.php:52
+#: includes/admin/premium/settings-premium.php:64
+#: includes/functions.php:535
+#: includes/functions.php:537
+#: includes/functions.php:545
+#: includes/functions.php:547
+msgid "No"
+msgstr "Нет"
+
+#: includes/admin/premium/settings-premium.php:47
+#: includes/functions.php:643
+msgid ""
+"Sorry, you must be 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"Извините, вы должны быть старше 18 лет и иметь действующего пациента с "
+"медицинской марихуаной, чтобы войти на этот сайт."
+
+#: includes/admin/premium/settings-premium.php:50
+#: includes/functions.php:1021
+#: includes/functions.php:1032
+msgid "Are you 21+ or a 18+ valid medical marijuana patient?"
+msgstr "Вам 21+ или вы действующий пациент с медицинской марихуаной 18+?"
+
+#: includes/admin/premium/settings-premium.php:53
+#: includes/functions.php:644
+msgid ""
+"Sorry, you must be 21 or over, or 18 years or over valid medical marijuana "
+"patient, to enter this website."
+msgstr ""
+"Извините, вы должны быть старше 21 года или иметь действующего пациента с "
+"медицинской марихуаной 18+ для входа на этот сайт."
+
+#: includes/admin/premium/settings-premium.php:56
+#: includes/admin/premium/settings-premium.php:57
+#: includes/admin/premium/settings-premium.php:58
+#: includes/admin/premium/settings-premium.php:59
+#: includes/admin/premium/settings-premium.php:162
+#: includes/admin/premium/settings-premium.php:174
+#: includes/functions.php:584
+msgid "Your text here"
+msgstr "Ваш текст здесь"
+
+#: includes/admin/premium/settings-premium.php:62
+#: includes/functions.php:1023
+#: includes/functions.php:1034
+msgid "Enter your birth date to continue."
+msgstr "Введите дату рождения для продолжения."
+
+#: includes/admin/premium/settings-premium.php:63
+#: includes/functions.php:515
+#: includes/functions.php:526
+msgid "Enter"
+msgstr "Войти"
+
+#: includes/admin/premium/settings-premium.php:65
+msgid "You must be over 21 to enter this site."
+msgstr "Для входа на этот сайт вам должно быть больше 21 года."
+
+#: includes/admin/premium/settings-premium.php:81
+msgid "Enter text to validate an age..."
+msgstr "Введите текст для проверки возраста..."
+
+#: includes/admin/premium/settings-premium.php:97
+msgid "Enter text to validate..."
+msgstr "Введите текст для проверки..."
+
+#: includes/admin/premium/settings-premium.php:113
+msgid "Enter text to not validate..."
+msgstr "Введите текст, чтобы не проверять..."
+
+#: includes/admin/premium/settings-premium.php:128
+msgid "Enter text for error message..."
+msgstr "Введите текст для сообщения об ошибке..."
+
+#: includes/admin/premium/settings-premium.php:186
+msgid "Return Visitor Cookie"
+msgstr "Cookie возвращающегося посетителя"
+
+#: includes/admin/premium/settings-premium.php:190
+msgid "Show “Remember Me” checkbox"
+msgstr "Показать флажок “Запомнить меня”"
+
+#: includes/admin/premium/settings-premium.php:205
+msgid "Overlay Color"
+msgstr "Цвет наложения"
+
+#: includes/admin/premium/settings-premium.php:225
+msgid "Background Gradient"
+msgstr "Градиент фона"
+
+#: includes/admin/premium/settings-premium.php:229
+#: includes/admin/premium/settings-premium.php:332
+msgid "Use background gradient"
+msgstr "Использовать градиент фона"
+
+#: includes/admin/premium/settings-premium.php:244
+#: includes/admin/premium/settings-premium.php:760
+msgid "Gradient End Color"
+msgstr "Конечный цвет градиента"
+
+#: includes/admin/premium/settings-premium.php:264
+#: includes/admin/premium/settings-premium.php:768
+msgid "Gradient Direction"
+msgstr "Направление градиента"
+
+#: includes/admin/premium/settings-premium.php:267
+#: includes/admin/premium/settings-premium.php:370
+msgid "Center"
+msgstr "Центр"
+
+#: includes/admin/premium/settings-premium.php:268
+#: includes/admin/premium/settings-premium.php:371
+msgid "Top to Bottom"
+msgstr "Сверху вниз"
+
+#: includes/admin/premium/settings-premium.php:269
+#: includes/admin/premium/settings-premium.php:372
+msgid "Bottom to Top"
+msgstr "Снизу вверх"
+
+#: includes/admin/premium/settings-premium.php:270
+#: includes/admin/premium/settings-premium.php:373
+msgid "Left to Right"
+msgstr "Слева направо"
+
+#: includes/admin/premium/settings-premium.php:271
+#: includes/admin/premium/settings-premium.php:374
+msgid "Right to Left"
+msgstr "Справа налево"
+
+#: includes/admin/premium/settings-premium.php:272
+#: includes/admin/premium/settings-premium.php:375
+msgid "Top Left to Bottom Right"
+msgstr "Сверху слева до снизу справа"
+
+#: includes/admin/premium/settings-premium.php:273
+#: includes/admin/premium/settings-premium.php:376
+msgid "Top Right to Bottom Left"
+msgstr "Сверху справа до снизу слева"
+
+#: includes/admin/premium/settings-premium.php:288
+msgid "Overlay Box"
+msgstr "Панель наложения"
+
+#: includes/admin/premium/settings-premium.php:292
+msgid "Show box around the form"
+msgstr "Показать рамку вокруг формы"
+
+#: includes/admin/premium/settings-premium.php:308
+#: includes/admin/premium/settings-premium.php:798
+msgid "Box Background Color"
+msgstr "Цвет фона рамки"
+
+#: includes/admin/premium/settings-premium.php:328
+msgid "Box Gradient"
+msgstr "Градиент рамки"
+
+#: includes/admin/premium/settings-premium.php:347
+#: includes/admin/premium/settings-premium.php:814
+msgid "Box Gradient End Color"
+msgstr "Конечный цвет градиента рамки"
+
+#: includes/admin/premium/settings-premium.php:367
+#: includes/admin/premium/settings-premium.php:822
+msgid "Box Gradient Direction"
+msgstr "Направление градиента блока"
+
+#: includes/admin/premium/settings-premium.php:391
+msgid "Styling"
+msgstr "Настройки стилей"
+
+#: includes/admin/premium/settings-premium.php:395
+msgid "Use built-in CSS on the front-end (recommended)"
+msgstr "Использовать встроенный CSS на фронтенде (рекомендуется)"
+
+#: includes/admin/premium/settings-premium.php:411
+msgid "Background Color Agree Button"
+msgstr "Цвет фона кнопки «Согласен»"
+
+#: includes/admin/premium/settings-premium.php:437
+msgid "Background Color Disagree Button"
+msgstr "Цвет фона кнопки «Не согласен»"
+
+#: includes/admin/premium/settings-premium.php:465
+msgid "Upload Logo"
+msgstr "Загрузить логотип"
+
+#: includes/admin/premium/settings-premium.php:469
+msgid "Add Logo"
+msgstr "Добавить логотип"
+
+#: includes/admin/premium/settings-premium.php:471
+msgid "Select Logo"
+msgstr "Выбрать логотип"
+
+#: includes/admin/premium/settings-premium.php:473
+msgid "Clear Logo"
+msgstr "Удалить логотип"
+
+#: includes/admin/premium/settings-premium.php:495
+msgid "Adjust Level of Transparency "
+msgstr "Настроить уровень прозрачности "
+
+#: includes/admin/premium/settings-premium.php:499
+msgid "60% Opacity"
+msgstr "Прозрачность 60%"
+
+#: includes/admin/premium/settings-premium.php:500
+msgid "65% Opacity"
+msgstr "Прозрачность 65%"
+
+#: includes/admin/premium/settings-premium.php:501
+msgid "70% Opacity"
+msgstr "Прозрачность 70%"
+
+#: includes/admin/premium/settings-premium.php:502
+msgid "75% Opacity"
+msgstr "Прозрачность 75%"
+
+#: includes/admin/premium/settings-premium.php:503
+msgid "80% Opacity"
+msgstr "Прозрачность 80%"
+
+#: includes/admin/premium/settings-premium.php:504
+msgid "85% Opacity"
+msgstr "Прозрачность 85%"
+
+#: includes/admin/premium/settings-premium.php:505
+msgid "90% Opacity"
+msgstr "Прозрачность 90%"
+
+#: includes/admin/premium/settings-premium.php:506
+msgid "95% Opacity"
+msgstr "Прозрачность 95%"
+
+#: includes/admin/premium/settings-premium.php:507
+msgid "100% Opacity"
+msgstr "Прозрачность 100%"
+
+#: includes/admin/premium/settings-premium.php:522
+msgid "18+ Medical/21+ Recreational"
+msgstr "18+ Медицинское/21+ Развлекательное"
+
+#: includes/admin/premium/settings-premium.php:522
+#: includes/admin/premium/settings-premium.php:535
+#: includes/admin/premium/settings-premium.php:549
+#: includes/admin/settings.php:284
+#: includes/admin/settings.php:286
+#: includes/admin/settings.php:295
+#: includes/admin/settings.php:297
+#: includes/admin/settings.php:306
+#: includes/admin/settings.php:308
+#: includes/admin/settings.php:317
+#: includes/admin/settings.php:319
+#: includes/admin/settings.php:328
+#: includes/admin/settings.php:337
+#: includes/admin/settings.php:347
+msgid "Premium Screenshot"
+msgstr "Премиум скриншот"
+
+#: includes/admin/premium/settings-premium.php:535
+msgid "Free-form Custom Text"
+msgstr "Настраиваемый произвольный текст"
+
+#: includes/admin/premium/settings-premium.php:549
+msgid "Birthdate"
+msgstr "Дата рождения"
+
+#: includes/admin/premium/settings-premium.php:551
+msgid "Verify Age over:"
+msgstr "Подтвердить возраст старше:"
+
+#: includes/admin/premium/settings-premium.php:568
+msgid "Show on all pages"
+msgstr "Показать на всех страницах"
+
+#: includes/admin/premium/settings-premium.php:573
+msgid "Show on this page only"
+msgstr "Показать только на этой странице"
+
+#: includes/admin/premium/settings-premium.php:578
+msgid "Show everywhere except this page"
+msgstr "Показать везде, кроме этой страницы"
+
+#: includes/admin/premium/settings-premium.php:590
+msgid "Page "
+msgstr "Страница "
+
+#: includes/admin/premium/settings-premium.php:599
+msgid "— Select a Page —"
+msgstr "— Выберите страницу —"
+
+#: includes/admin/premium/settings-premium.php:631
+#: includes/admin/premium/settings-premium.php:633
+msgid "Blog Posts"
+msgstr "Блог-посты"
+
+#: includes/admin/premium/settings-premium.php:637
+#: includes/admin/premium/settings-premium.php:639
+msgid "Product Pages"
+msgstr "Страницы продукта"
+
+#: includes/admin/premium/settings-premium.php:644
+#: includes/admin/premium/settings-premium.php:646
+msgid "All WooCommerce Pages"
+msgstr "Все страницы WooCommerce"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Premium Options"
+msgstr "Премиальные опции"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Select “free-form” above to show editable text fields."
+msgstr ""
+"Выберите «свободную форму» выше, чтобы показать редактируемые текстовые "
+"поля."
+
+#: includes/admin/premium/settings-premium.php:663
+msgid "Free-Form Custom Text"
+msgstr "Пользовательский свободный текст"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Age Prompt"
+msgstr "Запрос возраста"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Required question."
+msgstr "Обязательный вопрос."
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Yes Button Text"
+msgstr "Текст кнопки «Да»"
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Required to verify."
+msgstr "Требуется для подтверждения."
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "No Button Text"
+msgstr "Текст кнопки «Нет»"
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "Required to not verify."
+msgstr "Требуется для отказа от подтверждения."
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Error Text"
+msgstr "Текст ошибки"
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Required. Appears when user clicks no button."
+msgstr "Обязательный. Появляется, когда пользователь нажимает кнопку «Нет»."
+
+#: includes/admin/premium/settings-premium.php:702
+msgid "User Experience"
+msgstr "Пользовательский опыт"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "Enable Return Visitor Cookie"
+msgstr "Включить cookie для возвратных посетителей"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "A return visitor cookie allows verified visitors to skip next time."
+msgstr ""
+"Cookie для возвратных посетителей позволяет проверенным гостям пропускать "
+"следующий раз."
+
+#: includes/admin/premium/settings-premium.php:716
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: includes/admin/premium/settings-premium.php:722
+msgid "Yes Button Color"
+msgstr "Цвет кнопки «Да»"
+
+#: includes/admin/premium/settings-premium.php:722
+#: includes/admin/premium/settings-premium.php:730
+msgid ""
+"SMARTtext automatically sets text color to black or white based on button "
+"color."
+msgstr ""
+"SMARTtext автоматически устанавливает цвет текста в черный или белый в "
+"зависимости от цвета кнопки."
+
+#: includes/admin/premium/settings-premium.php:730
+msgid "No Button Color"
+msgstr "Цвет кнопки «Нет»"
+
+#: includes/admin/premium/settings-premium.php:738
+msgid "Background"
+msgstr "Фон"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid ""
+"SMARTtext automatically sets text color to black or white based on "
+"background color."
+msgstr ""
+"SMARTtext автоматически устанавливает цвет текста в черный или белый в "
+"зависимости от цвета фона."
+
+#: includes/admin/premium/settings-premium.php:752
+#: includes/admin/premium/settings-premium.php:806
+msgid "Gradient"
+msgstr "Градиент"
+
+#: includes/admin/premium/settings-premium.php:752
+msgid "Blend the overlay background between two colors."
+msgstr "Смешайте фон наложения между двумя цветами."
+
+#: includes/admin/premium/settings-premium.php:760
+msgid "The second color used when background gradient is enabled."
+msgstr "Второй цвет, используемый при включенном градиенте фона."
+
+#: includes/admin/premium/settings-premium.php:768
+msgid "Choose how the gradient flows across the background."
+msgstr "Выберите, как градиент течет по фону."
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Background Opacity"
+msgstr "Непрозрачность фона"
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Hide content 60-100%."
+msgstr "Скрыть содержимое на 60-100%."
+
+#: includes/admin/premium/settings-premium.php:784
+msgid "Box"
+msgstr "Коробка"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Form Box"
+msgstr "Форма блока"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Place the modal content inside a centered box layout."
+msgstr "Поместите содержимое модального окна внутри центрированного блока."
+
+#: includes/admin/premium/settings-premium.php:798
+msgid "Sets the inner box background when box mode is enabled."
+msgstr "Задает фон внутреннего блока, когда включен режим блока."
+
+#: includes/admin/premium/settings-premium.php:806
+msgid "Blend the box panel between two colors."
+msgstr "Смешайте панель блока между двумя цветами."
+
+#: includes/admin/premium/settings-premium.php:814
+msgid "The second color used when box gradient is enabled."
+msgstr "Второй цвет, используемый при включении градиента блока."
+
+#: includes/admin/premium/settings-premium.php:822
+msgid "Choose how the gradient flows across the box."
+msgstr "Выберите, как будет течь градиент по всему блоку."
+
+#: includes/admin/premium/settings-premium.php:830
+msgid "Branding"
+msgstr "Брендинг"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Add Headline"
+msgstr "Добавить заголовок"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Optional headline centers below logo."
+msgstr "Опциональный заголовок, центрированный ниже логотипа."
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Add Text Below Headline"
+msgstr "Добавить текст ниже заголовка"
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Optional body copy."
+msgstr "Опциональный основной текст."
+
+#: includes/admin/premium/settings-premium.php:856
+msgid "Your Logo"
+msgstr "Ваш логотип"
+
+#: includes/admin/premium/settings-premium.php:856
+msgid ""
+"Upload any size or dimension. The responsive display resizes it to 650 "
+"pixels max tall or wide."
+msgstr ""
+"Загрузите любой размер или формат. Адаптивный дисплей изменит его до "
+"максимальной высоты или ширины 650 пикселей."
+
+#: includes/admin/settings.php:18
+msgid "WP Rocket cache cleared."
+msgstr "Кэш WP Rocket очищен."
+
+#: includes/admin/settings.php:24
+msgid "W3TC cache cleared."
+msgstr "Кэш W3TC очищен."
+
+#: includes/admin/settings.php:30
+msgid "WP Super Cache cache cleared."
+msgstr "Кэш WP Super Cache очищен."
+
+#: includes/admin/settings.php:36
+msgid "WP Fastest Cache cache cleared."
+msgstr "Кэш WP Fastest Cache очищен."
+
+#: includes/admin/settings.php:43
+msgid "WPEngine cache cleared."
+msgstr "Кэш WPEngine очищен."
+
+#: includes/admin/settings.php:49
+msgid "SiteGround Optimizer cache cleared."
+msgstr "Кэш SiteGround Optimizer очищен."
+
+#: includes/admin/settings.php:55
+msgid "LiteSpeed cache cleared."
+msgstr "Кэш LiteSpeed очищен."
+
+#: includes/admin/settings.php:61
+msgid "Cache Enabler cache cleared."
+msgstr "Кэш Cache Enabler очищен."
+
+#: includes/admin/settings.php:67
+msgid "Pagely cache cleared."
+msgstr "Кэш Pagely очищен."
+
+#: includes/admin/settings.php:73
+msgid "Autoptimize cache cleared."
+msgstr "Кэш Autoptimize очищен."
+
+#: includes/admin/settings.php:79
+msgid "Comet Cache cache cleared."
+msgstr "Кэш Comet Cache очищен."
+
+#: includes/admin/settings.php:85
+msgid "Hummingbird cache cleared."
+msgstr "Кэш Hummingbird очищен."
+
+#: includes/admin/settings.php:89
+msgid "NOTE: Please be sure to clear any page caches for new settings to display."
+msgstr ""
+"ПРИМЕЧАНИЕ: Обязательно очистите кеш страниц, чтобы применились новые "
+"настройки."
+
+#: includes/admin/settings.php:99
+msgid "Easy Marijuana Age Verify banner"
+msgstr "Баннер Easy Marijuana Age Verify"
+
+#: includes/admin/settings.php:102
+msgid " Marijuana Age Verify"
+msgstr " Marijuana Age Verify"
+
+#: includes/admin/settings.php:117
+msgid ""
+"<strong>Clear Cookie:</strong> Popup stopped after clicking yes? <br/> "
+"Detects if a cookie is set in your browser from this plugin and clears it. "
+"Refresh this page to recheck."
+msgstr ""
+"<strong>Очистить cookie:</strong> Всплывающее окно перестало работать после "
+"нажатия \"да\"? <br/> Обнаруживает, установлен ли cookie в вашем браузере "
+"этим плагином, и очищает его. Обновите страницу для повторной проверки."
+
+#: includes/admin/settings.php:119
+msgid "No Cookie Set"
+msgstr "Cookie не установлено"
+
+#: includes/admin/settings.php:131
+msgid ""
+"Need Help? Click the  icon on the bottom right to search our <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Knowledge Base</a> or to send an email for "
+"Premium support."
+msgstr ""
+"Нужна помощь? Нажмите на  иконку в правом нижнем углу, чтобы найти <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Базу знаний</a> или отправить письмо для "
+"получения поддержки Premium."
+
+#: includes/admin/settings.php:132
+msgid ""
+"Read: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">My age window isn't showing.</a>"
+msgstr ""
+"Читайте: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">Моё окно подтверждения возраста не "
+"появляется.</a>"
+
+#: includes/admin/settings.php:133
+msgid ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">Contact "
+"Us</a> to report a bug, suggest a feature, ask a billing question, or "
+"request Premium support."
+msgstr ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\""
+">Связаться с нами</a> для сообщения о баге, предложения функции, вопроса по "
+"оплате или запроса поддержки Premium."
+
+#: includes/admin/settings.php:134
+msgid ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">Visit "
+"The Support Center</a> for more."
+msgstr ""
+"<a href=\"https://5starplugins.com/get-support/\" "
+"target=\"_blank\">Посетите Центр поддержки</a> для получения дополнительной "
+"информации."
+
+#: includes/admin/settings.php:135
+msgid ""
+"Use Age Verify with Pretty Simple Popup for <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">perfectly timed marketing popups</a>."
+msgstr ""
+"Используйте Age Verify с Pretty Simple Popup для <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">идеально синхронизированных маркетинговых всплывающих "
+"окон</a>."
+
+#: includes/admin/settings.php:136
+msgid ""
+"Like this? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Rate This Plugin</a>"
+msgstr ""
+"Нравится это? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Оцените этот плагин</a>"
+
+#: includes/admin/settings.php:138
+msgid ""
+"Developed and supported by <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> in San Diego, CA"
+msgstr ""
+"Разработано и поддерживается <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> в Сан-Диего, Калифорния"
+
+#: includes/admin/settings.php:178
+msgid "Require verification for"
+msgstr "Требуется подтверждение для"
+
+#: includes/admin/settings.php:182
+msgid "Entire site"
+msgstr "Весь сайт"
+
+#: includes/admin/settings.php:187
+msgid "Specific content"
+msgstr "Определённый контент"
+
+#: includes/admin/settings.php:204
+msgid "Enable verification:"
+msgstr "Включить подтверждение:"
+
+#: includes/admin/settings.php:208
+msgid "Disable"
+msgstr "Отключить"
+
+#: includes/admin/settings.php:213
+msgid "[TESTING MODE] Admins only"
+msgstr "[РЕЖИМ ТЕСТИРОВАНИЯ] Только для администраторов"
+
+#: includes/admin/settings.php:218
+msgid "Show except to logged-in users"
+msgstr "Показывать, кроме как для вошедших пользователей"
+
+#: includes/admin/settings.php:223
+msgid "Show to all visitors"
+msgstr "Показывать всем посетителям"
+
+#: includes/admin/settings.php:236
+msgid "Show on all pages (upgrade to unlock)"
+msgstr "Показывать на всех страницах (для разблокировки обновите)"
+
+#: includes/admin/settings.php:241
+msgid "Show on this page only (upgrade to unlock)"
+msgstr "Показывать только на этой странице (для разблокировки обновите)"
+
+#: includes/admin/settings.php:246
+msgid "Show everywhere except this page (upgrade to unlock)"
+msgstr "Показывать везде, кроме этой страницы (для разблокировки обновите)"
+
+#: includes/admin/settings.php:250
+msgid "Upgrade for page targeting"
+msgstr "Обновите для целевой страницы"
+
+#: includes/admin/settings.php:276
+msgid "Verify For:"
+msgstr "Подтверждение для:"
+
+#: includes/admin/settings.php:280
+msgid "21+ Recreational"
+msgstr "21+ Развлекательное"
+
+#: includes/admin/settings.php:283
+#: includes/admin/settings.php:294
+#: includes/admin/settings.php:305
+#: includes/admin/settings.php:316
+#: includes/admin/settings.php:346
+msgid "Standard Screenshot"
+msgstr "Стандартный скриншот"
+
+#: includes/admin/settings.php:291
+msgid "19+ Recreational"
+msgstr "19+ Развлекательное"
+
+#: includes/admin/settings.php:302
+msgid "18+ Recreational"
+msgstr "18+ Развлекательное"
+
+#: includes/admin/settings.php:313
+msgid "18+ Medical"
+msgstr "18+ Медицинское"
+
+#: includes/admin/settings.php:327
+msgid "18+ Medical/21+ Recreational (upgrade to unlock)"
+msgstr "18+ Медицинское/21+ Развлекательное (для разблокировки обновите)"
+
+#: includes/admin/settings.php:335
+msgid "Free-form Custom Text (upgrade to unlock)"
+msgstr "Произвольный текст (для разблокировки обновите)"
+
+#: includes/admin/settings.php:344
+msgid "Birthdate (upgrade to unlock)"
+msgstr "Дата рождения (для разблокировки обновите)"
+
+#: includes/admin/settings.php:359
+msgid "years old or older to view this site"
+msgstr "лет или старше для просмотра этого сайта"
+
+#: includes/admin/settings.php:370
+msgid "minutes"
+msgstr "минут"
+
+#: includes/admin/settings.php:383
+msgid "Membership"
+msgstr "Членство"
+
+#: includes/admin/settings.php:387
+msgid "Require users to confirm their age before registering to this site"
+msgstr ""
+"Требовать подтверждение возраста пользователей перед регистрацией на этом "
+"сайте"
+
+#: includes/admin/settings.php:441
+msgid "Confirm \"Enable Verification\" settings before showing popup"
+msgstr ""
+"Подтвердите настройки «Включить проверку», прежде чем отображать "
+"всплывающее окно"
+
+#: includes/admin/settings.php:468
+msgid "Date dropdowns"
+msgstr "Выпадающие списки даты"
+
+#: includes/admin/settings.php:469
+msgid "Inputs"
+msgstr "Поля ввода"
+
+#: includes/admin/settings.php:470
+msgid "Confirm checkbox"
+msgstr "Подтверждающий флажок"
+
+#: includes/functions.php:339
+#, php-format
+msgid "You must be over %d to enter this site."
+msgstr "Вы должны быть старше %d, чтобы войти на этот сайт."
+
+#: includes/functions.php:355
+msgid "January"
+msgstr "Январь"
+
+#: includes/functions.php:356
+msgid "February"
+msgstr "Февраль"
+
+#: includes/functions.php:357
+msgid "March"
+msgstr "Март"
+
+#: includes/functions.php:358
+msgid "April"
+msgstr "Апрель"
+
+#: includes/functions.php:359
+msgid "May"
+msgstr "Май"
+
+#: includes/functions.php:360
+msgid "June"
+msgstr "Июнь"
+
+#: includes/functions.php:361
+msgid "July"
+msgstr "Июль"
+
+#: includes/functions.php:362
+msgid "August"
+msgstr "Август"
+
+#: includes/functions.php:363
+msgid "September"
+msgstr "Сентябрь"
+
+#: includes/functions.php:364
+msgid "October"
+msgstr "Октябрь"
+
+#: includes/functions.php:365
+msgid "November"
+msgstr "Ноябрь"
+
+#: includes/functions.php:366
+msgid "December"
+msgstr "Декабрь"
+
+#: includes/functions.php:372
+#: includes/functions.php:373
+msgid "Month"
+msgstr "Месяц"
+
+#: includes/functions.php:379
+#: includes/functions.php:380
+msgid "Day"
+msgstr "День"
+
+#: includes/functions.php:386
+#: includes/functions.php:387
+msgid "Year"
+msgstr "Год"
+
+#: includes/functions.php:552
+#: includes/functions.php:639
+#: includes/functions.php:722
+msgid "Sorry, you must be of legal age to enter this website."
+msgstr "Извините, для входа на этот сайт необходимо достигнуть совершеннолетия."
+
+#: includes/functions.php:595
+msgid "Enter Site &raquo;"
+msgstr "Войти на сайт &raquo;"
+
+#: includes/functions.php:625
+msgid "Remember me next time"
+msgstr "Запомнить меня в следующий раз"
+
+#: includes/functions.php:726
+msgid ""
+"Sorry, you must be an 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr ""
+"Извините, для входа на этот сайт вы должны быть не моложе 18 лет и быть "
+"действующим пациентом с медицинской марихуаной."
+
+#: includes/functions.php:727
+msgid ""
+"Sorry, you must be 21 or over, or an 18 years or over valid medical "
+"marijuana patient, to enter this website."
+msgstr ""
+"Извините, вы должны быть старше 21 года или не моложе 18 лет и являться "
+"действующим пациентом с медицинской марихуаной, чтобы войти на этот сайт."
+
+#: includes/functions.php:790
+msgid "I am at least 21 years old"
+msgstr "Мне как минимум 21 год"
+
+#: includes/functions.php:808
+msgid "Please confirm your age"
+msgstr "Пожалуйста, подтвердите ваш возраст"
+
+#: includes/functions.php:830
+msgid "Unlock Premium Features"
+msgstr "Разблокировать премиум-функции"
+
+#: includes/functions.php:844
+msgid "Upgrade Now"
+msgstr "Обновить сейчас"
+
+#: includes/functions.php:849
+msgid "Start 14-Day Free Trial"
+msgstr ""
+"Начать 14-дневную бесплатную пробную версию</т>\n"
+"<t i=\"3\">(без риска, без кредитной карты)"
+
+#: includes/functions.php:849
+msgid "(risk free, no credit card)"
+msgstr "(безрисково, без кредитной карты)"
+
+#: includes/functions.php:852
+msgid "(On Free Trial Now)"
+msgstr "(Сейчас бесплатная пробная версия)"
+
+#: includes/functions.php:863
+msgid "Include / exclude certain pages"
+msgstr "Включить / исключить определённые страницы"
+
+#: includes/functions.php:864
+msgid "Customizable"
+msgstr "Настраиваемый"
+
+#: includes/functions.php:864
+msgid "Free-form text option"
+msgstr "Опция свободного текста"
+
+#: includes/functions.php:865
+msgid "Translation Ready"
+msgstr "Готов к переводу"
+
+#: includes/functions.php:865
+msgid "Self translate to any language"
+msgstr "Самостоятельный перевод на любой язык"
+
+#: includes/functions.php:866
+msgid "Brand It"
+msgstr "Брендировать"
+
+#: includes/functions.php:866
+msgid "Your logo and colors"
+msgstr "Ваш логотип и цвета"
+
+#: includes/functions.php:867
+msgid "Design Background"
+msgstr "Фон дизайна"
+
+#: includes/functions.php:867
+msgid "Set transparency and color"
+msgstr "Установить прозрачность и цвет"
+
+#: includes/functions.php:868
+msgid "Welcome Message"
+msgstr "Приветственное сообщение"
+
+#: includes/functions.php:868
+msgid "Add a welcome message"
+msgstr "Добавить приветственное сообщение"
+
+#: includes/functions.php:869
+msgid "Remember Visitors"
+msgstr "Запомнить посетителей"
+
+#: includes/functions.php:869
+msgid "\"Remember me\" checkbox"
+msgstr "\"Запомнить меня\" чекбокс"
+
+#: includes/functions.php:870
+msgid "Med/Rec Combo"
+msgstr "Медикаменты/Реципрокумбинация"
+
+#: includes/functions.php:870
+msgid "18+ med with 21+ rec"
+msgstr "Медикаменты 18+ с реципрокумбиной 21+"
+
+#: includes/functions.php:871
+msgid "Premium Support"
+msgstr "Премиальная поддержка"
+
+#: includes/functions.php:871
+msgid "World-class email support from the U.S."
+msgstr "Почтовая поддержка мирового уровня из США"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid "Hey %1$s"
+msgstr "Привет, %1$s"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid ""
+"To enjoy all of the features of this plugin and future updates, Five Star "
+"Plugins needs to connect %4$s to Freemius."
+msgstr ""
+"Чтобы воспользоваться всеми функциями этого плагина и будущими "
+"обновлениями, Five Star Plugins необходимо подключить %4$s к Freemius."
+
+#: includes/premium/functions-premium.php:388
+msgid "You must be 21 years old to visit this site."
+msgstr "Для посещения этого сайта вам должно быть не менее 21 года."
+
+#: includes/premium/functions-premium.php:401
+msgid "Please verify your age"
+msgstr "Пожалуйста, подтвердите ваш возраст"

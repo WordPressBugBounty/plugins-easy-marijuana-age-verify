@@ -1,0 +1,1134 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marijuana Age Verify 2.0.5\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/easy-marijuana-age-verify\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-09T18:42:04+00:00\n"
+"PO-Revision-Date: 2026-06-09 18:51+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: easy-marijuana-age-verify\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ko-KR\n"
+
+#: easy-marijuana-age-verify.php
+#. Plugin Name of the plugin
+msgid "Marijuana Age Verify"
+msgstr "마리화나 연령 인증"
+
+#: easy-marijuana-age-verify.php
+#. Description of the plugin
+msgid "Age verification for marijuana websites."
+msgstr "마리화나 웹사이트용 연령 인증."
+
+#: easy-marijuana-age-verify.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 스타 플러그인"
+
+#: easy-marijuana-age-verify.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:134
+msgid "Settings"
+msgstr "설정"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:150
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:161
+msgid "Cheatin&#8217; huh?"
+msgstr "속임수하셨군요?"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid "Enable Verification"
+msgstr "인증 활성화"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:194
+msgid ""
+"Popup will not show when disabled. Use Testing Mode during setup, then show "
+"when it's ready."
+msgstr "비활성화 시 팝업이 표시되지 않습니다. 설정 시 테스트 모드를 사용한 후 준비되면 표시하세요."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+#: includes/admin/premium/settings-premium.php:564
+#: includes/admin/settings.php:232
+#: includes/functions.php:863
+msgid "Page Targeting"
+msgstr "페이지 타게팅"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:203
+msgid "Include or exclude a certain page."
+msgstr "특정 페이지를 포함하거나 제외합니다."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+#: includes/admin/settings.php:437
+msgid "Realtime Settings Check"
+msgstr "실시간 설정 검사"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:212
+msgid "May help caching issues, adds delay to popup."
+msgstr "캐싱 문제를 해결하는 데 도움이 될 수 있으며, 팝업에 지연을 추가합니다."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Verify For"
+msgstr "확인 대상"
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:220
+msgid "Select a turnkey setting. Upgrade to Premium to edit text and background."
+msgstr "턴키 설정을 선택하세요. 텍스트와 배경을 수정하려면 프리미엄으로 업그레이드하세요."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid "Optional small print takes HTML link."
+msgstr "선택적 소형 인쇄에는 HTML 링크가 포함됩니다."
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:229
+msgid ""
+"Disclaimer Text <span class=\"dashicons dashicons-info "
+"emavoptionshovertip\" title=\""
+msgstr ""
+"면책 조항 텍스트 <span class=\"dashicons dashicons-info emavoptionshovertip\" "
+"title=\""
+
+#: includes/admin/class-easy-marijuana-age-verify-admin.php:306
+msgid "Require age verification for this content"
+msgstr "이 콘텐츠에 대해 연령 인증을 요구합니다"
+
+#: includes/admin/premium/settings-premium.php:26
+#: includes/admin/premium/settings-premium.php:32
+#: includes/admin/premium/settings-premium.php:38
+#: includes/admin/settings.php:164
+#: includes/functions.php:1017
+#: includes/functions.php:1018
+#: includes/functions.php:1019
+#: includes/functions.php:1028
+#: includes/functions.php:1029
+#: includes/functions.php:1030
+#: includes/functions.php:1033
+msgid "Please verify your age to enter."
+msgstr "입장하려면 연령을 인증하세요."
+
+#: includes/admin/premium/settings-premium.php:27
+#: includes/functions.php:510
+#: includes/functions.php:521
+#: includes/functions.php:525
+msgid "I am 21 or older"
+msgstr "저는 21세 이상입니다"
+
+#: includes/admin/premium/settings-premium.php:28
+#: includes/functions.php:532
+#: includes/functions.php:542
+#: includes/functions.php:546
+msgid "I am under 21"
+msgstr "저는 21세 미만입니다"
+
+#: includes/admin/premium/settings-premium.php:29
+#: includes/functions.php:640
+#: includes/functions.php:723
+msgid "Sorry, you must be 21 or over to enter this website."
+msgstr "죄송합니다, 이 웹사이트에 입장하려면 21세 이상이어야 합니다."
+
+#: includes/admin/premium/settings-premium.php:33
+#: includes/functions.php:511
+#: includes/functions.php:522
+msgid "I am 19 or older"
+msgstr "저는 19세 이상입니다"
+
+#: includes/admin/premium/settings-premium.php:34
+#: includes/functions.php:533
+#: includes/functions.php:543
+msgid "I am under 19"
+msgstr "저는 19세 미만입니다"
+
+#: includes/admin/premium/settings-premium.php:35
+#: includes/functions.php:641
+#: includes/functions.php:724
+msgid "Sorry, you must be 19 or over to enter this website."
+msgstr "죄송합니다, 이 웹사이트에 입장하려면 19세 이상이어야 합니다."
+
+#: includes/admin/premium/settings-premium.php:39
+#: includes/functions.php:512
+#: includes/functions.php:523
+msgid "I am 18 or older"
+msgstr "저는 18세 이상입니다"
+
+#: includes/admin/premium/settings-premium.php:40
+#: includes/functions.php:534
+#: includes/functions.php:544
+msgid "I am under 18"
+msgstr "저는 18세 미만입니다"
+
+#: includes/admin/premium/settings-premium.php:41
+#: includes/functions.php:642
+#: includes/functions.php:725
+msgid "Sorry, you must be 18 or over to enter this website."
+msgstr "죄송합니다, 이 웹사이트에 입장하려면 18세 이상이어야 합니다."
+
+#: includes/admin/premium/settings-premium.php:44
+#: includes/functions.php:1020
+#: includes/functions.php:1031
+msgid "Are you a 18+ valid medical marijuana patient?"
+msgstr "당신은 18세 이상 유효 의료용 마리화나 환자입니까?"
+
+#: includes/admin/premium/settings-premium.php:45
+#: includes/admin/premium/settings-premium.php:51
+#: includes/functions.php:513
+#: includes/functions.php:524
+msgid "Yes"
+msgstr "네"
+
+#: includes/admin/premium/settings-premium.php:46
+#: includes/admin/premium/settings-premium.php:52
+#: includes/admin/premium/settings-premium.php:64
+#: includes/functions.php:535
+#: includes/functions.php:537
+#: includes/functions.php:545
+#: includes/functions.php:547
+msgid "No"
+msgstr "아니요"
+
+#: includes/admin/premium/settings-premium.php:47
+#: includes/functions.php:643
+msgid ""
+"Sorry, you must be 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr "죄송합니다. 이 웹사이트에 접속하려면 만 18세 이상 또는 유효한 의료용 마리화나 환자여야 합니다."
+
+#: includes/admin/premium/settings-premium.php:50
+#: includes/functions.php:1021
+#: includes/functions.php:1032
+msgid "Are you 21+ or a 18+ valid medical marijuana patient?"
+msgstr "당신은 21세 이상 또는 만 18세 이상 유효한 의료용 마리화나 환자입니까?"
+
+#: includes/admin/premium/settings-premium.php:53
+#: includes/functions.php:644
+msgid ""
+"Sorry, you must be 21 or over, or 18 years or over valid medical marijuana "
+"patient, to enter this website."
+msgstr "죄송합니다. 이 웹사이트에 접속하려면 21세 이상이거나 만 18세 이상 유효한 의료용 마리화나 환자여야 합니다."
+
+#: includes/admin/premium/settings-premium.php:56
+#: includes/admin/premium/settings-premium.php:57
+#: includes/admin/premium/settings-premium.php:58
+#: includes/admin/premium/settings-premium.php:59
+#: includes/admin/premium/settings-premium.php:162
+#: includes/admin/premium/settings-premium.php:174
+#: includes/functions.php:584
+msgid "Your text here"
+msgstr "여기에 텍스트를 입력하세요"
+
+#: includes/admin/premium/settings-premium.php:62
+#: includes/functions.php:1023
+#: includes/functions.php:1034
+msgid "Enter your birth date to continue."
+msgstr "계속하려면 생년월일을 입력하세요."
+
+#: includes/admin/premium/settings-premium.php:63
+#: includes/functions.php:515
+#: includes/functions.php:526
+msgid "Enter"
+msgstr "입력"
+
+#: includes/admin/premium/settings-premium.php:65
+msgid "You must be over 21 to enter this site."
+msgstr "이 사이트에 접속하려면 21세 이상이어야 합니다."
+
+#: includes/admin/premium/settings-premium.php:81
+msgid "Enter text to validate an age..."
+msgstr "나이 검증용 텍스트를 입력하세요..."
+
+#: includes/admin/premium/settings-premium.php:97
+msgid "Enter text to validate..."
+msgstr "검증용 텍스트를 입력하세요..."
+
+#: includes/admin/premium/settings-premium.php:113
+msgid "Enter text to not validate..."
+msgstr "검증하지 않을 텍스트를 입력하세요..."
+
+#: includes/admin/premium/settings-premium.php:128
+msgid "Enter text for error message..."
+msgstr "오류 메시지용 텍스트를 입력하세요..."
+
+#: includes/admin/premium/settings-premium.php:186
+msgid "Return Visitor Cookie"
+msgstr "재방문자 쿠키"
+
+#: includes/admin/premium/settings-premium.php:190
+msgid "Show “Remember Me” checkbox"
+msgstr "“나를 기억하기” 체크박스 표시"
+
+#: includes/admin/premium/settings-premium.php:205
+msgid "Overlay Color"
+msgstr "오버레이 색상"
+
+#: includes/admin/premium/settings-premium.php:225
+msgid "Background Gradient"
+msgstr "배경 그라데이션"
+
+#: includes/admin/premium/settings-premium.php:229
+#: includes/admin/premium/settings-premium.php:332
+msgid "Use background gradient"
+msgstr "배경 그라데이션 사용"
+
+#: includes/admin/premium/settings-premium.php:244
+#: includes/admin/premium/settings-premium.php:760
+msgid "Gradient End Color"
+msgstr "그라데이션 종료 색상"
+
+#: includes/admin/premium/settings-premium.php:264
+#: includes/admin/premium/settings-premium.php:768
+msgid "Gradient Direction"
+msgstr "그라데이션 방향"
+
+#: includes/admin/premium/settings-premium.php:267
+#: includes/admin/premium/settings-premium.php:370
+msgid "Center"
+msgstr "중앙"
+
+#: includes/admin/premium/settings-premium.php:268
+#: includes/admin/premium/settings-premium.php:371
+msgid "Top to Bottom"
+msgstr "위에서 아래로"
+
+#: includes/admin/premium/settings-premium.php:269
+#: includes/admin/premium/settings-premium.php:372
+msgid "Bottom to Top"
+msgstr "아래에서 위로"
+
+#: includes/admin/premium/settings-premium.php:270
+#: includes/admin/premium/settings-premium.php:373
+msgid "Left to Right"
+msgstr "왼쪽에서 오른쪽으로"
+
+#: includes/admin/premium/settings-premium.php:271
+#: includes/admin/premium/settings-premium.php:374
+msgid "Right to Left"
+msgstr "오른쪽에서 왼쪽으로"
+
+#: includes/admin/premium/settings-premium.php:272
+#: includes/admin/premium/settings-premium.php:375
+msgid "Top Left to Bottom Right"
+msgstr "좌상단에서 우하단으로"
+
+#: includes/admin/premium/settings-premium.php:273
+#: includes/admin/premium/settings-premium.php:376
+msgid "Top Right to Bottom Left"
+msgstr "우상단에서 좌하단으로"
+
+#: includes/admin/premium/settings-premium.php:288
+msgid "Overlay Box"
+msgstr "오버레이 박스"
+
+#: includes/admin/premium/settings-premium.php:292
+msgid "Show box around the form"
+msgstr "폼 주위에 박스 표시"
+
+#: includes/admin/premium/settings-premium.php:308
+#: includes/admin/premium/settings-premium.php:798
+msgid "Box Background Color"
+msgstr "박스 배경색"
+
+#: includes/admin/premium/settings-premium.php:328
+msgid "Box Gradient"
+msgstr "박스 그라데이션"
+
+#: includes/admin/premium/settings-premium.php:347
+#: includes/admin/premium/settings-premium.php:814
+msgid "Box Gradient End Color"
+msgstr "박스 그라데이션 종료 색상"
+
+#: includes/admin/premium/settings-premium.php:367
+#: includes/admin/premium/settings-premium.php:822
+msgid "Box Gradient Direction"
+msgstr "박스 그라데이션 방향"
+
+#: includes/admin/premium/settings-premium.php:391
+msgid "Styling"
+msgstr "스타일링"
+
+#: includes/admin/premium/settings-premium.php:395
+msgid "Use built-in CSS on the front-end (recommended)"
+msgstr "프론트엔드에서 내장된 CSS 사용 (권장)"
+
+#: includes/admin/premium/settings-premium.php:411
+msgid "Background Color Agree Button"
+msgstr "배경색 동의 버튼"
+
+#: includes/admin/premium/settings-premium.php:437
+msgid "Background Color Disagree Button"
+msgstr "배경색 반대 버튼"
+
+#: includes/admin/premium/settings-premium.php:465
+msgid "Upload Logo"
+msgstr "로고 업로드"
+
+#: includes/admin/premium/settings-premium.php:469
+msgid "Add Logo"
+msgstr "로고 추가"
+
+#: includes/admin/premium/settings-premium.php:471
+msgid "Select Logo"
+msgstr "로고 선택"
+
+#: includes/admin/premium/settings-premium.php:473
+msgid "Clear Logo"
+msgstr "로고 지우기"
+
+#: includes/admin/premium/settings-premium.php:495
+msgid "Adjust Level of Transparency "
+msgstr "투명도 수준 조절 "
+
+#: includes/admin/premium/settings-premium.php:499
+msgid "60% Opacity"
+msgstr "60% 불투명도"
+
+#: includes/admin/premium/settings-premium.php:500
+msgid "65% Opacity"
+msgstr "65% 불투명도"
+
+#: includes/admin/premium/settings-premium.php:501
+msgid "70% Opacity"
+msgstr "70% 불투명도"
+
+#: includes/admin/premium/settings-premium.php:502
+msgid "75% Opacity"
+msgstr "75% 불투명도"
+
+#: includes/admin/premium/settings-premium.php:503
+msgid "80% Opacity"
+msgstr "80% 불투명도"
+
+#: includes/admin/premium/settings-premium.php:504
+msgid "85% Opacity"
+msgstr "85% 불투명도"
+
+#: includes/admin/premium/settings-premium.php:505
+msgid "90% Opacity"
+msgstr "90% 불투명도"
+
+#: includes/admin/premium/settings-premium.php:506
+msgid "95% Opacity"
+msgstr "95% 불투명도"
+
+#: includes/admin/premium/settings-premium.php:507
+msgid "100% Opacity"
+msgstr "100% 불투명도"
+
+#: includes/admin/premium/settings-premium.php:522
+msgid "18+ Medical/21+ Recreational"
+msgstr "18세 이상 의료/21세 이상 오락"
+
+#: includes/admin/premium/settings-premium.php:522
+#: includes/admin/premium/settings-premium.php:535
+#: includes/admin/premium/settings-premium.php:549
+#: includes/admin/settings.php:284
+#: includes/admin/settings.php:286
+#: includes/admin/settings.php:295
+#: includes/admin/settings.php:297
+#: includes/admin/settings.php:306
+#: includes/admin/settings.php:308
+#: includes/admin/settings.php:317
+#: includes/admin/settings.php:319
+#: includes/admin/settings.php:328
+#: includes/admin/settings.php:337
+#: includes/admin/settings.php:347
+msgid "Premium Screenshot"
+msgstr "프리미엄 스크린샷"
+
+#: includes/admin/premium/settings-premium.php:535
+msgid "Free-form Custom Text"
+msgstr "자유 형식 사용자 지정 텍스트"
+
+#: includes/admin/premium/settings-premium.php:549
+msgid "Birthdate"
+msgstr "생년월일"
+
+#: includes/admin/premium/settings-premium.php:551
+msgid "Verify Age over:"
+msgstr "이상 연령 확인:"
+
+#: includes/admin/premium/settings-premium.php:568
+msgid "Show on all pages"
+msgstr "모든 페이지에 표시"
+
+#: includes/admin/premium/settings-premium.php:573
+msgid "Show on this page only"
+msgstr "이 페이지에서만 표시"
+
+#: includes/admin/premium/settings-premium.php:578
+msgid "Show everywhere except this page"
+msgstr "이 페이지를 제외한 모든 곳에 표시"
+
+#: includes/admin/premium/settings-premium.php:590
+msgid "Page "
+msgstr "페이지 "
+
+#: includes/admin/premium/settings-premium.php:599
+msgid "— Select a Page —"
+msgstr "— 페이지 선택 —"
+
+#: includes/admin/premium/settings-premium.php:631
+#: includes/admin/premium/settings-premium.php:633
+msgid "Blog Posts"
+msgstr "블로그 게시물"
+
+#: includes/admin/premium/settings-premium.php:637
+#: includes/admin/premium/settings-premium.php:639
+msgid "Product Pages"
+msgstr "제품 페이지"
+
+#: includes/admin/premium/settings-premium.php:644
+#: includes/admin/premium/settings-premium.php:646
+msgid "All WooCommerce Pages"
+msgstr "모든 WooCommerce 페이지"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Premium Options"
+msgstr "프리미엄 옵션"
+
+#: includes/admin/premium/settings-premium.php:657
+msgid "Select “free-form” above to show editable text fields."
+msgstr "위의 “무료 형식”을 선택하여 편집 가능한 텍스트 필드를 표시하세요."
+
+#: includes/admin/premium/settings-premium.php:663
+msgid "Free-Form Custom Text"
+msgstr "무료 형식 사용자 정의 텍스트"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Age Prompt"
+msgstr "연령 프롬프트"
+
+#: includes/admin/premium/settings-premium.php:669
+msgid "Required question."
+msgstr "필수 질문입니다."
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Yes Button Text"
+msgstr "예 버튼 텍스트"
+
+#: includes/admin/premium/settings-premium.php:677
+msgid "Required to verify."
+msgstr "확인을 위해 필요합니다."
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "No Button Text"
+msgstr "아니오 버튼 텍스트"
+
+#: includes/admin/premium/settings-premium.php:685
+msgid "Required to not verify."
+msgstr "확인을 위해 필요하지 않습니다."
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Error Text"
+msgstr "오류 텍스트"
+
+#: includes/admin/premium/settings-premium.php:693
+msgid "Required. Appears when user clicks no button."
+msgstr "필수입니다. 사용자가 아니오 버튼을 클릭하면 표시됩니다."
+
+#: includes/admin/premium/settings-premium.php:702
+msgid "User Experience"
+msgstr "사용자 경험"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "Enable Return Visitor Cookie"
+msgstr "리턴 방문자 쿠키 활성화"
+
+#: includes/admin/premium/settings-premium.php:708
+msgid "A return visitor cookie allows verified visitors to skip next time."
+msgstr "리턴 방문자 쿠키는 인증된 방문자가 다음 방문 시 건너뛰게 합니다."
+
+#: includes/admin/premium/settings-premium.php:716
+msgid "Buttons"
+msgstr "버튼"
+
+#: includes/admin/premium/settings-premium.php:722
+msgid "Yes Button Color"
+msgstr "예 버튼 색상"
+
+#: includes/admin/premium/settings-premium.php:722
+#: includes/admin/premium/settings-premium.php:730
+msgid ""
+"SMARTtext automatically sets text color to black or white based on button "
+"color."
+msgstr "SMARTtext는 버튼 색상에 따라 텍스트 색상을 자동으로 검정 또는 흰색으로 설정합니다."
+
+#: includes/admin/premium/settings-premium.php:730
+msgid "No Button Color"
+msgstr "아니오 버튼 색상"
+
+#: includes/admin/premium/settings-premium.php:738
+msgid "Background"
+msgstr "배경"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid "Background Color"
+msgstr "배경 색상"
+
+#: includes/admin/premium/settings-premium.php:744
+msgid ""
+"SMARTtext automatically sets text color to black or white based on "
+"background color."
+msgstr "SMARTtext는 배경 색상에 따라 텍스트 색상을 자동으로 검정 또는 흰색으로 설정합니다."
+
+#: includes/admin/premium/settings-premium.php:752
+#: includes/admin/premium/settings-premium.php:806
+msgid "Gradient"
+msgstr "그라디언트"
+
+#: includes/admin/premium/settings-premium.php:752
+msgid "Blend the overlay background between two colors."
+msgstr "두 색상 사이에 오버레이 배경을 혼합합니다."
+
+#: includes/admin/premium/settings-premium.php:760
+msgid "The second color used when background gradient is enabled."
+msgstr "배경 그라디언트가 활성화될 때 사용하는 두 번째 색상."
+
+#: includes/admin/premium/settings-premium.php:768
+msgid "Choose how the gradient flows across the background."
+msgstr "그라디언트가 배경을 가로질러 흐르는 방식을 선택하세요."
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Background Opacity"
+msgstr "배경 불투명도"
+
+#: includes/admin/premium/settings-premium.php:776
+msgid "Hide content 60-100%."
+msgstr "내용 숨기기 60-100%."
+
+#: includes/admin/premium/settings-premium.php:784
+msgid "Box"
+msgstr "상자"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Form Box"
+msgstr "양식 박스"
+
+#: includes/admin/premium/settings-premium.php:790
+msgid "Place the modal content inside a centered box layout."
+msgstr "모달 내용을 가운데 정렬된 박스 레이아웃 안에 배치하세요."
+
+#: includes/admin/premium/settings-premium.php:798
+msgid "Sets the inner box background when box mode is enabled."
+msgstr "박스 모드가 활성화될 때 내부 박스 배경을 설정합니다."
+
+#: includes/admin/premium/settings-premium.php:806
+msgid "Blend the box panel between two colors."
+msgstr "두 색상 사이에 박스 패널을 블렌딩합니다."
+
+#: includes/admin/premium/settings-premium.php:814
+msgid "The second color used when box gradient is enabled."
+msgstr "그라데이션이 활성화될 때 사용하는 두 번째 색상."
+
+#: includes/admin/premium/settings-premium.php:822
+msgid "Choose how the gradient flows across the box."
+msgstr "그라데이션이 박스를 가로질러 흐르는 방식을 선택하세요."
+
+#: includes/admin/premium/settings-premium.php:830
+msgid "Branding"
+msgstr "브랜딩"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Add Headline"
+msgstr "헤드라인 추가"
+
+#: includes/admin/premium/settings-premium.php:836
+msgid "Optional headline centers below logo."
+msgstr "선택 사항: 로고 아래에 중앙 정렬된 헤드라인."
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Add Text Below Headline"
+msgstr "헤드라인 아래에 텍스트 추가"
+
+#: includes/admin/premium/settings-premium.php:844
+msgid "Optional body copy."
+msgstr "선택 사항 본문 내용."
+
+#: includes/admin/premium/settings-premium.php:856
+msgid "Your Logo"
+msgstr "당신의 로고"
+
+#: includes/admin/premium/settings-premium.php:856
+msgid ""
+"Upload any size or dimension. The responsive display resizes it to 650 "
+"pixels max tall or wide."
+msgstr "임의의 크기 또는 치수로 업로드하세요. 반응형 디스플레이가 최대 650픽셀 높이 또는 너비로 조정합니다."
+
+#: includes/admin/settings.php:18
+msgid "WP Rocket cache cleared."
+msgstr "WP Rocket 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:24
+msgid "W3TC cache cleared."
+msgstr "W3TC 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:30
+msgid "WP Super Cache cache cleared."
+msgstr "WP Super Cache 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:36
+msgid "WP Fastest Cache cache cleared."
+msgstr "WP Fastest Cache 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:43
+msgid "WPEngine cache cleared."
+msgstr "WPEngine 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:49
+msgid "SiteGround Optimizer cache cleared."
+msgstr "SiteGround Optimizer 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:55
+msgid "LiteSpeed cache cleared."
+msgstr "LiteSpeed 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:61
+msgid "Cache Enabler cache cleared."
+msgstr "Cache Enabler 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:67
+msgid "Pagely cache cleared."
+msgstr "Pagely 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:73
+msgid "Autoptimize cache cleared."
+msgstr "Autoptimize 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:79
+msgid "Comet Cache cache cleared."
+msgstr "Comet Cache 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:85
+msgid "Hummingbird cache cleared."
+msgstr "Hummingbird 캐시가 삭제되었습니다."
+
+#: includes/admin/settings.php:89
+msgid "NOTE: Please be sure to clear any page caches for new settings to display."
+msgstr "참고: 새 설정이 반영되려면 페이지 캐시를 반드시 삭제하세요."
+
+#: includes/admin/settings.php:99
+msgid "Easy Marijuana Age Verify banner"
+msgstr "이지 마리화나 연령 인증 배너"
+
+#: includes/admin/settings.php:102
+msgid " Marijuana Age Verify"
+msgstr " 마리화나 연령 인증"
+
+#: includes/admin/settings.php:117
+msgid ""
+"<strong>Clear Cookie:</strong> Popup stopped after clicking yes? <br/> "
+"Detects if a cookie is set in your browser from this plugin and clears it. "
+"Refresh this page to recheck."
+msgstr ""
+"<strong>쿠키 삭제:</strong> 예를 클릭한 후 팝업이 멈췄나요? <br/> 이 플러그인에서 브라우저에 설정된 쿠키가 있는지 "
+"감지하여 삭제합니다. 새로고침하여 다시 확인하세요."
+
+#: includes/admin/settings.php:119
+msgid "No Cookie Set"
+msgstr "쿠키 미설정"
+
+#: includes/admin/settings.php:131
+msgid ""
+"Need Help? Click the  icon on the bottom right to search our <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">Knowledge Base</a> or to send an email for "
+"Premium support."
+msgstr ""
+"도움이 필요하신가요? 오른쪽 하단의 &nbsp;아이콘을 클릭하여 <a "
+"href=\"https://support.5starplugins.com/collection/47-easy-marijuana-age-"
+"verify\" target=\"_blank\">지식 기반</a>을 검색하거나 프리미엄 지원을 위해 이메일을 보내세요."
+
+#: includes/admin/settings.php:132
+msgid ""
+"Read: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\"  target=\"_blank\">My age window isn't showing.</a>"
+msgstr ""
+"읽기: <a "
+"href=\"https://support.5starplugins.com/article/142-my-age-verify-window-is-"
+"not-popping-up\" target=\"_blank\">나이 확인 창이 표시되지 않음.</a>"
+
+#: includes/admin/settings.php:133
+msgid ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">Contact "
+"Us</a> to report a bug, suggest a feature, ask a billing question, or "
+"request Premium support."
+msgstr ""
+"<a "
+"href=\"/wp-admin/admin.php?page=easy-marijuana-age-verify-contact\">문의하기</"
+"a>를 통해 버그 신고, 기능 제안, 결제 문의 또는 프리미엄 지원 요청하세요."
+
+#: includes/admin/settings.php:134
+msgid ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">Visit "
+"The Support Center</a> for more."
+msgstr ""
+"<a href=\"https://5starplugins.com/get-support/\" target=\"_blank\">지원 센터 "
+"방문하기</a>를 더 확인하세요."
+
+#: includes/admin/settings.php:135
+msgid ""
+"Use Age Verify with Pretty Simple Popup for <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">perfectly timed marketing popups</a>."
+msgstr ""
+"아름답고 간단한 팝업과 함께 Age Verify를 사용하여 <a "
+"href=\"https://get.5starplugins.com/pspforageverify/\" "
+"target=\"_blank\">완벽하게 타이밍 맞춘 마케팅 팝업</a>을 만드세요."
+
+#: includes/admin/settings.php:136
+msgid ""
+"Like this? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\"  target=\"_blank\">Rate This Plugin</a>"
+msgstr ""
+"이것이 마음에 드시나요? <a "
+"href=\"http://wordpress.org/support/view/plugin-reviews/easy-marijuana-age-"
+"verify/?rate=5#new-post\" target=\"_blank\">이 플러그인 평가하기</a>"
+
+#: includes/admin/settings.php:138
+msgid ""
+"Developed and supported by <a href=\"https://5starplugins.com/\"  "
+"target=\"_blank\">5 Star Plugins</a> in San Diego, CA"
+msgstr ""
+"샌디에이고, 캘리포니아의 <a href=\"https://5starplugins.com/\" target=\"_blank\">5 스타 "
+"플러그인</a>에서 개발 및 지원됩니다."
+
+#: includes/admin/settings.php:178
+msgid "Require verification for"
+msgstr "다음에 대한 검증 필요"
+
+#: includes/admin/settings.php:182
+msgid "Entire site"
+msgstr "전체 사이트"
+
+#: includes/admin/settings.php:187
+msgid "Specific content"
+msgstr "특정 콘텐츠"
+
+#: includes/admin/settings.php:204
+msgid "Enable verification:"
+msgstr "검증 활성화:"
+
+#: includes/admin/settings.php:208
+msgid "Disable"
+msgstr "비활성화"
+
+#: includes/admin/settings.php:213
+msgid "[TESTING MODE] Admins only"
+msgstr "[테스트 모드] 관리자 전용"
+
+#: includes/admin/settings.php:218
+msgid "Show except to logged-in users"
+msgstr "로그인한 사용자에게만 표시"
+
+#: includes/admin/settings.php:223
+msgid "Show to all visitors"
+msgstr "모든 방문자에게 표시"
+
+#: includes/admin/settings.php:236
+msgid "Show on all pages (upgrade to unlock)"
+msgstr "모든 페이지에 표시 (업그레이드 필요)"
+
+#: includes/admin/settings.php:241
+msgid "Show on this page only (upgrade to unlock)"
+msgstr "이 페이지에만 표시 (업그레이드 필요)"
+
+#: includes/admin/settings.php:246
+msgid "Show everywhere except this page (upgrade to unlock)"
+msgstr "이 페이지를 제외한 모든 곳에 표시 (업그레이드 필요)"
+
+#: includes/admin/settings.php:250
+msgid "Upgrade for page targeting"
+msgstr "페이지 타겟팅 업그레이드"
+
+#: includes/admin/settings.php:276
+msgid "Verify For:"
+msgstr "확인 대상:"
+
+#: includes/admin/settings.php:280
+msgid "21+ Recreational"
+msgstr "21세 이상 레크리에이션"
+
+#: includes/admin/settings.php:283
+#: includes/admin/settings.php:294
+#: includes/admin/settings.php:305
+#: includes/admin/settings.php:316
+#: includes/admin/settings.php:346
+msgid "Standard Screenshot"
+msgstr "표준 스크린샷"
+
+#: includes/admin/settings.php:291
+msgid "19+ Recreational"
+msgstr "19세 이상 레크리에이션"
+
+#: includes/admin/settings.php:302
+msgid "18+ Recreational"
+msgstr "18세 이상 레크리에이션"
+
+#: includes/admin/settings.php:313
+msgid "18+ Medical"
+msgstr "18세 이상 의료용"
+
+#: includes/admin/settings.php:327
+msgid "18+ Medical/21+ Recreational (upgrade to unlock)"
+msgstr "18세 이상 의료/21세 이상 레크리에이션 (업그레이드 필요)"
+
+#: includes/admin/settings.php:335
+msgid "Free-form Custom Text (upgrade to unlock)"
+msgstr "자유 형식 사용자 지정 텍스트 (업그레이드 필요)"
+
+#: includes/admin/settings.php:344
+msgid "Birthdate (upgrade to unlock)"
+msgstr "생일 (업그레이드 필요)"
+
+#: includes/admin/settings.php:359
+msgid "years old or older to view this site"
+msgstr "이 사이트를 보기 위해 만 18세 이상이어야 함"
+
+#: includes/admin/settings.php:370
+msgid "minutes"
+msgstr "분"
+
+#: includes/admin/settings.php:383
+msgid "Membership"
+msgstr "회원가입"
+
+#: includes/admin/settings.php:387
+msgid "Require users to confirm their age before registering to this site"
+msgstr "이 사이트에 등록하기 전에 사용자가 나이를 확인하도록 요구합니다"
+
+#: includes/admin/settings.php:441
+msgid "Confirm \"Enable Verification\" settings before showing popup"
+msgstr "팝업 표시 전에 \"인증 활성화\" 설정을 확인하세요"
+
+#: includes/admin/settings.php:468
+msgid "Date dropdowns"
+msgstr "날짜 선택 드롭다운"
+
+#: includes/admin/settings.php:469
+msgid "Inputs"
+msgstr "입력란"
+
+#: includes/admin/settings.php:470
+msgid "Confirm checkbox"
+msgstr "확인 체크박스"
+
+#: includes/functions.php:339
+#, php-format
+msgid "You must be over %d to enter this site."
+msgstr "이 사이트에 접속하려면 %d 이상이어야 합니다."
+
+#: includes/functions.php:355
+msgid "January"
+msgstr "1월"
+
+#: includes/functions.php:356
+msgid "February"
+msgstr "2월"
+
+#: includes/functions.php:357
+msgid "March"
+msgstr "3월"
+
+#: includes/functions.php:358
+msgid "April"
+msgstr "4월"
+
+#: includes/functions.php:359
+msgid "May"
+msgstr "5월"
+
+#: includes/functions.php:360
+msgid "June"
+msgstr "6월"
+
+#: includes/functions.php:361
+msgid "July"
+msgstr "7월"
+
+#: includes/functions.php:362
+msgid "August"
+msgstr "8월"
+
+#: includes/functions.php:363
+msgid "September"
+msgstr "9월"
+
+#: includes/functions.php:364
+msgid "October"
+msgstr "10월"
+
+#: includes/functions.php:365
+msgid "November"
+msgstr "11월"
+
+#: includes/functions.php:366
+msgid "December"
+msgstr "12월"
+
+#: includes/functions.php:372
+#: includes/functions.php:373
+msgid "Month"
+msgstr "월"
+
+#: includes/functions.php:379
+#: includes/functions.php:380
+msgid "Day"
+msgstr "일"
+
+#: includes/functions.php:386
+#: includes/functions.php:387
+msgid "Year"
+msgstr "년"
+
+#: includes/functions.php:552
+#: includes/functions.php:639
+#: includes/functions.php:722
+msgid "Sorry, you must be of legal age to enter this website."
+msgstr "죄송합니다, 이 사이트에 접속하려면 법적 성인 연령 이상이어야 합니다."
+
+#: includes/functions.php:595
+msgid "Enter Site &raquo;"
+msgstr "사이트로 이동 &raquo;"
+
+#: includes/functions.php:625
+msgid "Remember me next time"
+msgstr "다음 번에는 기억하기"
+
+#: includes/functions.php:726
+msgid ""
+"Sorry, you must be an 18 years or over valid medical marijuana patient to "
+"enter this website."
+msgstr "죄송합니다, 이 웹사이트에 접속하려면 만 18세 이상의 유효한 의료용 마리화나 환자여야 합니다."
+
+#: includes/functions.php:727
+msgid ""
+"Sorry, you must be 21 or over, or an 18 years or over valid medical "
+"marijuana patient, to enter this website."
+msgstr "죄송합니다, 이 웹사이트에 접속하려면 만 21세 이상이거나 만 18세 이상 유효 의료용 마리화나 환자여야 합니다."
+
+#: includes/functions.php:790
+msgid "I am at least 21 years old"
+msgstr "최소 21세 이상입니다"
+
+#: includes/functions.php:808
+msgid "Please confirm your age"
+msgstr "나이 확인을 부탁드립니다"
+
+#: includes/functions.php:830
+msgid "Unlock Premium Features"
+msgstr "프리미엄 기능 잠금 해제"
+
+#: includes/functions.php:844
+msgid "Upgrade Now"
+msgstr "지금 업그레이드"
+
+#: includes/functions.php:849
+msgid "Start 14-Day Free Trial"
+msgstr "14일 무료 체험 시작"
+
+#: includes/functions.php:849
+msgid "(risk free, no credit card)"
+msgstr "(위험 무료, 신용카드 필요 없음)"
+
+#: includes/functions.php:852
+msgid "(On Free Trial Now)"
+msgstr "(현재 무료 체험 중)"
+
+#: includes/functions.php:863
+msgid "Include / exclude certain pages"
+msgstr "특정 페이지 포함 / 제외"
+
+#: includes/functions.php:864
+msgid "Customizable"
+msgstr "사용자 지정 가능"
+
+#: includes/functions.php:864
+msgid "Free-form text option"
+msgstr "자유 형식 텍스트 옵션"
+
+#: includes/functions.php:865
+msgid "Translation Ready"
+msgstr "번역 준비 완료"
+
+#: includes/functions.php:865
+msgid "Self translate to any language"
+msgstr "어떤 언어로도 자체 번역 가능"
+
+#: includes/functions.php:866
+msgid "Brand It"
+msgstr "브랜딩"
+
+#: includes/functions.php:866
+msgid "Your logo and colors"
+msgstr "당신의 로고와 색상"
+
+#: includes/functions.php:867
+msgid "Design Background"
+msgstr "디자인 배경"
+
+#: includes/functions.php:867
+msgid "Set transparency and color"
+msgstr "투명도와 색상 설정"
+
+#: includes/functions.php:868
+msgid "Welcome Message"
+msgstr "환영 메시지"
+
+#: includes/functions.php:868
+msgid "Add a welcome message"
+msgstr "환영 메시지 추가"
+
+#: includes/functions.php:869
+msgid "Remember Visitors"
+msgstr "방문자 기억하기"
+
+#: includes/functions.php:869
+msgid "\"Remember me\" checkbox"
+msgstr "“내 기억” 체크박스"
+
+#: includes/functions.php:870
+msgid "Med/Rec Combo"
+msgstr "Med/Rec 콤보"
+
+#: includes/functions.php:870
+msgid "18+ med with 21+ rec"
+msgstr "18+ 의약품과 21+ 처방전"
+
+#: includes/functions.php:871
+msgid "Premium Support"
+msgstr "프리미엄 지원"
+
+#: includes/functions.php:871
+msgid "World-class email support from the U.S."
+msgstr "미국에서 제공하는 세계적 수준의 이메일 지원"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid "Hey %1$s"
+msgstr "안녕하세요 %1$s"
+
+#: includes/functions.php:882
+#: includes/functions.php:896
+#, php-format
+msgid ""
+"To enjoy all of the features of this plugin and future updates, Five Star "
+"Plugins needs to connect %4$s to Freemius."
+msgstr "이 플러그인의 모든 기능과 향후 업데이트를 이용하려면, Five Star Plugins가 %4$s를 Freemius에 연결해야 합니다."
+
+#: includes/premium/functions-premium.php:388
+msgid "You must be 21 years old to visit this site."
+msgstr "이 사이트를 방문하려면 만 21세 이상이어야 합니다."
+
+#: includes/premium/functions-premium.php:401
+msgid "Please verify your age"
+msgstr "나이를 확인해주세요"
