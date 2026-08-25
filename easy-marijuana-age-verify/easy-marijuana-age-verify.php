@@ -6,7 +6,7 @@
  * Description: Age verification for marijuana websites.
  * Author:      5 Star Plugins
  * Author URI:  https://5starplugins.com/
- * Version:     2.0.5
+ * Version:     2.1
  *
  * Requires at least: 4.6
  * Requires PHP: 5.6
@@ -122,6 +122,29 @@ if ( is_admin() ) {
     require EMAV_PLUGIN_DIR_PATH . 'includes/admin/class-easy-marijuana-age-verify-admin.php';
     // Get the plugin's admin running.
     add_action( 'plugins_loaded', array('Easy_Marijuana_Age_Verify_Admin', 'get_instance') );
+    add_action( 'admin_init', function () {
+        if ( !current_user_can( 'manage_options' ) ) {
+            return;
+        }
+        if ( !isset( $_GET['page'] ) || 'easy-marijuana-age-verify' !== $_GET['page'] ) {
+            return;
+        }
+        if ( !isset( $_GET['emav_review_action'] ) ) {
+            return;
+        }
+        $user_id = get_current_user_id();
+        $meta_key_base = 'emav_review_notice';
+        $action = sanitize_key( wp_unslash( $_GET['emav_review_action'] ) );
+        $redirect_url = remove_query_arg( 'emav_review_action', admin_url( 'admin.php?page=easy-marijuana-age-verify' ) );
+        if ( 'dismiss' === $action ) {
+            update_user_meta( $user_id, "{$meta_key_base}_dismissed", 'dismissed' );
+        } elseif ( 'remind' === $action ) {
+            set_transient( "{$meta_key_base}_remind_{$user_id}", time(), 7 * DAY_IN_SECONDS );
+            delete_user_meta( $user_id, "{$meta_key_base}_dismissed" );
+        }
+        wp_safe_redirect( $redirect_url );
+        exit;
+    } );
     add_action( 'admin_notices', function () {
         if ( !current_user_can( 'manage_options' ) ) {
             return;
@@ -130,6 +153,7 @@ if ( is_admin() ) {
         $meta_key_base = 'emav_review_notice';
         $first_seen = get_user_meta( $user_id, "{$meta_key_base}_first_seen", true );
         $dismissed = get_user_meta( $user_id, "{$meta_key_base}_dismissed", true );
+        $remind_until = get_transient( "{$meta_key_base}_remind_{$user_id}" );
         // Record first visit timestamp
         if ( !$first_seen ) {
             update_user_meta( $user_id, "{$meta_key_base}_first_seen", time() );
@@ -146,18 +170,8 @@ if ( is_admin() ) {
         if ( !isset( $_GET['page'] ) || $_GET['page'] !== 'easy-marijuana-age-verify' ) {
             return;
         }
-        // Handle dismiss/remind actions
-        if ( isset( $_GET['emav_review_action'] ) ) {
-            if ( $_GET['emav_review_action'] === 'dismiss' ) {
-                update_user_meta( $user_id, "{$meta_key_base}_dismissed", 'dismissed' );
-            } elseif ( $_GET['emav_review_action'] === 'remind' ) {
-                update_user_meta( $user_id, "{$meta_key_base}_dismissed", time() );
-            }
-            wp_redirect( remove_query_arg( 'emav_review_action' ) );
-            exit;
-        }
         // Handle 7-day reminder delay
-        if ( is_numeric( $dismissed ) && time() - $dismissed < 7 * DAY_IN_SECONDS ) {
+        if ( false !== $remind_until ) {
             return;
         }
         $review_url = 'https://wordpress.org/support/plugin/easy-marijuana-age-verify/reviews/?rate=5#new-post';

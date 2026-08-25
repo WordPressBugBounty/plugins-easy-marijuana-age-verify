@@ -721,15 +721,18 @@ function emav_display_upgrade_features() {
 
 function emav_premium_features() {
     $features = array(
-        __( 'Page Targeting', 'easy-marijuana-age-verify' )    => __( 'Include / exclude certain pages', 'easy-marijuana-age-verify' ),
-        __( 'Customizable', 'easy-marijuana-age-verify' )      => __( 'Free-form text option', 'easy-marijuana-age-verify' ),
-        __( 'Translation Ready', 'easy-marijuana-age-verify' ) => __( 'Self translate to any language', 'easy-marijuana-age-verify' ),
-        __( 'Brand It', 'easy-marijuana-age-verify' )          => __( 'Your logo and colors', 'easy-marijuana-age-verify' ),
-        __( 'Design Background', 'easy-marijuana-age-verify' ) => __( 'Set transparency and color', 'easy-marijuana-age-verify' ),
-        __( 'Welcome Message', 'easy-marijuana-age-verify' )   => __( 'Add a welcome message', 'easy-marijuana-age-verify' ),
-        __( 'Remember Visitors', 'easy-marijuana-age-verify' ) => __( '"Remember me" checkbox', 'easy-marijuana-age-verify' ),
-        __( 'Med/Rec Combo', 'easy-marijuana-age-verify' )     => __( '18+ med with 21+ rec', 'easy-marijuana-age-verify' ),
-        __( 'Premium Support', 'easy-marijuana-age-verify' )   => __( 'World-class email support from the U.S.', 'easy-marijuana-age-verify' ),
+        __( 'Birthdate Verification', 'easy-marijuana-age-verify' ) => __( 'Verify visitors by birth date', 'easy-marijuana-age-verify' ),
+        __( 'Box Design', 'easy-marijuana-age-verify' )             => __( 'Display content in a styled box', 'easy-marijuana-age-verify' ),
+        __( 'Gradient Colors', 'easy-marijuana-age-verify' )        => __( 'Set gradient colors for background and box', 'easy-marijuana-age-verify' ),
+        __( 'Page Targeting', 'easy-marijuana-age-verify' )         => __( 'Include / exclude certain pages', 'easy-marijuana-age-verify' ),
+        __( 'Customizable', 'easy-marijuana-age-verify' )           => __( 'Free-form text option', 'easy-marijuana-age-verify' ),
+        __( 'Translation Ready', 'easy-marijuana-age-verify' )      => __( 'Self translate to any language', 'easy-marijuana-age-verify' ),
+        __( 'Brand It', 'easy-marijuana-age-verify' )               => __( 'Your logo and colors', 'easy-marijuana-age-verify' ),
+        __( 'Design Background', 'easy-marijuana-age-verify' )      => __( 'Set transparency and color', 'easy-marijuana-age-verify' ),
+        __( 'Welcome Message', 'easy-marijuana-age-verify' )        => __( 'Add a welcome message', 'easy-marijuana-age-verify' ),
+        __( 'Remember Visitors', 'easy-marijuana-age-verify' )      => __( '"Remember me" checkbox', 'easy-marijuana-age-verify' ),
+        __( 'Med/Rec Combo', 'easy-marijuana-age-verify' )          => __( '18+ med with 21+ rec', 'easy-marijuana-age-verify' ),
+        __( 'Premium Support', 'easy-marijuana-age-verify' )        => __( 'World-class email support from the U.S.', 'easy-marijuana-age-verify' ),
     );
     return $features;
 }

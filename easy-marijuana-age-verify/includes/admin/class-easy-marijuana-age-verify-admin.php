@@ -261,6 +261,16 @@ final class Easy_Marijuana_Age_Verify_Admin {
             array('jquery', 'wp-color-picker'),
             filemtime( plugin_dir_path( __FILE__ ) . 'assets/scripts.js' )
         );
+        if ( function_exists( 'emav_get_verify_option_default_texts' ) ) {
+            $verify_option_defaults = array();
+            for ($option = 1; $option <= 7; $option++) {
+                $verify_option_defaults[(string) $option] = emav_get_verify_option_default_texts( $option );
+            }
+            wp_localize_script( 'emav-admin-scripts', 'emavAdminSettings', array(
+                'resetDefaultsConfirm' => __( 'Changing Verify For will reset the default text fields for this option. Continue?', 'easy-marijuana-age-verify' ),
+                'verifyOptionDefaults' => $verify_option_defaults,
+            ) );
+        }
     }
 
     public function emav_beacon_header_prem( $page ) {

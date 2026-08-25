@@ -64,6 +64,31 @@ jQuery(document).ready(function ($) {
 		  }
 	 });
 
+	var verifyOptionState = window.emavAdminSettings || {};
+	var verifyOptionDefaults = verifyOptionState.verifyOptionDefaults || {};
+	var verifyOptionResetMessage = verifyOptionState.resetDefaultsConfirm || '';
+	var currentVerifyOption = $('input:radio[name=_emav_user_age_verify_option]:checked').val();
+	var verifyTextInputs = {
+		agePrompt: $('#_emav_custom_age_text'),
+		agreeButton: $('#_emav_custom_agreebutton_text'),
+		disagreeButton: $('#_emav_custom_disagreebutton_text'),
+		errorText: $('#_emav_disagree_error_text')
+	};
+
+	function resetVerifyOptionTextFields(selectedValue) {
+		var defaults = verifyOptionDefaults[selectedValue];
+
+		if (!defaults) {
+			return;
+		}
+
+		$.each(verifyTextInputs, function(key, $input) {
+			if ($input.length && typeof defaults[key] !== 'undefined') {
+				$input.val(defaults[key]).trigger('change');
+			}
+		});
+	}
+
 	function toggleVerifyOptionFields(speed) {
 		var selectedValue = $('input:radio[name=_emav_user_age_verify_option]:checked').val();
 		var freeFormRows = [
@@ -105,8 +130,46 @@ jQuery(document).ready(function ($) {
 	}
 
 	toggleVerifyOptionFields('fast');
+	$('input:radio[name=_emav_user_age_verify_option]').on('click', function(e) {
+		var selectedValue = $(this).val();
+
+		if (selectedValue === currentVerifyOption) {
+			return;
+		}
+
+		if (verifyOptionResetMessage && Object.keys(verifyOptionDefaults).length) {
+			if (!window.confirm(verifyOptionResetMessage)) {
+				e.preventDefault();
+				$(this).prop('checked', false);
+				$('input:radio[name=_emav_user_age_verify_option][value="' + currentVerifyOption + '"]').prop('checked', true);
+				toggleVerifyOptionFields('fast');
+				return false;
+			}
+
+			resetVerifyOptionTextFields(selectedValue);
+		}
+
+		currentVerifyOption = selectedValue;
+	});
 	$('input:radio[name=_emav_user_age_verify_option]').on('change', function() {
+		currentVerifyOption = $('input:radio[name=_emav_user_age_verify_option]:checked').val();
 		toggleVerifyOptionFields('slow');
+	});
+
+	function toggleRememberTextField(speed) {
+		var isRememberEnabled = $('#_emav_cookie_display').is(':checked');
+		var $rememberTextRow = $('#_emav_remember_text').closest('tr');
+
+		if (speed === 'slow') {
+			$rememberTextRow.stop(true, true)[isRememberEnabled ? 'fadeIn' : 'fadeOut']();
+		} else {
+			$rememberTextRow.toggle(isRememberEnabled);
+		}
+	}
+
+	toggleRememberTextField('fast');
+	$('#_emav_cookie_display').on('change', function() {
+		toggleRememberTextField('slow');
 	});
 
 	function toggleOverlayBoxFields(speed) {

@@ -1,8 +1,8 @@
 === Marijuana Age Verify ===
 Contributors: 5starplugins
 Tags: cannabis, marijuana, dispensary, age verify, age verification
-Tested up to: 7.0
-Stable tag: 2.0.5
+Tested up to: 7.1
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -158,9 +158,16 @@ If your question is not listed here [visit our knowledge base.](https://support.
 6. Design options and additional settings in WordPress Dashboard - Premium
 
 == Upgrade Notice ==
-Please update! Added birthdate verification, new background and box gradient color options, box display option, WordPress 7.0 compatibility, and an updated Freemius SDK.
+Please update! This release includes the latest Freemius SDK, improved admin notice handling, a new “Remember Me” text option, default text reset/localization improvements, and updated language files.
 
 == Changelog ==
+= 2.1 =
+* Added customizable “Remember Me” text and improved default text handling
+* Improved admin notice UX and premium review action flow
+* Refined default text reset/localization behavior and option management
+* Updated Freemius SDK to v2.13.4 for compatibility and performance
+* Expanded translation files and improved language support
+
 = 2.0.5 =
 * Added premium birthdate verification option
 * Added premium box display option
