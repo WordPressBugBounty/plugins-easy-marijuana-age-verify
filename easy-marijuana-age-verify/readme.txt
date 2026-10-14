@@ -2,7 +2,7 @@
 Contributors: 5starplugins
 Tags: cannabis, marijuana, dispensary, age verify, age verification
 Tested up to: 7.1
-Stable tag: 2.1
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -149,6 +149,9 @@ Our plugin is 100% ad free and we do not collect or store visitor data.
 = I have other questions. =
 If your question is not listed here [visit our knowledge base.](https://support.5starplugins.com/collection/47-marijuana-age-verify)
 
+= Where do I report security bugs found in this plugin? =
+Please report security bugs found in the source code of the Marijuana Age Verify plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/9e5fb777-e460-4ccb-9761-e8fc8526c61c). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
+
 == Screenshots ==
 1. 21+ recreational cannabis age verify window - Standard
 2. 18+ medical cannabis age verify window - Standard
@@ -158,9 +161,12 @@ If your question is not listed here [visit our knowledge base.](https://support.
 6. Design options and additional settings in WordPress Dashboard - Premium
 
 == Upgrade Notice ==
-Please update! This release includes the latest Freemius SDK, improved admin notice handling, a new “Remember Me” text option, default text reset/localization improvements, and updated language files.
+Please update! v2.1.1: Updated Freemius SDK to v2.13.5.
 
 == Changelog ==
+= 2.1.1 =
+* Updated Freemius SDK to v2.13.5.
+
 = 2.1 =
 * Added customizable “Remember Me” text and improved default text handling
 * Improved admin notice UX and premium review action flow
